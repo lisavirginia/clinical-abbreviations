@@ -3,6 +3,7 @@ master_functions.py
 Library of low-level functions
 '''
 
+import pandas as pd
 import string
 
 # Function to normalize short form abbreviations
