@@ -6,7 +6,7 @@ Library of commonly used functions for the clinical abbreviation expander
 import pandas as pd
 import string
 
-# Function to normalize short form abbreviations.
+# Function to normalize short form abbreviations
 def normalized_short_form(sf):
     # Converts text to uppercase
     sf = sf.upper()
