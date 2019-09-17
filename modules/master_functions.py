@@ -6,10 +6,12 @@ Library of commonly used functions for the clinical abbreviation expander
 import pandas as pd
 import string
 
-# Function to standardize short form abbreviations.
-def standard_sf(sf):
+# Function to normalize short form abbreviations.
+def normalized_short_form(sf):
     # Converts text to uppercase
     sf = sf.upper()
-    # Removes punctuation and whitespace
-    sf = sf.translate(None, string.punctuation + " ")
+    # Removes leading and trailing whitespace
+    sf = sf.strip()
+    # Removes punctuation
+    sf = sf.translate(str.maketrans('', '', string.punctuation))
     return sf
