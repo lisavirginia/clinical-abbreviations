@@ -3,6 +3,8 @@ master_functions.py
 Library of low-level functions
 '''
 
+import string
+
 # Function to normalize short form abbreviations
 def normalized_short_form(sf):
     # Converts text to uppercase
