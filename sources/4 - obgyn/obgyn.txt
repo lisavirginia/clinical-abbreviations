@@ -1,0 +1,219 @@
+17OHP 17-hydroxyprogesterone 
+ACOG American College of Obstetrics & Gynecology 
+ADAT Advance diet as tolerated 
+AEDF Absent end diastolic flow
+AFI Amniotic fluid index 
+AFP Alpha-fetoprotein 
+AFV Amniotic fluid volume 
+AGA Average for gestational age
+AGS Atypical glandular cells 
+AGUS Atypical glandular cells of undetermined significance 
+AMA Advanced maternal age 
+APR Anterior and posterior repair
+AROM Artificial rupture of membranes 
+ART Assisted reproductive technologies 
+ASC Abdominal sacrocolpopexy 
+ASD Atrial septal defect 
+AUB Abnormal uterine bleeding 
+BBT Basal body temperature 
+BCM Birth control method 
+BMD Bone mineral density 
+BMZ Betamethasone
+BOW Bag of water
+BPD Biparietal diameter
+BPP Biophysical profile 
+BPV Bleeding per vagina 
+BSE Breast self exam 
+BSO Bilateral salpingo-oophorectomy 
+BTBV Beat-to-beat variability 
+BTL Bilateral tubal ligation 
+BV Bacterial vaginosis
+Bx Biopsy 
+C/S Caesarean section 
+C/s Caesarean section
+c/s Caesarean section
+C/T Carboplatin and paclitaxel
+c/w Consistent with
+CCAM Cystic congenital adenomatous malformation 
+CF Cystic fibrosis 
+CHD Congenital heart disease 
+cHTN Chronic hypertension 
+CI Cervical incompetence 
+CIN Cervical intraepithelial neoplasia 
+CKC Cold knife cone biopsy
+CL Cervical length 
+CMT Cervical motion tenderness 
+CPD Cephalopelvic disproportion 
+CST Contraction stress test 
+CTX Contractions 
+CVAT Costovertebral angle tenderness 
+CxBx cervical biopsy 
+D&C Dilation & curettage 
+D&E Dilation & evacuation 
+DiDi twins Dichorionic diamniotic twins 
+DMPA Depot medroxyprogesterone acetate
+DUB Dysfunctional uterine bleeding 
+DV Domestic violence 
+E2 Estradiol 
+EAB Elective abortion 
+EBL Estimated blood loss 
+ECC Endocervical curettage 
+EDC Estimated date of confinement 
+EDD Estimated due date 
+EFM External fetal monitoring 
+EFW Estimated fetal weight 
+EGA Estimated gestational age 
+EICF Echogenic intracardiac focus 
+ELF Elective low forceps 
+EMB Endometrial biopsy 
+EMBx Endometrial biopsy 
+ERT Estrogen replacement therapy 
+ET Embryo transfer
+FAVD Forceps assisted vaginal delivery 
+FC Female child 
+FHR Fetal heart rate 
+FHT Fetal heart tones 
+FL Femur length 
+FLM Fetal lung maturity 
+FOB Father of baby 
+FSE Fetal scalp electrode 
+FTNSVD Full term normal spontaneous vaginal delivery 
+FTP Failure to progress 
+FTT Failure to thrive 
+GBS Group B Streptococcus 
+GC/CT Gonorrhea and chlamydia cultures 
+GCT Glucose challenge test
+GDM Gestational diabetes mellitus
+GFM Good fetal movement 
+gHTN Gestational hypertension 
+GSUI Genuine urinary stress incontinence 
+GTD Gestational trophoblastic disease 
+GIN Gestational trophoblastic neoplasia 
+GTT Glucose tolerance test 
+HELLP Hemolysis, elevated liver enzymes, and low platelets 
+HGSIL High grade squamous intraepithelial lesion 
+HRT Hormone replacement therapy 
+HSG Hysterosalpingogram 
+HTN Hypertension
+IC Interstitial cystitis 
+ICSI Intracytoplasmic sperm injection 
+IECF Intracardiac echogenic focus 
+IOL Induction of labor 
+IS Incentive spirometry 
+IUD Intrauterine device 
+IUFD Intrauterine fetal demise 
+IUGR Intrauterine growth restriction 
+IUI Intrauterine insemination 
+IUP Intrauterine pregnancy
+IUPC Intrauterine pressure catheter 
+IVF In vitro fertilization 
+L/S Laparoscopy 
+L/s Laparoscopy 
+l/s Laparoscopy 
+LAVH Laparoscopic-assisted vaginal hysterectomy 
+LCP Long, closed, posterior cervical exam 
+LGA Large for gestational age
+LGSIL Low grade squamous intraepithelial lesion 
+LMP Last menstrual period 
+LND Lymph node dissection 
+LOF Loss (or leaking) of fluid 
+LPD Luteal phase defect 
+LTCS Low transverse C-section 
+LTL Laparoscopic tubal ligation 
+MAG Magnesium Sulfate 
+MC Male child 
+MCA dopplers Middle cerebral artery dopplers 
+MEC Meconium 
+MFM Maternal-fetal medicine 
+MMX Myomectomy 
+MOD Mode of delivery 
+Mono-Di twins Monochorionic diamniotic twins 
+MSAFP Maternal serum alpha-fetoprotein 
+MSF Maternal fetal screen 
+M TX Methotrexate 
+MUS Mid urethral sling 
+MVU Montevideo units 
+NEC Necrotizing enterocolitis 
+NGT Nasogastric tube 
+NICU Neonatal intensive care unit 
+NILM No evidence of lesion or malignancy 
+NKDA No known drug allergies 
+NND Neonatal demise 
+NRFHT Non-reassuring fetal heart tracing 
+NST Non-stress test 
+NSVD Normal spontaneous vaginal delivery 
+NTD Neural tube defect 
+OA Occiput anterior
+OCP Oral contraceptive pill 
+OCT Oxytocin challenge test 
+OMX Omentectomy 
+OOB Out of bed 
+OP Occiput posterior
+OTC Over-the-counter 
+P/N/F Pooling/nitrazine/ferning 
+PCA Patient controlled analgesia 
+PCN Penicillin 
+PCN Percutaneous nephrostomy 
+PCOS Polycystic ovary syndrome 
+PEC Pre-eclampsia 
+PEC w SF Pre-eclampsia with severe features 
+PID Pelvic inflammatory disease 
+PIH Pregnancy-induced hypertension 
+PMB Postmenopausal bleeding 
+PMS Premenstrual syndrome 
+PNV Prenatal vitamin 
+POP Pelvic organ prolapse 
+POPS Progesterone only pills 
+PP Postpartum 
+PPD Postpartum day 
+PPLND Pelvic & para-aortic lymph node dissection 
+PPROM Preterm premature rupture of membranes 
+PPTL Postpartum tubal ligation 
+PROM Premature rupture of membranes 
+PTL Preterm labor 
+PUBS Percutaneous umbilical blood sampling 
+PUPPS Pruritus urticarial papules and plaques of pregnancy 
+PVR Post void residual 
+RA-TLH Robotic assister total laparoscopic hysterectomy
+RBOW Ruptured bag of water 
+RDS Respiratory distress syndrome 
+ROM Rupture of membranes 
+RTC Return to clinic 
+SA Sexual activity 
+SAB Spontaneous abortion 
+SBO Small bowel obstruction 
+SCD Sequential compression devices 
+SCH Supracervical hysterectomy 
+SGA Small for gestational age 
+SIUP Single intrauterine pregnancy 
+SPEC Severe pre-eclampsia 
+SROM Spontaneous rupture of membranes 
+SSE Sterile speculum exam 
+STD Sexually transmitted disease 
+SUI Stress urinary incontinence 
+SVD Spontaneous vaginal delivery 
+SVE Sterile vaginal exam 
+TAH Total abdominal hysterectomy 
+TAS Transabdominal sonogram 
+TGA Transposition of the great arteries 
+TL Tubal ligation 
+TOA Tubo-ovarian abscess 
+TOF Tetrology of Fallot
+TOLAC Trial of labor after caesarean section
+TPN Total parenteral nutrition 
+TTTS Twin-twin transfusion syndrome 
+TVH Total vaginal hysterectomy 
+TVT Tension-free vaginal tape
+TVUS Transvaginal ultrasound 
+TZ Transformation zone 
+U/S Ultrasound 
+U/s Ultrasound
+u/s Ultrasound
+UOP Urine output 
+UPCR Urine to protein creatinine ratio
+VAIN Vaginal intraepithelial neoplasm 
+VAVD Vacuum-assisted vaginal delivery 
+VBAC Vaginal birth after caesarean section 
+VSD Ventricular septal defect 
+VTOP Voluntary termination of pregnancy 
+VTX Vertex

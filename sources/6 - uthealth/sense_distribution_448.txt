@@ -1,0 +1,765 @@
+po	by mouth	1
+htn	hypertension	1
+qd	daily	1
+s/p	status post	1
+nl	normal	1
+l	avL	0.022
+l	left	0.159
+l	liter	0.727
+l	lymphocytes	0.092
+ed	emergency department	1
+neg	negative	1
+cp	chest pain	0.996
+cp	costophrenic	0.004
+sob	shortness of breath	1
+yo	years old	1
+etoh	ethanol (aka alcohol)	1
+r	not an acronym	0.0571142284569138
+r	respirations	0.0430861723446894
+r	right	0.899799599198397
+wbc	white blood cells	1
+h/o	history of	1
+ct	computed tomography	1
+hpi	history of present illness	1
+iv	intravenous	0.987
+iv	roman numeral 4	0.013
+nkda	no known drug allergies	1
+er	emergency room	0.983983983983984
+er	estrogen receptor	0.003003003003003
+er	extended release	0.013013013013013
+asa	aspirin	1
+m	male	0.711
+m	monday	0.009
+m	monocytes	0.088
+m	mother	0.074
+m	murmur	0.118
+hx	history	1
+am	morning	1
+rrr	regular rate and rhythm	1
+f	aVF	0.066
+f	father	0.062
+f	female	0.855
+f	fever	0.017
+cad	coronary artery disease	1
+nad	no acute disease	0.0551102204408818
+nad	no apparent distress	0.944889779559118
+jvd	jugular venous distention	1
+ekg	electrocardiogram	1
+abd	abdomen	1
+bp	blood pressure	1
+nt	nontender	1
+chf	congestive heart failure	1
+bs	blood sugar	0.007
+bs	bowel sounds	0.949
+bs	breath sounds	0.044
+cbc	complete blood count	1
+cr	creatinine	1
+meds	medications	1
+nd	nondistended	0.865
+nd	not an acronym	0.135
+gi	gastroenterology	0.02
+gi	gastrointestinal	0.98
+nsr	normal sinus rhythm	1
+wnl	within normal limits	1
+tte	transthoracic echocardiography	1
+cta	clear to auscultation	0.982
+cta	computed tomography angiography	0.018
+hct	hematocrit	1
+b/l	baseline	0.011
+b/l	bilateral	0.989
+cxr	chest x-ray	1
+s1	not an acronym	1
+s2	not an acronym	1
+cva	cerebral vascular accident	0.686
+cva	costovertebral angle	0.314
+cont	continue	1
+eomi	extraocular movements intact	1
+pmd	primary medical doctor	1
+f/u	follow up	1
+lfts	liver function tests	1
+ncat	normocephalic/atraumatic	1
+hr	heart rate	0.87
+hr	hour	0.13
+p/w	presents with	1
+ef	ejection fraction	1
+bun	blood urea nitrogen	1
+k	first initial of physician	0.006
+k	not an acronym	0.204
+k	potassium	0.759
+k	thousand	0.031
+c/c/e	cyanosis, clubbing or edema	1
+x2	B x2 means 2 brothers	0.002
+x2	bilaterally	0.551
+x2	two times	0.447
+inr	international normalized ratio	1
+t	not an acronym	0.253521126760563
+t	temperature	0.483568075117371
+t	tobacco	0.0129107981220657
+t	total	0.235915492957746
+t	type	0.0140845070422535
+dvt	deep vein thrombosis	1
+s1s2	not an acronym	1
+plt	platelets	1
+mmm	moist mucous membanes	1
+wt	physician initials	0.274
+wt	weight	0.726
+yrs	years	1
+cv	cardiovascular	0.993
+cv	costovertebral	0.007
+rr	not an acronym	0.002
+rr	regular rate	0.451
+rr	respiratory rate	0.547
+ua	urinalysis	1
+na	initials of a physician	0.002002002002002
+na	normal axis	0.02002002002002
+na	not an acronym	0.00600600600600601
+na	not applicable	0.00600600600600601
+na	sodium	0.965965965965966
+pmh	past medical history	1
+cath	catheter	0.002
+cath	catheterization	0.998
+d/c	deceased	0.002
+d/c	diarrhea/constipation	0.087
+d/c	discharge	0.884
+d/c	discontinue	0.027
+hha	home health aide	1
+nc	nasal canula	0.242
+nc	non-contributory	0.682
+nc	normocephalic	0.076
+lvh	left ventricular hypertrophy	1
+dm2	diabetes mellitus type 2	1
+cx	circumflex	0.003
+cx	culture	0.997
+pna	pneumonia	1
+qhs	at bedtime	1
+copd	chronic obstructive pulmonary disease	1
+c/o	complains of	1
+c/w	consistent with	0.983967935871743
+c/w	continue with	0.0160320641282565
+tob	tobacco	1
+ems	emergency medical service	1
+n/v	nausea/vomiting	1
+phos	phosphorus	1
+abx	antibiotics	1
+r/o	rule out	1
+o2	oxygen	1
+afib	atrial fibrillation	1
+sx	surgery	0.015
+sx	symptoms	0.985
+cce	cyanosis, clubbing or edema	1
+bid	twice a day	1
+mcv	mean corpuscular volume	1
+ctab	clear to auscultation bilaterlly	1
+mri	magnetic resonance imaging	1
+ivf	intravenous fluid	1
+pnd	paroxysmal nocturnal dyspnea	1
+ha	headache	0.947895791583166
+ha	health aide	0.0521042084168337
+fs	fingerstick	0.992529348986126
+fs	physician's initials	0.00747065101387407
+iii	roman numeral for the number 3	1
+chem	chemistry	1
+cri	chornic renal insufficiency	1
+ck	check	0.004
+ck	creatine kinase	0.977
+ck	initials of physician	0.019
+st	not an acronym	0.763598326359833
+st	saint	0.19979079497908
+st	street	0.0366108786610879
+twi	T-wave inversions	1
+uti	urinary tract infection	1
+ast	aspartate aminotransferase	1
+pulm	pulmonary	1
+aim	associates in internal medicine	1
+hiv	human immunodeficiency virus	1
+cl	chloride	0.984817813765182
+cl	clearance	0.00506072874493927
+cl	consult liason	0.0101214574898785
+dr	Domican Republic	0.0752032520325203
+dr	doctor	0.92479674796748
+vs	versus	0.033
+vs	vital signs	0.967
+alt	alanine aminotransferase	0.996
+alt	alternalte	0.002
+alt	alternans	0.002
+perrl	pupils equal, round, reactive to light	1
+id	identification	0.002
+id	infectious disease	0.998
+hctz	hydrochlorothiazide	1
+ns	nasal spray	0.002
+ns	neurosurgery	0.312
+ns	night sweats	0.145
+ns	nonspecific	0.004
+ns	normal saline	0.537
+gerd	gastroesophageal reflux disease	1
+x3	A&Ox3 means alert and oriented to person/place/time	0.49
+x3	for 3	0.141
+x3	three times	0.369
+hsm	hepatosplenomegaly	0.944
+hsm	holosystolic murmur	0.056
+cvat	costovertebral angle tenderness	1
+m/r/g	murmurs/rubs/gallops	1
+p	pain	0.00212539851222104
+p	parasites	0.124335812964931
+p	pending	0.363443145589798
+p	physical	0.00212539851222104
+p	pulse	0.507970244420829
+rbc	red blood cell	1
+nebs	nebulizers	1
+bmp	basic metabolic panel	1
+sxs	symptoms	1
+op	opening pressure	0.00205549845837616
+op	operation	0.0164439876670093
+op	oropharynx	0.96813977389517
+op	outpatient	0.013360739979445
+mm	millimeter	0.427
+mm	moist membranes	0.554
+mm	multiple myeloma	0.011
+mm	physician initials	0.008
+b	basophils	0.143763213530655
+b	beeper	0.025369978858351
+b	bilaterally	0.79492600422833
+b	brain	0.0147991543340381
+b	brother	0.0211416490486258
+lft	left	0.0976837865055388
+lft	liver function tests	0.902316213494461
+ii	roman numeral for the number 2	1
+pta	prior to admission	1
+ppd	Purified Protein Derivative	1
+w/o	without	1
+w/u	work-up	1
+sw	social work	1
+y/o	years old	1
+heme	hematology	0.861
+heme	heme (not an acronym)	0.139
+f/c	fevers/chills	1
+diff	differential	0.703
+diff	differentiated	0.008
+diff	difficile	0.285
+diff	diffuse	0.004
+cabg	coronary artery bypass graft	1
+x1	A&O x 1 means alert and oriented to one identifier	0.009
+x1	for one	0.011
+x1	once	0.98
+c	caesarean	0.0134436401240951
+c	cellular phone	0.0517063081695967
+c	clostridium	0.28335056876939
+c	constipation	0.0124095139607032
+c	curettage	0.0113753877973113
+c	cyanosis or clubbing	0.0196483971044467
+c	not an abbreviation	0.213029989658738
+c	with	0.395036194415719
+ptt	partial thromboplastin time	1
+egd	esophagogastroduodenoscopy	1
+dx	diagnosis	0.994
+dx	disease	0.006
+n	first initial of physician	0.00700934579439252
+n	nausea	0.0794392523364486
+n	neutrophils	0.911214953271028
+n	north	0.00233644859813084
+cn	cranial nerves	1
+ett	endotracheal tube	0.011
+ett	exercise tolerance	0.104
+ett	exercise tolerance test	0.885
+ecg	electrocardiogram	1
+dp	dorsalis pedis	1
+w	week	0.002
+w	well	0.009
+w	west	0.016
+w	white blood cells	0.148
+w	with	0.054
+w	woman	0.751
+w	work	0.02
+doe	dyspnea on exertion	1
+pcn	penicillin	1
+gluc	gluconate	0.005
+gluc	glucose	0.995
+dz	disease	1
+bili	bilirubin	1
+mvi	multivitamin	1
+eval	evaluate	0.721
+eval	evaluation	0.279
+esrd	end-stage renal disease	1
+wwp	warm and well-perfused	1
+pmhx	past medical history	1
+dl	deciliter	1
+cpmc	columbia presbyterian medical center	1
+c/b	complicated by	1
+lle	left lower extremity	1
+mr	mister	0.773
+mr	mitral regurgitation	0.225
+mr	murmurs/rubs	0.002
+bl	baseline	0.548484848484848
+bl	bilateral	0.434343434343434
+bl	physician's initials	0.0171717171717172
+utox	urine toxicology	1
+peg	percutaneous endoscopic gastrostomy	1
+sq	subcutaneous	1
+d	day	0.91304347826087
+d	diarrhea	0.0434782608695652
+d	disorder	0.0434782608695652
+lv	left ventricle	0.989
+lv	leucovorin	0.011
+u	unit	0.881
+u	upper	0.002
+u	urine	0.117
+dispo	disposition	1
+bpm	beats per minute	1
+hgb	hemoglobin	0.992
+hgb	physician's initials	0.008
+tb	total bilirubin	0.264
+tb	tuberculosis	0.736
+c7	chemistry 7	1
+hco3	bicarbonate	1
+uri	upper respiratory tract infection	1
+md	medical doctor	1
+occ	occasional	1
+osh	outside hospital	1
+ivdu	intravenous drug use	1
+ntnd	nontender/nondistended	1
+ms	Miss	0.431
+ms	mental status	0.394
+ms	milliseconds	0.089
+ms	morphine sulfate	0.039
+ms	multiple sclerosis	0.006
+ms	muscle strength	0.041
+ap	abdomen and pelvis	0.00401606425702811
+ap	alkaline phosphatase	0.578313253012048
+ap	allen pavilion	0.0923694779116466
+ap	anterior-posterior	0.153614457831325
+ap	assessment and plan	0.0200803212851406
+ap	physician's initials	0.151606425702811
+usoh	usual state of health	1
+mcg	micrograms	1
+co2	bicarbonate	0.973
+co2	carbon dioxide	0.027
+at	not an abbreviation	1
+ext	extension	0.00201612903225806
+ext	external	0.0110887096774194
+ext	extremities	0.986895161290323
+et	and others	0.00400801603206413
+et	endotracheal	0.0140280561122244
+et	exercise tolerance	0.981963927855711
+loc	loss of consciousness	1
+bb	bedbound	0.004
+bb	beta blocker	0.996
+pvc	premature ventricular contraction	0.0250501002004008
+pvc	pulmonary vascular congestion	0.974949899799599
+rx	prescription	0.006
+rx	treatment	0.994
+mmhg	millimeters of mercury	1
+hrs	hours	1
+acs	acute coronary syndrome	0.996
+acs	administration for child services	0.004
+pos	by mouth	0.771
+pos	positive	0.229
+brbpr	bright red blood per rectum	1
+mrg	murmumrs, rubs, gallops	1
+nabs	normoactive bowel sounds	1
+nh	nursing home	0.86
+nh	physician initials	0.14
+bnp	brain natriuretic peptide	1
+ucx	urine culture	1
+ttp	tenderness to palpation	0.958
+ttp	thrombotic thrombocytopenic purpura	0.042
+rle	right lower extremity	1
+ppi	proton pump inhibitor	1
+sscp	substernal chest pain	1
+jvp	jugular venous pressure	1
+alk	alkaline	1
+sbp	spontaneous bacterial peritonitis	0.693
+sbp	systolic blood pressure	0.307
+micu	medical intensive care unit	1
+pud	peptic ulcer disease	1
+cumc	columbia university medical center	1
+min	minimal	0.748
+min	minutes	0.252
+ruq	right upper quadrant	1
+rca	right coronary artery	1
+pa	pennsylvania	0.121
+pa	physician assistant	0.006
+pa	posterior-anterior	0.82
+pa	pulmonary artery	0.053
+pvd	peripheral vascular disease	1
+af	afebrile	0.903
+af	atrial fibrillation	0.097
+lan	lymphadenopathy	1
+dnr	do not resuscitate	1
+afeb	afebrile	1
+npo	nothing by mouth	1
+tab	not an abbreviation	1
+tr	trace	0.327
+tr	tricuspid regurgitation	0.673
+us	not an abbreviation	0.150201612903226
+us	ultrasound	0.629032258064516
+us	united states	0.220766129032258
+n/v/d	nause, vomiting, diarrhea	1
+bph	benign prostatic hypertrophy	1
+rv	right ventricle	1
+tid	three times a day	1
+wk	week	1
+ecasa	enteric coated acetylsalicylic acid	1
+ppm	pacemaker	1
+b12	not an abbreviation	0.219
+b12	vitamin b12	0.781
+endo	endocrinology	0.998
+endo	endoscopy	0.002
+nph	NPH insulin	0.95
+nph	normal pressure hydrocephalus	0.05
+o	not an abbreviation	0.37
+o	old	0.064
+o	oriented	0.52
+o	ova	0.043
+o	physician initials	0.003
+adls	activities of daily living	1
+prot	protein	1
+qam	every morning	1
+sr	senior	0.052
+sr	sinus rhythm	0.873
+sr	sustained release	0.075
+d/w	discussed with	1
+oa	osteoarthritis	1
+rf	renal failure	0.0100704934541793
+rf	rheumatoid factor	0.0412890231621349
+rf	risk factors	0.948640483383686
+bx	biopsy	0.975951903807615
+bx	blood culture	0.0200400801603206
+bx	bronx	0.00400801603206413
+q	every	0.676381909547739
+q	not an abbreviation	0.285427135678392
+q	subq = subcutaneous	0.0381909547738693
+ntg	nitroglycerin	1
+pm	afternoon	0.981
+pm	pacemaker	0.019
+avf	arteriovenous fistula	0.188
+avf	not an abbreviation	0.812
+mod	moderate	1
+ldl	low-density lipoprotein	1
+neuro	neurologic	0.023
+neuro	neurology	0.977
+resp	respirations	0.135
+resp	respiratory	0.865
+fsg	finger stick glucose	1
+chol	cholesterol	1
+e	Enterococcus	0.019
+e	Escherichia	0.259
+e	east	0.022
+e	edema	0.072
+e	eosin	0.006
+e	eosinophils	0.338
+e	ethanol (alcohol)	0.042
+e	exempli gratia (for example)	0.017
+e	id est (for example)	0.177
+e	not an abbreviation	0.039
+e	physician initial	0.009
+twf	T wave flattening	1
+vss	vital signs stable	1
+acei	angiotensin converting enzyme inhibitor	1
+u/s	ultrasound	1
+abg	arterial blood gas	1
+tp	posterior tibial	0.0115546218487395
+tp	toilet paper	0.00840336134453781
+tp	total protein	0.980042016806723
+dtr	daughter	0.929
+dtr	deep tendon reflex	0.071
+hcv	hepatitis C virus	1
+fx	family history	0.085
+fx	fracture	0.524
+fx	function	0.391
+a1c	not an abbreviation (all of it is hemoglobin A1C)	1
+reg	regimen	0.002
+reg	regular	0.994
+reg	regular insulin	0.004
+lae	left atrial enlargement	1
+ue	upper extremity	1
+t/e/d	tobacco, ethanol, drugs	1
+glu	glucose	1
+wks	weeks	1
+aicd	Automatic Implantable Cardioverter Defibrillator	1
+q6	every 6	0.00228050171037628
+q6	every 6 hours	0.997719498289624
+av	aortic valve	0.151151151151151
+av	arteriovenous	0.339339339339339
+av	atrioventricular	0.509509509509509
+g/dl	grams per deciliter	1
+rbbb	right bundle branch block	1
+d/o	died of	0.00200400801603206
+d/o	disorder	0.997995991983968
+lee	lower extremitiy edema	0.708
+lee	not an abbreviation	0.292
+xrt	radiation therapy	1
+sl	?typo (?ls)	0.116230366492147
+sl	physician initials	0.0031413612565445
+sl	slight	0.0293193717277487
+sl	sublingual	0.85130890052356
+xray	not an abbreviation	1
+tw	T wave	1
+dni	do not intubate	1
+arf	acute renal failure	1
+gib	gastrointestinal bleed	1
+ddx	differential diagnosis	1
+h	H&H is hemoglobin and hematocrit	0.00316957210776545
+h	helicobacter	0.426307448494453
+h	high	0.144215530903328
+h	home	0.26148969889065
+h	hours	0.164817749603803
+psa	polysubstance abuse	0.813925570228091
+psa	prostate specific antigen	0.186074429771909
+hba1c	hemoglobin A1c	1
+v1	not an abbreviation	1
+m/g/r	murmurs, gallops, rubs	1
+esr	erythrocyte sedimentation rate	1
+sem	systolic ejection murmur	1
+coag	coagulation	1
+psh	past surgical history	1
+cap	capillary	0.045
+cap	captain	0.002
+cap	community-acquired pneumonia	0.919
+cap	not an abbreviation	0.034
+vns	visiting nurse services	1
+sz	seizure	0.981458590852905
+sz	size	0.0185414091470952
+nml	normal	1
+plts	platelets	1
+s	intitial of physician	0.00625651720542232
+s	not an abbreviation	0.761209593326382
+s	s&s = swish and swallow	0.00417101147028154
+s	smear	0.00834202294056309
+s	soft	0.207507820646507
+s	staphylococcus	0.0125130344108446
+ccu	cardiac care unit	1
+b/c	b and c	0.0788608981380066
+b/c	because	0.921139101861993
+romi	rule out myocardial infarction	1
+lbp	low back pain	1
+v	5	0.0588235294117647
+v	initial of person	0.00294117647058824
+v	ventricular	0.0661764705882353
+v	versus	0.0426470588235294
+v	vessel	0.622058823529412
+v	vomiting	0.207352941176471
+vit	vitamin	1
+snf	skilled nursing facility	1
+rt	radiation therapy	0.616891064871481
+rt	rebound tenderness	0.144430844553244
+rt	right	0.238678090575275
+ent	ear nose throat	1
+onc	oncology	1
+pcp	phencyclidine	0.0283870967741936
+pcp	pneumocystis pneumonia	0.113548387096774
+pcp	primary care physician	0.855483870967742
+pcp	proximal carpal phalanx	0.00258064516129032
+djd	degenerative joint disease	0.975292587776333
+djd	physician initials	0.0247074122236671
+bcx	blood culture	1
+ldh	lactate dehydrogenase	1
+cd4	cluster of differentiation 4 (but never spelled out...)	1
+q6h	every 6 hours	1
+lat	lateral	1
+gu	genitourinary	1
+int	internal	0.0336538461538462
+int	interval	0.966346153846154
+hdl	high-density lipoprotein	1
+lbbb	left bundle branch block	1
+hcp	health care proxy	1
+hb	heart block	0.0601915184678523
+hb	hemoglobin	0.939808481532148
+avl	not an abbreviation	1
+llq	left lower quadrant	1
+dmii	diabetes mellitus type 2	1
+sm	senior medicine	0.00547945205479452
+sm	small	0.0205479452054795
+sm	smith	0.0123287671232877
+sm	smooth muscle	0.00410958904109589
+sm	systolic murmur	0.957534246575342
+pfts	pulmonary function tests	1
+rdw	red cell distribution width	1
+h/h	hemoglobin and hematocrit	1
+ox3	oriented times 3	1
+tm	maximum temperature	0.504672897196262
+tm	thyromegaly	0.489096573208723
+tm	tympanic membrane	0.00623052959501558
+icu	intensive care unit	1
+qday	everyday	1
+lue	left upper extremity	1
+wdwn	well-developed, well-nourished	1
+thal	thalassemia	0.185074626865672
+thal	thalium	0.814925373134328
+jc	initials of physician	0.97953216374269
+jc	not an abbreviation	0.0204678362573099
+sb	sinus bradycardia	0.976780185758514
+sb	small bowel	0.0201238390092879
+sb	sternal border	0.00309597523219814
+kg	kilogram	0.645468998410175
+kg	physician initials	0.354531001589825
+ace	angiontensin converting enzyme inhibitor	0.969879518072289
+ace	angiotensin converting enzyme	0.0180722891566265
+ace	not an abbreviaion	0.0120481927710843
+la	left atrium	0.512658227848101
+la	lymphadenopathy	0.335443037974684
+la	not an abbreviation	0.139240506329114
+la	physician initials	0.0126582278481013
+s3	not an abbreviation	1
+bld	blood	1
+picc	partnership for innovative comprehensive care	0.00619195046439629
+picc	peripherally inserted central catheter	0.993808049535604
+ros	review of systems	1
+lvef	left ventricular ejection fraction	1
+yof	year old female	1
+ph	not an abbreviation	0.998
+ph	phone	0.002
+mdi	metered-dose inhaler	1
+v2	not an abbreviation	1
+ivda	intravenous drug abuse	1
+ii-xii	cranial nerves 2-12	0.00745156482861401
+ii-xii	numbers 2-12 (ii and xii are roman numerals)	0.992548435171386
+lp	lumbar puncture	1
+pr	not an abbreviation	0.595300261096606
+pr	per	0.00261096605744125
+pr	per rectum	0.18668407310705
+pr	progesterone receptor	0.0522193211488251
+pr	puerto rico	0.100522193211488
+pr	pulmonic regurgitation	0.0600522193211488
+pr	typo, should be PT	0.00261096605744125
+vi	6	0.98695652173913
+vi	not an abbreviation	0.0130434782608696
+inh	inhaler	0.133884297520661
+inh	isabella nursing home	0.0198347107438017
+inh	isoniazid	0.846280991735537
+tdc	tunnel dialysis catheter	1
+mult	multiple	1
+tg	anti-tissue transglutaminase	0.00830564784053156
+tg	triglycerides	0.991694352159468
+u/l	units per liter	0.997264021887825
+u/l	upper and lower	0.0027359781121751
+rll	right lower lobe	1
+dka	diabetic ketoacidosis	1
+haart	highly active antiretroviral therapy	1
+afvss	afebrile vital signs stable	1
+as	not an abbreviation	1
+qpm	every afternoon	1
+d/t	direct and total	0.00329489291598023
+d/t	due to	0.99670510708402
+pmi	point of maximal impulse	1
+ir	?typo (ER?)	0.157377049180328
+ir	?typo (or?)	0.00327868852459016
+ir	intermediate release	0.0295081967213115
+ir	interventional radiology	0.80327868852459
+ir	irregular	0.00655737704918033
+hi	high	0.116959064327485
+hi	homicidal ideation	0.879142300194932
+hi	not an abbreviation	0.00389863547758285
+appt	appointment	1
+q12	every 12 hours	1
+st-t	not an abbreviation	1
+tah	total abdominal hysterectomy	1
+ivc	inverior vena cava	1
+lll	left lower lobe	1
+cigs	cigarettes	1
+ekgs	electrocardiogram	1
+hep	heparin	0.083
+hep	hepatic panel	0.015
+hep	hepatitis	0.902
+from	full range of motion	0.029
+from	not an abbreviation	0.971
+o/p	oropharynx	0.796875
+o/p	outpatient	0.190104166666667
+o/p	ova and parasites	0.0130208333333333
+fen	fluid electrolytes nutrition	1
+paf	paroxysmal atrial fibrillation	1
+axr	abdominal x-ray	1
+lt	left	0.30873786407767
+lt	light touch	0.662135922330097
+lt	typo, should be ALT	0.029126213592233
+aptt	activated partial thromboplastin time	1
+glc	glucose	1
+rue	right upper extremity	1
+mra	magnetic resonance angiogram	1
+nf	night float	0.68796992481203
+nf	nonfocal	0.31203007518797
+ot	occupational therapy	0.976525821596244
+ot	typo, should be to	0.00938967136150235
+ot	typo, shouled be or	0.0140845070422535
+rusb	right upper sternal border	1
+abnl	abnormal	0.186379928315412
+abnl	abnormality	0.813620071684588
+yom	year old male	1
+qac	every morning	1
+rvr	rapid ventricular response	1
+s/f	significant for	1
+tol	tolerance	0.945205479452055
+tol	tolerated	0.0547945205479452
+aids	acquired immunodeficiency syndrome	0.949090909090909
+aids	not an abbreviation	0.0509090909090909
+vl	viral load	1
+osa	obstructive sleep apnea	1
+derm	dermatology	1
+ln	lupus nephritis	0.00843881856540084
+ln	lymph node	0.985232067510548
+ln	natural logarithm	0.00632911392405063
+mos	months	1
+sle	systemic lupus erythematosus	1
+si	sign	0.0334008097165992
+si	suicidal ideation	0.964574898785425
+si	suicide	0.00202429149797571
+bm	bone marrow	0.0756476683937824
+bm	bowel movement	0.924352331606218
+ls	lumbosacral	0.833333333333333
+ls	lung sounds	0.166666666666667
+ss	Hemoglobin SS	0.48989898989899
+ss	initials of a doctor	0.285353535353535
+ss	single strength	0.0378787878787879
+ss	sliding scale	0.095959595959596
+ss	social security	0.00505050505050505
+ss	substernal	0.0858585858585859
+tia	transient ischemic attack	1
+icd	implantable cardioverter defibrillator	1
+itp	idiopathic thrombocytopenic purpura	1
+ad	Alzheimer's disease	0.830645161290323
+ad	adenosine	0.153225806451613
+ad	advertisement	0.0161290322580645
+hs	Hudson South	0.0155945419103314
+hs	at bedtime	0.555555555555556
+hs	heart sounds	0.399610136452242
+hs	high school	0.00584795321637427
+hs	history	0.0233918128654971
+tsh	thyroid stimulating hormone	1
+ag	Name Initials	0.309
+ag	anion gap	0.593
+ag	antigen	0.098
+gtt	drip	0.904
+gtt	drop	0.096
+mrsa	Methicillin-resistant Staphylococcus aureus	1
+med	medication	0.614
+med	medicine	0.386
+cc	chief complaint	0.78
+cc	clubbing, cyanosis	0.011
+cc	cubic centimeter	0.209
+mg	magnesium	0.051
+mg	milligram	0.949
+cm	cardiomegaly	0.011
+cm	cardiomyopathy	0.03
+cm	centimeter	0.952
+cm	initials of the doctor James Brust, MD	0.007
+mi	myocardial infarction	1
+lad	anterior descending branch of left coronary artery	0.041
+lad	left atrial dilation	0.19
+lad	left axis deviation	0.086
+lad	lymphadenopathy	0.683
+dm	diabetes mellitus	0.995
+dm	initials of a doctor	0.005
+pe	physical exam	0.257
+pe	pulmonary embolism	0.743
+le	leukocyte esterase	0.136
+le	lower extremity	0.864
+ra	rheumatoid arthritis	0.125125125125125
+ra	right atrium	0.016016016016016
+ra	room air	0.858858858858859
+pt	patient	0.953
+pt	physical therapy	0.01
+pt	prothrombin time	0.037
+ca	calcium	0.486
+ca	carcinoma	0.514
+hd	heart disease	0.002
+hd	hemodialysis	0.884
+hd	hemodynamic	0.114

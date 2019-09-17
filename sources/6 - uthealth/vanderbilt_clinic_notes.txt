@@ -1,0 +1,1477 @@
+abbreviation	sense	variation	CUI	frequency
+disp	dispense	disp_9|Disp_5	c1880359	0.612
+disp	displaced	disp_2	c0012727	0.019
+disp	disposition	Disp_7|DISP_1	c0743223	0.369
+qow	every other week	QOW_4|qow_3	c0585332	1
+gu	genitourinary	GU_21	c0042066	0.996
+gu	guage	gu_1	c0456564	0.004
+gt	gastrostomy tube	GT_23|gt_3	c0150595	0.9618
+gt	great	gt_1	c1704243	0.0332
+gt	glutamyl transpeptidase	GT_1	c0017040	0.005
+rom	range of motion	ROM_18	c2607871	0.995
+rom	rupture of membranes	ROM_2	c0948106	0.005
+pth	parathyroid hormone	PTH_18|pth_2	c0030520	1
+scd	sickle cell disease	SCD_1	c0002895	0.002
+scd	sequential compression device	SCD_16|scd_6	c2711456	0.998
+llq	left lower quadrant	LLQ_18|llq_2	c0439737	1
+c_d_i	"clean, dry, and intact"	c/d/i_21	c2116810|c0205222|c0205266	1
+scc	squamous cell carcinoma	SCC_18|scc_1	c0007137	0.422
+scc	surgical critical care	s.c.c._1	c1690590	0.578
+tibc	total iron binding capacit	TIBC_9|tibc_1	c0439810|c1148613	1
+osh	outside hospital	OSH_19	c0205101	1
+derm	dermatology	DERM_5|derm_6|Derm_7	c0011627	0.987
+derm	dermatitis	derm_2	c0011603	0.013
+cmps	complete metabolic panels	cmps_1|CMPs_5	c0519825	1
+pco2	partial pressure of carbon dioxide	pCO2_10|PCO2_2	c0391839	1
+acth	adrenocorticotropic hormone	ACTH_23|acth_1	c0001655	1
+ga	gestational age	GA._1|GA_5	c0017504	0.0895
+ga	georgia	GA_4	c0017452	0.0539
+ga	gauge	ga_8	c0456564	0.8566
+ptx	pneumothorax	ptx_14|PTx_2|PTX_12	c0032326	1
+osa	obstructive sleep apnea	OSA_18|OSa_1|osa_1	c0520679	1
+sct	stem cell transplant	SCT_29	c1504389	1
+gm	grandmother	GM_3	c0337474	0.012
+gm	gram	gm_15|Gm_2	c0439208	0.988
+ros	review of systems	ROS_20	c0489633	1
+pts	patient's	pts_17|Pts._1|Pts_1|pts._1	c0030705|c1546511	1
+inpt	inpatient	inpt._3|INPT_1|Inpt_3|inpt_14	c0021562	1
+gi	gastrointestinal	GI_20|gi_2	c0521362	1
+gh	growth hormone	GH_15|gh_2|Gh_1	c0037663	1
+aua	american urological association	AUA_11	null	1
+pkt	packet	pkt_8|PKT_2	c1337567	1
+tx	treatment	tx._1|Tx_4|tx_14	c0087111	0.9899
+tx	transplant	tx_1|TX_1	c0040732	0.0101
+re	regarding	RE_3|Re_2|re_15	c0562401	1
+tv	television	TV_8	c0039461	0.2405
+tv	tricuspid valve	TV_5	c1269006	0.0972
+tv	transvaginal	TV_2	c0175672	0.012
+tv	tidal volume	TV_3|Tv_1	c0040210	0.6503
+jvp	jugular venous pressure	JVP_19|jvp_1	c0428897	1
+tr	tricuspid regurgitation	TR_12	c0040961	0.6917
+tr	trach	TR_1	c0749607	0.0091
+tr	thursday	TR_1	c0585028	0.0023
+tr	trace	tr_4|.tr_1|Tr_1	c0442822	0.19
+tr	trough	tr_1|TR_1	c0444506	0.1069
+spep	serum protein electrophoresis	SPEP_23	c0201720	1
+tm	tympanic membrane	tm_2|TM_15	c1268971	0.9671
+tm	temperature	Tm_2	c0039476	0.0255
+tm	temporomandibular	TM_1	c0039493	0.0074
+ncpap	nasal continuous positive airway pressure	NCPAP_5|nCPAP_5	c1258045	1
+th	thursday	Th_1|TH_1	c0585028	1
+tf	tube feeding	TF_21	c0041281	1
+tg	triglycerides	TG_5	c0041004	0.832
+tg	thyroglobulin	Tg_8	c0040123	0.168
+td	tetanus and diptheria	Td_6|.Td_1|TD_1	c0058773	0.9505
+td	transcription date	TD_1	c0282229|c0011008	0.0495
+c4	cervical four	C4_7	c0223131	0.2104
+c4	complement component 4	C4_4|c4_1	c0009516	0.7896
+tb	total bilirubin	TB_2	c0368753	0.007
+tb	tuberculosis	TB_16	c0041296	0.9829
+tb	tuberculin	TB_1	c0041289	0.01
+tc	taxotere/cytoxan	TC_1	c0699967|c0699319	0.002
+tc	throat culture	TC_1	c0848397	0.0031
+tc	temperature	Tc_4	c0039476	0.3014
+tc	total cholesterol	TC_3	c0543421	0.5652
+tc	transverse colon	TC_1	c0227386	0.002
+tc	technetium	Tc_1	c0039411	0.002
+tc	thought content	TC_1	c1314756	0.002
+tc	trach collar	TC_3	c1736431	0.1222
+jvd	jugular venous distention	JVD_20	c0425687	1
+hmd	hyaline membrane disease	HMD_13|hmd_3	c0020192	1
+lfts	liver function tests	LFTs_18|LFTS_2	c0023901	1
+fax	facsimile	FAX_2|fax_14|Fax_3	c0599936	1
+g0	gravida 0	G0_20	c0232995	1
+kcl	potassium chloride	kcl_5|KCl_4|KCL_2	c0032825	1
+mg	milligram	mg_20	c0439210	1
+mph	master of public health	MPH_3	c1513008	0.4058
+mph	methylphenidate	mph_3|MPH_4	c0025810	0.1072
+mph	miles per hour	MPH_3|mph_5	c0439495	0.487
+heme	hematology/hematological	heme_4|Heme_11|HEME_5	c0018943	1
+pcos	polycystic ovarian syndrome	PCOS_21	c0032460	1
+fam	family	fam_3|fam._1|Fam_6	c0015576	1
+neut	neutrophils	Neut_7	c0027950	1
+nsgy	neurosurgery	NSGY_26|nsgy_2|Nsgy_1	c0027926	1
+unitri	urinary nitrites	UNitri_6	c0580333	1
+ublood	urinary blood	UBlood_6	c0018965	1
+l4-l5	lumbar 4- lumbar 5	L4-L5_18	c0223537|c0223552	1
+icp	intracranial pressure	ICP_19|icp_1	c0021880	1
+uph	urinary power of hydrogen	UpH_7	null	1
+t4	tumor	T4_4	c0027651	0.045
+t4	thyroxine	T4_13|t4_1	c0040165	0.955
+t2	second thoracic vertebrae	T2_5	c0459936	0.9072
+t2	t2dm	T2_1	c0011860	0.0206
+t2	twins two	T2_1	c0041427|c0205448	0.0722
+d_w	discussed with / discuss with	d/w_18	c0557061	1
+d_t	due to	d/t_34	c0678226	1
+ptt-pt	partial thromboplastin time-prothrombin time	PTT-pt_5	c0033707|c0030605	1
+ivfs	intravenous fluids	IVFs_27|ivfs_2	c1289919	1
+na-wb	sodium-whole blood	Na-WB_9	c0853174	1
+flp	fasting lipid profile	FLP_15|.FLP_1|flp_4	c0430044	1
+hcg	human chorionic gonadotropin	HCG_14|hCG_4|hcg_2	c0018062	1
+d_c	discharge	d/c_9	c0030685	0.932
+d_c	diarrhea/constipation	d/c_2	c0011991|c0009806	0.015
+d_c	discontinue	d/c_8	c1706472	0.05
+d_c	dilation and curettage	d/c_1	c0010468	0.003
+lvef	left ventricular ejection fraction	LVEF_19|..LVEF_1	c0428772	1
+dip	diptheria	DIP_1	c0012546	0.002
+dip	distal interphalangeal joint	DIP_9	c0932510	0.7749
+dip	dipstick	dip_7|Dip_1	c0441090	0.2171
+dip	diabetes improvement program	DIP_1	c0011849|c2986411|c2728259	0.006
+depo	depo-provera	Depo_9|depo_8|DEPO_1	c0699700	0.826
+depo	depo-medrol	Depo_1	c0057476	0.174
+dir	directed	dir._1|dir_10	c0700157|c1947931	1
+cmp	comprehensive metabolic panel	CMP_17|cmp_2	c0519825	1
+mn	midnight	mn_8|Mn_1|MN_7	c0332172	0.991
+mn	minnesota	MN_1	c0026183	0.002
+mn	manganese	Mn_1	c0024706	0.004
+mn	mononitrate	mn_1	null	0.003
+tel	telephone	TEL_2|tel_5|Tel_3	c0039457	1
+peds	pediatrics	peds_7|Peds_11|PEDS_1|PEds_1	c0030755	1
+htn	hypertension	HTN_19|htn_1	c0020538	1
+lll	left lower lobe	LLL_21	c1261077	0.9977
+lll	left lower lid	LLL_1	c1289044	0.0023
+tee	transesophageal echocardiogram	TEE_27|..TEE_1	c0206054	1
+rop	retinopathy of prematurity	ROP_22|Rop_5	c0035344	1
+bg	baby girl	BG_1	c0419385	0.006
+bg	blood glucose	BG_18|bg_4	c0392201	0.994
+cvp	central venous pressure	CVP_17	c0428640	1
+n_a	not applicable	n/a._1|N/A_21|n/a_11	c1272460	1
+pmh	past medical history	PMH_20	c0455458	1
+alt	alternate	alt_8	c1523987	0.757
+alt	alanine aminotransferase	ALT_6|Alt_1|alt_1	c0001899|c0057041	0.243
+stds	sexually transmitted diseases	STDs_16|stds_3|stds._1	c0036916	1
+ptt	partial thromboplastin time	ptt_2|PTT_20	c0030605	1
+abd	abduction	Abd_1	c0231456	0.002
+abd	abdominal	abd_6|abd._1	c0000726	0.1075
+abd	abdomen	ABD_1|Abd_7|abd_3	c0000726	0.8905
+abg	arterial blood gas	ABG_20|abg_2	c0150411	1
+neg	negative	Neg_12|NEG_4|neg_11	c0205160	1
+mchc	mean corpuscular hemoglobin concentration	MCHC_4	c0474535	1
+neb	nebulizer	neb_14|Neb_6	c0027524	1
+nec	not elsewhere specified	NEC_3	null	0.009
+nec	necrotizing enterocolitis	NEC_18|nec_4	c0520459	0.989
+nec	necrotizing	nec_1	c0439664	0.002
+abp	arterial blood pressure	ABP_8	c1272641	1
+rle	right lower extremity	RLE_24|rle_1	c0230415	1
+mv	mitral valve	MV_11	c0026264	0.7783
+mv	millivolt	mV_4|MV_1	c0456691	0.1041
+mv	mechanical ventilation	MV_3	c0199470	0.0314
+mv	multivitamin	mv_1|M.V_1	c0301532	0.0862
+lle	left lower extremity	LLE_26|lle_5	c0230416	1
+abx	antibiotics	abx_17|Abx_2|ABX_1	c0003232	1
+kub	"kidney, ureter, bladder"	KUB_21|kub_1	c1979912	1
+ggt	gamma glutamyl transpeptidase	GGT_16	c0017040	0.981
+ggt	drops	ggt_4	c1321095	0.004
+ggt	drip	ggt_6	c1321095	0.015
+hasn	has not	hasn_7	c0332197	1
+luq	left upper quadrant	LUQ_25|luq_1	c0439735	1
+egfraa	estimated glomular filtration rate african american	eGFRAA_4	c2733005|c0085756	1
+ugluc	urinary glucose	UGluc_5	c0017979	1
+asap	"asthma, sinus and allergy program"	ASAP_6|asap_1	c3242129|c0020517|c0004096|c0497341	0.819
+asap	as soon as possible	asap._1|ASAP_8|asap_4	c0439609	0.181
+vums	vanderbilt university medical school	VUMS_8	c0036378	1
+meq	milliequivalent	meq_11|mEq_9	c0439152	1
+sle	systemic lupus erythematosus	SLE_23	c0024141	1
+achs	before meals and at bedtime	achs_5|ACHS_4	c1879794	1
+vumc	vanderbilt university medical center	VUMC_20	c0000872	1
+ega	estimated gestational age	EGA_16|ega_4	c0262472	1
+rdw	red cell distribution width	RDW_7	c0427460	1
+ibs	irritable bowel syndrome	ibs_1|IBS_21	c0022104	1
+cts	carpal tunnel syndrome	CTS_7	c0007286	0.7996
+cts	counts	cts_3|Cts_1	c0439157	0.0264
+cts	chest tubes	CTs_5	c0008034	0.0549
+cts	computed tomography scans	CTs_9|CTS_1|cts_1	c0040405|c0441633	0.097
+cts	computed tomography	CTS_1	c0040405	0.0222
+ekg	electrocardiogram	EKG_23|ekg_2	c0013798	1
+picu	pediatric intensive care unit	PICU_20	c0021710	1
+tdap	"tetanus, diphtheria and acellular pertussis"	Tdap_14|tdap_2|TdaP_2|TDAP_2	c0535644	1
+cbil	concentration of bilirubin	CBil_10	c0427734	1
+cta	computerized tomography angiogram	CTA_1	c1536105	0.002
+cta	clear to auscultation	CTA_17|cta_1	c2963144|c0004339	0.998
+ctm	continue to monitor	CTM_13|ctm_7	c0030695	1
+deg	degrees	deg_6	c0449286	1
+bk	below the knee	BK_3	c0230433	0.0135
+bk	bk virus (genus polyomavirus)	BK_12|Bk_1	c0005670	0.9865
+picc	peripherally inserted central catheter	PICC_19|picc_1	c0179740	1
+w_o	without	w/o_22|W/O_2	c0332288	1
+wic	"women, infants and children"	WIC_13	c0043210|c0021270|c0008059	0.331
+wic	"women, infants, and children (special supplemental nutrition program)"	WIC_3|wic_1	c0043210|c0021270|c0008059	0.669
+pxr	portable x-ray	PXR_9|Pxr_2	c0438653	1
+sbe	self breast exam	SBE_12	c0085105	0.241
+sbe	subacute bacterial endocarditis	SBE_6	c0014122	0.759
+egfr	estimated glomerular filtration rate	eGFR_8|EGFR_1|egfr_1	c0750572|c1561549	1
+vasap	"vanderbilt asthma, sinus and allergy program"	VASAP_14	c3242129|c0020517|c0004096|c0497341	1
+esrd	end stage renal disease	.ESRD_1|ESRD_18|esrd_1	c0374846	1
+apn	advance practice nurse	APN_8|Apn_1	c1510818	0.953
+apn	apnea	apn_1	c1963065	0.047
+tp	transverse process	TP_6|tp_1	c1305534	0.8938
+tp	total protein	TP_3	c0439177	0.0726
+tp	thought process	TP_1	c0025361	0.0228
+tp	total parenteral	TP_1	c0030548	0.0108
+vit	vitamin	Vit_12|vit_5|VIT_1	c0042890	1
+recs	recommendations	RECS_1|Recs_2|recs_17	c0034866	1
+w_u	work up	w/u_27	c0750430	1
+heent	"head, eyes, ears, nose, throat"	HEENT_24	c1512338	1
+bt	blalock-taussig shunt	BT_3|bt_1	c0179328	0.9904
+bt	birth	Bt_1	c0005615	0.0096
+ngt	nasogastric tube	NGT_17|ngt_5|nGT_1	c0085678	1
+ssn	social security number	SSN_7	c1301821	1
+mmf	maxillomandibular fixation	MMF_7	c0376509	0.03
+mmf	mycophenolate mofetil	MMF_18|mmf_2	c0209368	0.97
+dna	deoxyribonucleic acid	DNA_35|dna_1	c0012854	1
+perf	perforated	perf._1	c0549099	0.0237
+perf	perforation	perf_16|PERF_1	c0549099	0.9763
+gerd	gastroesophageal reflux disease	GERD_20	c0017168	1
+fen	"fluids, electrolytes, and nutrition"	FEN_17|Fen_3	c0518892|c1521739	1
+pred	prednisone	Pred_3|pred._1|pred_15|PRED_1	c0032952	0.928
+pred	predicted	pred_1	c0681842	0.072
+fem	femoral	fem_22|Fem_2	c0015811	1
+msn	masters of science in nursing	MSN_12|Msn_1	c1549983	1
+msk	musculoskeletal	MSK_18|msk_2	c0497254	1
+m0	metastasis	M0_17	c0027627	1
+maew	moves all extremities well	MAEW_13	c0586175|c0205307	1
+vi	six	VI_17|vi_1	c0205452	1
+lymabs	absolute lymphocyte count	LymAbs_5	c0200635	1
+mwf	"monday, wednesday, friday"	.MWF_1|mwf_2|MWF_23	c0585024|c0585027|c0585029	1
+nka	no known allergies	NKA_5|nka_5	c0262580	1
+kgs	kilograms	kgs_12	c0439209	1
+rhythm	rhythm	Rhythm_2|rhythm_12|RHYTHM_1	c1523018	1
+oob	out of bed	OOB_18|oob_3	c2987219	1
+musc	muscular	Musc_5|MUSC_14|musc_1	c0442025	1
+iu	international units	IU_10|iu_4	c0439453	1
+c_o	complaining of/complaints of	C/o_1|c/o_19	c0277786	1
+vm	voicemail	vm_11|VM_7	null	1
+babs	absolute basophils	BAbs_10	c0200641	1
+w_out	without	w/out_21	c0332288	1
+pft	pulmonary function test	PFT_17|pft_3	c0024119	1
+c_w	complicated with	c/w_1	c0231242	0.002
+c_w	consistent with	c/w_35	c0332290	0.998
+c-ph	ph	C-pH_4	c0020283	1
+cellcept	mycophenolate	cellcept_6|CellCept_4|Cellcept_10	c0883242	1
+pccu	pediatric critical care unit	PCCU_18|pccu_2	c0021710	1
+md	doctor of medicine	MD_2|M.D_12	c1512018	1
+phos	phosphate	Phos_14|phos_4	c0031603	0.995
+phos	phosphorous	phos_2	c0031705	0.005
+dispo	disposition	DISPO_5|Dispo_17|dispo_1	c0743223	1
+avm	arteriovenous malformation	AVM_32|avm_1	c0334533	1
+mm	millimeter	mm_16	c0439200	0.9878
+mm	mucous membranes	MM_1	c0026724	0.0082
+mm	mismatch	mm_1	c1881865	0.002
+mm	multiple myeloma	MM_1	c0026764	0.002
+ml	milliliter	ml_17|mL_9	c0439242	1
+mo	month/months	mo_19|Mo_1	c0439231	1
+des	diethylstilbestrol	DES_3	c0012203	0.3569
+des	drug-eluting stent	Des_3|DES_14	c1322815	0.6431
+mi	myocardial infarction	MI_21	c0027051	0.998
+mi	miles	mi_1	c0331865	0.002
+mh	mental health	MH_3	c0025353	0.9186
+mh	mental hospital	MH_2	c0020021	0.0814
+og	orogastric	og_15|.og_1	c0450104	1
+ij	internal jugular	IJ_25|ij_1	c1550269	1
+mp	maculopapular	MP_1	c0443253	0.0079
+mp	mallampati	MP_2	c0451276	0.168
+mp	melphalan prednisone	MP_3	c0284383	0.0571
+mp	metacarpophalangeal	MP_8	c0025525	0.7559
+mp	melphalan	MP_1	c0025241	0.0111
+ms	masters	M.S_2	c0444649	0.0166
+ms	mental status	MS_1	c0278060	0.0021
+ms	musculoskeletal	MS_5	c0497254	0.0323
+ms	morphine sulfate	ms_1	c0066814	0.0333
+ms	multiple sclerosis	MS_2	c0026769	0.0114
+ms	miss	Ms_6	c2349206	0.9011
+ms	milliseconds	ms_1	c0439223	0.0031
+mr	medical record	MR_9	c0025102	0.774
+mr	mitral regurgitation	MR_1	c0026266	0.003
+mr	mister	Mr_2	c2347167	0.223
+vt	ventricular tachycardia	VT_19	c0042514	0.237
+vt	tidal volume	VT_7|Vt_1	c0040210	0.763
+dec	december	Dec_3	null	0.969
+dec	decrease	dec_2	c0547047	0.029
+dec	deceased	dec._1	c1549464	0.002
+tbsa	total body surface area	TBSA_19|tbsa_1	c0005902	1
+cad	computer-aided detection	CAD_1	c1139862	0.004
+cad	coronary artery disease	CAD_19	c0010054	0.996
+i_o	intake and output	I/O_11|i/o_1	c0204708	1
+spy	spy	SPY_1	c1955540	0.01
+spy	spray	spy_9	c2003858	0.99
+icd-9	international classification of diseases book 9	ICD-9_20	c1550213	1
+spo2	pulse oximeter oxygen saturation	SpO2_10|SPO2_2|Spo2_1	c0182109|c0369768	1
+tab	tablet	Tab_5|tab_11	c0039225	1
+cardio	cardiology	CARDIO_12|cardio_5|Cardio_3	c0007189	1
+ic	intercostal	IC_1	c0230136	0.3747
+ic	intercourse	IC_3	c0009253	0.4153
+ic	interstitial cystitis	IC_10	c0600040	0.21
+fengi	"fluids, electrolytes, nutrition, gastrointestinal"	FENGI_20	c0518892|c1521739|c0521362	1
+vzv	varicella zoster virus	VZV_18	c0042338	1
+sats	saturation	Sats_6|sats_14	c0678572	1
+s3	third heart sound	S3_13	c0232237	1
+s2	second heart sound	s2_3|S2_17	c0232230	1
+s1	first heart sound	S1_20	c0232223	1
+csf	"chloramphenicol, sulfanilamide, fungizone"	CSF_1	c0008168|c0038702|c0812405	0.009
+csf	cerebrospinal fluid	CSF_20	c0007807	0.991
+csa	cyclosporine a	CSA_27	c0010592	1
+afb	acid fast bacilli	AFB_20	c0483226	1
+s4	fourth heart sound	S4_19	c0232240	1
+pmi	point of maximum impulse	PMI_19	c0425601	1
+gcs	glasgow coma scale	GCS_20	c0017594	1
+ent	ear nose throat	ENT_19|ent_1	c0150934	1
+ivig	intravenous immune globulin	ivig_2|IVIG_22|IVIg_1	c0085297	1
+cst	central standard time	CST_5|cst_1	null	1
+csp	cyclosporine	CSP_14	c0010592	1
+snf	skilled nursing facility	SNF_21|snf_1	c0037265	1
+vcug	voiding cystourethrogram	VCUG_24	c0203123	1
+npo	nil per os	NPO_21|npo_4	c0419179	1
+ft	feet	ft_18	c0347981	0.7935
+ft	foot	ft._1	c0016504	0.002
+ft	full time	FT_1	c1553424	0.0071
+ft	full term	FT_5	c0239696	0.1974
+fu	fluorouracil	FU_2	c0016360	0.018
+fu	follow up	fu_9|Fu_1|FU_7	c1522577	0.982
+lad	lymphadenopathy	LAD_9|lad_1	c0497156	0.532
+lad	left anterior descending	LAD_10	c0226032	0.468
+cd33	cluster of differentiation 33	CD33_12	c1955216	1
+incr	increased	incr_33|Incr_1|inCR_1	c0442805	1
+lab	laboratory	LAB_4|lab_8|Lab_7	c0022877	1
+lac	laceration	lac_12	c0043246	0.2867
+lac	lactic acid	LAC_7	c0064582	0.7133
+rdwsd	standard deviation in red cell distribution width	RDWSD_3	c0871420|c0427460	1
+mac	mycobacterium avium complex	MAC_7	c0026914	0.1662
+mac	monitored anesthesia care	MAC_3	c0497677	0.6877
+mac	macaroni	Mac_1	c0452696	0.0602
+mac	macular	Mac_2	c0332574	0.086
+stim	stimulation	stim_17|stim._1	c1292856	1
+fe	forced expiration	FE_1	c0454504	0.014
+fe	iron	fe_4|FE_2|Fe_25	c0302583	0.975
+fe	female	fe_1	c0086287	0.011
+mag	magnesium	mag_12|Mag_10|MAG_4	c0024467	0.9849
+mag	magnesia	mag_1	c0024477	0.0151
+fh	family history	FH_19|fh_1	c0241889	1
+g_r_m	"gallops, rubs, murmurs"	G/R/M_5|g/r/m_2	c0018808|c0232200|c0232267	1
+fk	tacrolimus	FK_26|Fk_1|fk_2	c0085149	1
+plt-ct	platelet count	Plt-Ct_9	c1287267	1
+fk-506	tacrolimus	FK-506_10	c0085149	1
+sz	seizure	SZ_4|Sz_3|sz_28	c0036572	0.993
+sz	sz phenotype of alpha-1-antitrypsin-deficiency	SZ_2	c0221757	0.007
+sx	symptoms	Sx_1|SX_1|sx_17	c1457887	0.997
+sx	surgery	Sx_1	c0038894	0.003
+lhc	left heart catheterization	LHC_27	c0189897	1
+ss	social security	SS_1	c0037435	0.0077
+ss	standard score	SS_2	c0871421	0.2623
+ss	sliding scale	ss_3|SS_5	c2937251	0.7101
+ss	symptom score	SS_1	c3533163	0.0061
+ss	steri-strips	SS_1	c0727944	0.0138
+sr	sinus rhythm	SR_1	c0232201	0.0041
+sr	standard risk	SR_2	c0173322	0.0062
+sr	sustained release	sr_5|s.r_2|SR_6	c1710261	0.9897
+sq	subcutaneous	SQ_9|sq_11	c0443315	1
+c-be	base excess	C-BE_4	c1330956|c0201985	1
+sw	southwest	S.W_1	c1710136	0.0137
+sw	swish	sw_2|SW_1	c1699290	0.0747
+sw	social worker	SW_1	c0037444	0.0305
+sw	semmes-weinstein	SW_2	c2960149	0.0515
+sw	social work	SW_12|sw_2	c0037441	0.8297
+rcspo2	oxygen saturation	rcSpO2_10	c0369768	1
+sgpt	serum glutamic pyruvic transaminase	SGPT_10	c0001899	1
+st	st segment	ST_1	c0429029	0.1667
+st	st elevations	ST_1	c0520886	0.1667
+st	sore throat	ST_1	c0242429	0.1667
+st	speech therapy	ST_1	c0037831	0.5
+si	sacroiliac	SI_6|si_1	c0555898	0.7981
+si	suicidal ideation	SI_6|si_1	c0424000	0.1717
+si	signs	si_1	c0422819	0.0302
+sh	push	sh_1	c0580841	0.014
+sh	shampoo	sh_1	c0150765	0.007
+sh	she	SH_1	null	0.007
+sh	social history	SH_13	c0424945	0.972
+nsaids	nonsteroidal anti-inflammatory drugs	NSAIDs_8|NSAIDS_10|nsaids_2	c0003211	1
+sl	slightly	sl._1|Sl_1|sl_8|SL_1	c0750482	0.2239
+sl	sublingual	Sl_1|SL_6|sl_4	c0026638	0.6564
+sl	slight	sl_6	c2937276	0.1196
+hfa	hydrofluoroalkane	HFA_11|hfa_3	c1721232	1
+dz	disease	dz_19|DZ_1|Dz_6	c0012634	1
+coag	coagulation	Coag_6|coag_1	c0005778	0.742
+coag	coagulase	coag_3	c0009118	0.258
+pre-op	pre-operative	Pre-op_7|Pre-OP_1|Pre-Op_5|pre-op_7	c0445204	1
+bs+	bowel sounds present	BS+_2|bs+_2	c0278005	1
+rue	right upper extremity	RUE_27	c0230329	1
+egd	esophagogastroduodenoscopy	EGD_22|egd_1	c0079304	1
+afsf	anterior fontanelle soft and flat	AFSF_20	c0578480	1
+vmg	vanderbilt medical group	VMG_15	null	1
+ttp	tender to palpation	ttp_12|TTP_5	c0234234|c0030247	0.988
+ttp	thrombotic thrombocytopenic purpura	ttp._1|TTP_2	c0034155	0.012
+fio2	fraction of inspired oxygen	FiO2_9|FIO2_1	c0428167	1
+sgot	serum glutamic oxaloacetic transaminase	SGOT_10	c0242192	1
+gtts	drops	gtts._2|gtts_28|GTTS_2	c1321095	1
+afib	atrial fibrillation	A.fib_1|Afib_10|AFib_2|afib_13	c0004238	1
+etoh	alcohol	EtOH_6|ETOH_13|etoh_2|Etoh_2	c0001975	1
+lm	leave message	LM_1	c0470166	0.0074
+lm	left message	lm_2|LM_4	c2957131	0.8449
+lm	landmarks	LM_2	c0504075	0.0169
+lm	lower middle	LM_2	c0682202	0.0084
+lm	left main artery	LM_4	c1261082	0.1224
+vms	vanderbilt medical student	VMS_9	c0038495	0.998
+vms	voicemail service	vms_1	null	0.002
+tte	transthoracic echocardiogram	TTE_29	c0430462	1
+ccls	certified child life specialist	CCLS_17|ccls_1	c1444167|c0029039	1
+uop	urinary output	uop_2|UoP_1|UOP_16|UOp_1	c0232856	1
+lb	pounds	lb_9	c0439219	1
+tsh	thyroid-stimulating hormone	TSH_18|tsh_2	c0040160	1
+la	left atrium	LA_9	c1269894	0.5764
+la	lactic acid	LA_2	c0064582	0.0439
+la	long acting	LA_5|la_1	c0304870	0.364
+la	los angeles	LA_2	c0024015	0.0157
+ln	lymph node	LN_15|Ln_2	c0024204	0.9947
+ln	lane	Ln_2	c1708639	0.0053
+sd	standard deviation	SD_12	c0871420	1
+pcp	pneumocystis carinii pneumonia	PCP_1	c0032305	0.057
+pcp	phencyclidine	PCP_1	c0031381	0.011
+pcp	primary care provider/physician	Pcp_1|PCP_17	c0033131	0.932
+subq	subcutaneous	subq_14|SubQ_4|Subq_1|SUBQ_1|subQ_3	c0443315	1
+pcv	packed cell volume	PCV_18|pcv_1	c0018935	0.997
+pcv	pressure controlled ventilation	Pcv_1	c0564626	0.003
+ntabs	neutrophil absolute count	NtAbs_4	c0948762	1
+lv	left ventricular/ left ventricle	LV_24	c0225897	1
+lt	light	lt_1	c1306462	0.0132
+lt	light touch	lt_1	c0423553	0.0385
+lt	left	LT_4|lt_10|Lt_7	c0205091	0.9483
+pci	percutaneous coronary intervention	PCI_24	c1532338	1
+gtt	glucose tolerance test	GTT_2	c0017741	0.005
+gtt	gutta	gtt_16	c1321095	0.995
+ssc	similac special care	ssc_5|SSC_8	c3196396	1
+lp	lumbar puncture	LP_18|Lp_1	c0037943	0.9389
+lp	licensed practical	L.P_1	c0237709	0.0611
+pca	patient-controlled analgesia	pca_4|PCA_5	c0078944	0.986
+pca	post conceptual age	PCA_1	c2963526	0.006
+pca	posterior cerebral artery	PCA_2	c1269013	0.008
+tsp	teaspoon	tsp_18|Tsp_2	c1533179	1
+cls	child life specialist	CLS_15	null	1
+qhs	quaque hora somni	qhs_14|QHS_3	c1275563	1
+yo	year old	y.o_4|yo_4	c0001779	1
+cpe	complete physical examination	cpe_11|CPE_9	c0436120	1
+emg	electromyogram	EMG_25	c0013839	1
+nibp	non-invasive blood pressure	NIBP_10	c0428889	1
+mivf	maintenance intravenous fluids	MIVF_19|mivf_1	c0559692	1
+mgmt	management	mgmt_24|Mgmt_1	c1273870	1
+pfsh	"past, family, and social history"	PFSH_9|pFSH_1	c3483724	1
+mmhg	millimeters of mercury	mmHg_16	c0439475	1
+extr	extremities	Extr_7|extr_7|EXTR_7	c0015385	1
+pes	"latin for """"foot"""" / part of """"pes planus"""" = """"flat foot"	Pes_3	c0016202	0.6561
+pes	pulmonary embolisms	PEs_7	c0034065	0.2017
+pes	"latin for """"foot"""" / part of """"pes cavus"""" = high-arched foot"	Pes_1	c1846085	0.0032
+pes	"part of """"pes anserine"""" =  insertion of the conjoined tendons of three muscles onto the anteromedial surface of the proximal extremity of the tibia"	pes_3	c2315006	0.1391
+loz	lozenge	loz_5	c0991564	1
+tropnt	troponin t	TropnT_10	c0077404	1
+tues	tuesday	tues._1|tues_1|TUES_1|Tues_7	c0585026	1
+l4	lumbar 4	L4_13	c0223537	1
+l5	lumbar five	L5_19|l5_1	c0223552	1
+c_c_e	"cyanosis, clubbing, edema"	C/C/E_2|c/c/e_8	c0149651|c0010520|c0013604	1
+l3	lumbar 3	L3_15	c0223522	0.988
+l3	living children (3)	L3_2	c2229975	0.012
+l1	lumbar 1	L1_11	c0223492	1
+accu	accu-check	Accu_16|accu_2	c3154176	1
+t1	thoracic 1	T1_9	c0459933	0.9846
+t1	term births	T1_2	c0233324	0.0132
+t1	spin-lattice relaxation time	t1_1	c2697938	0.0022
+lpm	liters per minute	LPM_7|lpm_9	c0439393	1
+mdi	metered-dose inhaler	MDi_1|MDI_16|mdi_1	c0993596	1
+misclabs	miscellaneous labs	MiscLabs_10	c0813126	1
+map	mean arterial pressure	MAP_14	c0428886	1
+gfr	glomerular filtration rate	GFR_16	c0017654	0.9
+gfr	"grunting, flaring, retracting"	GFR_4	c0234892|c1517205|c0332523	0.1
+ed	emergency department	ED_15|ed_2	c0562508	0.989
+ed	educated	ed_1	c0524327	0.005
+ed	** degree	.Ed_1	c0449286	0.004
+ed	eating disorder	ED_1	c0013473	0.002
+ef	ejection fraction	EF_19	c2700378	1
+ucath	urine catheter	UCath_9	c0179802	1
+djd	degenerative joint disease	DJD_25|djd_2	c0029408	1
+ec	enteric coated	e.c_1|EC_9|ec_2	c0039226	0.8908
+ec	enterocutaneous	EC_1	c0341318	0.1092
+t3	thoracic 3	T3_4	c0223245	0.0799
+t3	triiodothyronine	T3_7	c0041014	0.9201
+lft	liver function test	LFT_18|lft_1	c0023901	0.997
+lft	left	lft_1	c0205091	0.003
+ncat	normocephalic/atraumatic	.NCAT_1|NCAT_16	null	1
+mds	myelodysplastic syndrome	MDS_28	c0026986	0.8749
+mds	medical doctors	MDs_2	c0031831	0.1251
+hld	hyperlipidemia	..HLD_1|HLD_17|hld_2	c0020473	1
+ep	electrophysiology	E.P_1|EP_16	c0013865	1
+hla	human leukocyte antigen	HLA_19|hla_1	c0019721	1
+er	extended release	ER_5	c1707968	0.1747
+er	emergency room	ER_11	c0562508	0.8143
+er	estrogen receptor	ER_2	c0034804	0.011
+rt	respiratory therapy	RT_1	c0035239	0.005
+rt	radiation treatment	RT_2	c2094475	0.014
+rt	right	rt_11|Rt_6|RT_1	c0205090	0.981
+s_p	status post	S/P_3|s/p_16|S/p_1	c0231290	1
+s_s	sliding scale	s/s_2	c2937251	0.033
+s_s	signs/symptoms	s/s_19	c0037088	0.967
+hcq	hydroxychloroquine	HCQ_23	c0020336	1
+brbpr	bright red blood per rectum	BRBPR_11|brbpr_3	c0018932	1
+ftt	failure to thrive	FTT_30|ftt_1	c0015544	0.994
+ftt	finger tapping test	FTT_1	c0451161	0.006
+rr	regular rate and rhythm	RR_2	c0436766	0.02
+rr	regular rhythm	RR_2	c0436766	0.013
+rr	respiratory rate	RR_8	c0231832	0.9609
+rr	red reflex	RR_1	c0278244	0.006
+vch	vanderbilt children's hospital	vch_3|VCH_17	c0020017	1
+rx	prescription	rx_3|Rx_12|RX_5	c1521941	1
+l5-s1	lumbar 5 - sacral 1	L5-S1_17|l5-s1_1	c0223552	1
+rd	registered dietician	RD_4	c1508821	0.8841
+rd	retinal detachment	RD_1	c0035305	0.029
+rd	road	Rd_1	c0442650	0.087
+fx	function	fx_1	c0542341	0.002
+fx	fracture	fx_18|Fx_1	c0016658	0.998
+rf	refill	RF_5	c0807726	0.3076
+rf	rheumatoid factor	RF_8	c0035448	0.1363
+rf	radiofrequency	RF_5|rf_1	c2347883	0.5561
+cvicu	cardiovascular intensive care unit	CVICU_20	c0587446	1
+ra	rheumatoid arthritis	.RA_1|RA_5	c0003873	0.06
+ra	room air	RA_12	c2709070	0.918
+ra	right atrium	RA_2	c1269890	0.01
+ra	right atrial	RA_2	c0225844	0.012
+perrl	"pupils equal, round, reactive to light"	PERRL_18|perrl_1	c1642390	1
+ble	bilateral lower extremity	BLE_20|ble_1	c1269079	1
+rec	recommended	rec_11|rec._3|Rec_4	c2964444	0.9035
+rec	recreational	Rec_1|rec_1	c0034872	0.0626
+rec	recipient	rec_1|Rec_1	c1709854	0.0195
+rec	recommendation	rec_3	c0034866	0.0144
+rn	registered nurse	RN_17|R.N_3	c0687673	1
+rh	rhesus	RH_8|Rh_3	c0302050	0.9486
+rh	right handed	RH_5|Rh_1	c0344333	0.0352
+rh	right heart	RH_1|rh_1	c0225808	0.0161
+reg	regular	reg._1|reg_16|Reg_1	c0205272	0.995
+reg	chemo regimen	Reg_1	c0392920	0.005
+perrla	"pupils equal, round, reactive to light and accommodation"	PERRLA._1|PERRLA_10|Perrla_1|perrla_1	c1642390	1
+fhx	family history	fhx_2|FHX_1|FHx_9	c0241889	1
+ecg	electrocardiogram	ECG_24|ecg_1	c0013798	1
+rll	right lower lobe	RLL_25|rll_1	c1261075	1
+sbp	systolic blood pressure	sbp_5|SBP_11	c0871470	0.984
+sbp	spontaneous bacterial peritonitis	SBP_4	c0275551	0.016
+ast	aspartate aminotransferase	AST_12|ast_1	c0004002	1
+lmp	last menstrual period	LMP_22|lmp_1	c0425932	1
+puf	puff	puf_7|PUF_1	c1533107	1
+asd	atrial septal defect	ASD_19|asd_3	c0018817	1
+asa	american society of anesthesiologists	ASA_3	c2346733	0.177
+asa	acetysalicylic acid	ASA._1|asa_2|ASA_14	c0004057	0.823
+cmv	cytomegalovirus	CMV_20|cmv_4	c0010825	1
+carb	carbohydrate	carb_18|Carb_1	c0007004	0.996
+carb	carbonate	carb_1	c0007026	0.004
+baso	basophils	Baso_7	c0004827	1
+iud	intrauterine device	IUD_20	c0021900	1
+rlq	right lower quadrant	RLQ_18|rlq_2	c0439736	1
+bal	bronchoalveolar lavage	BAL_27|Bal_1	c1535502	1
+ntg	nitroglycerin	NTG_17|ntg_3	c0017887	1
+cmt	charcot-marie-tooth	CMT_6	c0007959	0.014
+cmt	cervical motion tenderness	CMT._1|CMT_9	c0238953	0.986
+ft4	free thyroxine	FT4_12	c0312452	1
+muga	multi gated acquisition scan	MUGA_19|Muga_1|muga_1	c0521317	1
+cms	centimeters	cms_10	c0475210	0.9979
+cms	children's memory scale	CMS_1	null	0.0021
+h1n1	hemoagglutinine-1 and neuroaminidase-1	h1n1._1|H1N1_18|h1n1_1	c0580264	1
+mmol_l	millimoles per liter	mmol/L_9|mmol/l_2	c1532563	1
+mva	mitral valve annulus	MVA_1	c0225947	0.0311
+mva	motor vehicle accident	MVA_16|mva_2	c0000932	0.9689
+mvc	motor vehicle collision	MVC_19|mvc_1	c0000932	1
+ltg	lamotrigine	LTG_1	c0064636	0.056
+ltg	long term goals	LTG_19	c0443252|c0018017	0.944
+uketo	urinary ketones	UKeto_5	c0162275	1
+caio	ionized calcium	CaIo_10	c0373561	1
+mvi	multivitamin	mvi_8|MVI_12	c0301532	1
+yest	yesterday	yest_20	null	1
+ucolor	urinary color	UColor_11	c0278030	1
+uluest	urinary leukocyte esterase	ULuEst_5	c0919675	1
+onc	oncology	ONC_2|onc_7|Onc_6	c0278627	1
+nho	notify house officer	nho_10	c0401975|c0422202	1
+pgm	paternal grandmother	pGM_1|pgm_3|PGM_16	c1273524	1
+ecp	extracorporeal photopheresis	ECP_32	c0206373	0.998
+ecp	emergency contraceptive pill	ECP_1	c1720756	0.002
+lat	lateral	LAT_2|lat_18|Lat_5|lat._1	c0205093	1
+xr	extended release	XR_15	c1707968	0.985
+xr	x-ray	XR_4|xr_1	c1306645	0.015
+dpm	doctor of podiatric medicine	DPM_2	c1512024	1
+gramst	gram stain	GramSt_10	c0061856	1
+fms	fibromyalgia syndrome	FMS_9	c0016053	1
+gpc	gram positive cocci	GPC_21|gpc_2	c0018155	1
+gcsf	granulocyte colony stimulating factor	gcsf_3|GCSF_17	c0079459	1
+wbccnt	white blood cell count	WBCCnt_10	c0023508	1
+tob	tobacco	Tob_5|TOB_2|tob._1|tob_12	c0040329	1
+cvvhd	continuous veno-venous hemodialysis	CVVHD_22|cvvhd_2	c0472681	1
+nsclc	non-small cell lung cancer	NSCLC_24|nsclc_2	c0007131	1
+ldl-c	low-density lipoprotein cholesterol	LDL-C_6	c0023824	1
+d_o	disorder	d/o_25	c0012634	1
+uds	urine drug screen	UDS_19|UDs_1	c0202274	1
+x-rays	energetic high-frequency electromagnetic radiation	X-rays_7|X-RAYS_2|x-rays_12	c0337030	1
+circ	circumflex	circ_4|Circ_1	c1880089	0.2685
+circ	circumcision	circ_7|Circ_2	c0008819	0.0598
+circ	circumference	Circ_2	c0332520	0.5907
+circ	circumcised	circ_2	c0920194	0.0689
+circ	circulation	CIRC_1	c0005775	0.0122
+copd	chronic obstructive pulmonary disease	COPD_20	c0024117	1
+gyn	gynecology	GYN_14|Gyn_3|gyn_1	c0018417	0.705
+gyn	gynecologist	GYN_2	c0237419	0.295
+gym	gymnasium	gym_19|Gym_1	c0442572	1
+ncu	neurocare unit	NCU_20	c1552761	1
+hctz	hydrochlorothiazide	HCtz_1|HCTZ_15|hctz_3	c0020261	1
+def	deficiency	def_18|DEF_1	c0011155	0.983
+def	definite	def_2	c0439544	0.017
+x2	twice	X2_1|x2_11	c1948050	0.903
+x2	times 2	x2_8	c1720725	0.097
+x3	"person, place, and time"	x3_11	c0514143	0.4484
+x3	times 3	X3_1|x3_8	c0449809|c0205449	0.5516
+rsv	respiratory syncytial virus	RSV_17|rsv_3	c0035236	1
+x1	once	x1_18|X1_1	c1720092	1
+pnd	postural nocturnal dyspnea	PND_2	c0205278|c0344357	0.041
+pnd	paroxysmal nocturnal dyspnea	PND_5	c0013405	0.57
+pnd	post nasal drip	PND_10	c0032781	0.389
+x4	four	x4_16	c0205450	1
+x5	five	.x5_1|x5_18|X5_1	c0205451	1
+std	sexually transmitted disease	STD_15|std_4|Std_1	c0036916	1
+niddm	noninsulin-dependent diabetes mellitus	NIDDM_27	c0011860|c2697407	1
+stg	short term goals	STG_14	c0443303|c0018017	1
+gsw	gunshot wound	gsw_4|GSW_20	c0043252	1
+f_u	follow-up	f/u_17|F/U_3	c1522577	1
+str	straight	str_1	c0445291	0.005
+str	strength	str._1|str_11	c0808080	0.995
+rbcmor	red blood cell morphology	RBCMor_12	c0553084	1
+dtr	deep tendon reflexes	DTR_10	c0489815	0.998
+dtr	daughter	Dtr_1	c0011011	0.002
+pvd	peripheral vascular disease	PVD_23|pvd_4	c0085096	1
+lbp	lower back pain	LBP_22|lbp_5	c0024031	1
+lbs	pounds	lbs_19	c0439219	1
+sp	sprays	sp_4	c1154182	0.2337
+sp	starpanel	SP_3	null	0.6125
+sp	suprapubic tube	SP_1	c0150798	0.0116
+sp	specific	sp_2	c0205369	0.0813
+sp	spinal	SP_2	c0521329	0.0305
+sp	status post	sp_4|SP_2|s.p_1	c0231290	0.0305
+ana	antinuclear antibody	ANA_18|Ana_1	c0003243	1
+uurob	urinary urobilinogen	UUrob_6	c0427736	1
+qpm	quaque die post meridiem	qPM_1|qpm_16|QPM_1	c0585330	1
+prn	pro re nata/as needed	p.r.n._1|prn._1|PRN_4|prn_14	c1883728	1
+msec	milliseconds	msec_20	c0439223	1
+hco3	bicarbonate	HCO3_13	c0005367	1
+ubili	urinary bilirubin	UBili_5	c0522139	1
+adhd	attention deficit hyperactivity disorder	ADHD_22	c1263846	1
+heo	horizon expert orders	heo_3	null	1
+sa	sinoatrial	SA_1	c0037189	0.0443
+sa	suicide attempt	SA_1	c0038663	0.0096
+sa	sexual activity	SA_3	c0036864	0.0299
+sa	sexually active	SA_7	c0241028	0.8934
+sa	saturday	sa_1|Sa_1	c0585030	0.0228
+omfs	oral and maxillofacial surgery	OMFS_20	c0812928	1
+sub-q	subcutaneous	sub-q_2|sub-Q_1|Sub-Q_8	c0443315	1
+r_t	related to	r/t_34|R/T_2	c0439849|c1883351	1
+ards	acute respiratory distress syndrome	ARDS_32	c0035222	1
+fxs	fractures	fxs_27|Fxs_1	c0016658	1
+rrr	regular rate and rhythm	RRR_11|rrr_2	c0436766|c0232188	1
+r_o	rule out	R/O_6|r/o_13|R/o_1	c0332196	1
+xrt	radiation	XRT_21|xrt_2	c0851346	1
+nebs	nebulizer	nebs_19|Nebs_2	c0027524	1
+hgb	hemoglobin	HGB_1|Hgb_9|HgB_1|hgb_1	c0019046	1
+micu	medical intensive care unit	MICU_19|micu_1	c2711734	1
+pud	peptic ulcer disease	PUD_25|pud_1	c0030920	1
+sm	small	sm._2|sm_22	c0700321	0.6984
+sm	submandibular	sm_1	c1550309	0.0225
+sm	systolic murmur	SM_8	c0232257	0.2791
+cld	chronic lung disease	CLD_14|cld_3|.CLD_1	c0746102	1
+vfss	videofluoroscopic swallowing study	VFSS_21	c0412099	1
+sc	subclavian	SC_11	c0589488	0.6731
+sc	subclavicular	SC_1|sc_1	c0589488	0.0409
+sc	stem cell	SC_1	c0038250	0.0054
+sc	hb sc	SC_1	c0019034	0.0366
+sc	subcutaneous	sc_3	c0443315	0.0355
+sc	sternoclavicular	SC_3|sc_1	c0038291	0.2086
+bsn	bachelor of science in nursing	BSN_6|Bsn_4	c1549952	1
+bso	bilateral salpingo-oophorectomy	BSO_20	c0195495	1
+wnl	within normal limits	WNL_17|wnl_12|wnl._1	c0205307	1
+dsch	discharge	dsch_1	c0030685|c2926602|c0012621	1
+emla	eutectic mixture of lidocaine and prilocaine	EMLA_8|Emla_3|emla_2	c0059079	1
+bsa	body surface area	BSA_17|bsa_1	c0005902	0.989
+bsa	broad spectrum antibiotics	BSA_2	null	0.011
+ckd	chronic kidney disease	CKD_19|ckd_1	c1561643	1
+neuro	neurological	NEURO_9|neuro_4|Neuro_9	c0205494	0.973
+neuro	neurology	Neuro_2	c0027855	0.027
+dob	date of birth	DOB_13	c0803906	1
+tpn	total parenteral nutrition	tpn_6|TPN_12	c0030548	1
+prbc	packed red blood cells	PRBC_12|pRBC_3|prbc_2	c2316467	1
+uri	upper respiratory infection	URI_17	c0041912	1
+mrs	misses	Mrs_15	c1705492	1
+nkda	no known drug allergies	NKDA_9|nkda_1	c0262581	1
+lpn	licensed practical nurse	LPN_17|Lpn_3	c0684004	1
+ext	extremities	ext_2|Ext_10|EXT_7	c0015385	0.995
+ext	extension	ext_1	c0231448	0.005
+mri	magnetic resonance imaging	MRI_20	c0024485	1
+exp	expiratory	exp_9	c0231800	0.399
+exp	expression	Exp_1	c0185117	0.002
+exp	expiration	Exp_5|exp_2	c1704631	0.467
+exp	exploratory	exp_1|Exp_1	c1280903	0.13
+exp	exposure	exp_1	c0332157	0.002
+dos	date of service	DOS_4	null	1
+resprt	respiratory rate	RespRt_7	c0231832	1
+mrg	"murmurs, rubs, or gallops"	MRG_9|mrg_1	c0018808|c0232267|c0232200	1
+mra	magnetic resonance angiogram	mra_1|MRA_21	c0243032	1
+tums	tums	Tums_8|TUMs_2|tums_8|TUMS_2	c0723950	1
+rflp	restriction fragment length polymorphism	RFLP_18|rflp_2	c0035268	1
+cde	cumulative dissipated energy	CDE_5	c1749901|c1511559	0.695
+cde	certified diabetes educator	CDE_11|cde_2	c1555973	0.305
+ugi	upper gastrointestinal	UGI_24	c3203348	1
+pttctr	partial thromboplastin time	PTTCtr_6	c0030605	1
+ctab	clear to auscultation bilaterally	CTAB_15|ctab_1	c0231855	1
+rtc	return to clinic	RTC_19|rtc_1	c0332156|c0002424	1
+pbsc	peripheral blood stem cell	PBSC_17|pbsc_3	c1518999	1
+cdh	congenital diaphragmatic hernia	CDH_14|cdh_6	c0235833	1
+cdt	central daylight time	CDT_4	null	1
+pna	pneumonia	PNA_18|pna_5|pna._1	c0032285	1
+qod	every other day	qod._1|qod_16|qOD_1|QOD_4	c0558287	1
+tprot	total protein	TProt_6	c1261360	1
+hc	hydrocortisone	HC_12|hc_1	c0020268	0.332
+hc	head circumference	HC_12|Hc_1|hc_1	c0262499	0.668
+se	southeast	SE_1	c1711190	0.0071
+se	side effects	SE_27|se_1	c0879626	0.9929
+dbs	deep brain stimulation	DBS_29	c0394162	1
+d5	5% dextrose	d5_7|D5_1	c0017725	1
+z-pak	azithromycin	Z-Pak_16|z-Pak_3|Z-PAK_1	c0052796	1
+cr1	first complete remission	CR1_10	c0677874|c0205435	1
+retict	reticulocyte count	RetiCt_10	c0206161	1
+q4	every 4 hours	Q4_7|q4_3	c1292426	0.99
+q4	every 4 weeks	Q4_1|q4_2	c1275555	0.01
+q6	every six hours	Q6_6|q6_10	c0585325	0.956
+q6	every six months	q6_2	c0585339	0.044
+hrt	hormone replacement therapy	HRT_18|hrt_1	c0282402	0.977
+hrt	heart	hrt_2|HRT_1	c0018787	0.023
+occ	occasional	occ._1|Occ_9|occ_11|Occ._1	c0521114	1
+lympab	absolute lymphocytes	LYMPAB_3	c3544087	1
+hrs	hours	hrs_17|HRS_2|hrs._1	c0439227	1
+y_o	year old	y/o_10	c0001779	1
+rass	richmond agitation sedation scale	rass_1|RASS_15	null	1
+ivp	intravenous push	IVP_4	c1319196	0.209
+ivp	intravenous pyelogram	IVP_15|..IVP_1	c0203108	0.791
+plts	platelets	plts_13|Plts_8|PLTS_2|PLTs_1	c0005821	1
+atylym	atypical lymphocytes	AtyLym_12	c0221277	1
+ocp	oral contraceptive pill	OCP_17|ocp_3	c0009905	1
+ino	internuclear ophthalmoplegia	INO_1	c0152134	0.2472
+ino	inhaled nitric oxide	iNO_17|INO_1	c0004048|c0028128	0.7528
+lr	living related	LR_1	c0748332	0.0133
+lr	lactated ringers	lr_4|LR_3	c0073385	0.5577
+lr	light reflex	LR_6	c0234671	0.4168
+lr	lateral rectus	LR_1	c0224131	0.0082
+lr	lower right	LR_1	c0442067	0.0041
+dm	diabetes mellitus	DM_16	c0011849	0.9769
+dm	dextromethorphan	dm_1|DM_2	c0011816	0.0231
+hit	heparin-induced thrombocytopenia	HIT_8	c0272285	1
+mgf	maternal grandfather	MGF_18|mgf_2	c1273523	1
+hiv	human immunodeficiency virus	HIV_27	c0019682	1
+allo	allotransplant	allo_12|ALLO_4|Allo_2	c0040739	1
+dc	discharge	dc_4|DC_3	c0030685	0.8122
+dc	direct current	DC_3	c0442831	0.1359
+dc	district of columbia	DC_1	c0012764	0.0166
+dc	discontinue	dc_2|DC_4	c1706472	0.0353
+mgm	milligrams	mgm_5	c0439210	0.053
+mgm	maternal grandmother	MGM_13|mgm_2	c1273525	0.947
+tbi	traumatic brain injury	TBI_6|tbi._1	c0876926	0.306
+tbi	total body irradiation	TBI_19|tbi_1	c0043162	0.694
+mgr	"mumurs, gallops, or rubs"	MGR_6|mgr_3	c0018808|c0232200|c0232267	0.941
+mgr	manager	mgr_4|Mgr_3	c0335141	0.059
+poik	poikilocytes	Poik_15	c0333798	1
+ssi	sliding scale insulin	SSI_15|ssi_5	c0557977	1
+dx	diagnosed	dx_2	c0011900	0.675
+dx	diagnosis	dx_5|DX_4|Dx_11	c0011900	0.317
+dx	diagnostic	Dx_1	c0348026	0.008
+cd3	cluster of differentiation 3	cd3_1|CD3_9	c0430319	1
+tba	to be announced	tba_9|TBA_10	null	1
+_s_	"phoneme """"s"""" sound"	/s/_20	null	1
+inh	inhaler	inh_9|INH_5	c0021461	0.871
+inh	isoniazid	INH_9	c0022209	0.125
+inh	inhibitor	inh_1	c1999216	0.004
+ffp	fresh frozen plasma	FFP_17|ffp_1	c0016709	1
+dr	doctor	Dr_9	c2348314	1
+ds	developers system	DS_1	c2363670	0.0065
+ds	double strength	ds_4|DS_8	c1705765	0.9665
+ds	double-stranded	DS_1|ds_1	c1979882	0.013
+ds	disease	ds_1	c0012634	0.0032
+ds	discharge summary	DS_2	c0743221	0.0108
+dp	dorsalis pedis	DP_10|dp_1	c0230462	1
+crp	c-reactive protein	CRP_20	c0006560	1
+ema	early morning awakening	EMA_3	c0541798	0.1282
+ema	endomysial antibody	EMA_4	c0443906	0.8718
+utd	up to date	UTD_13|utd_6	null	1
+emu	epilepsy monitoring unit	EMU_19|emu_1	c1138901	1
+ckmbre	ck-mb ratio	CKMBRe_6	null	1
+qd	quaque die	q.d_1|qd_6|QD_5	c0332173	1
+ems	emergency medical services	EMS_17	c0013961	1
+b_c	because	b/c_17	c0678226	1
+cri	chronic renal insufficiency	Cri_1|CrI_1|CRI_23	c0403447	1
+tmp-smx	trimethoprim-sulfamethoxazole	tmp-smx_7|TMP-SMX_1|Tmp-smx_1	c0041044	1
+o_w	otherwise	o/w_20	null	1
+pvr	postvoid residual	PVR_13	c0749943	0.779
+pvr	peripheral vascular disease	PVR_1	c0085096	0.023
+pvr	pulmonary vascular resistance	PVR_13	c0456261	0.192
+pvr	pulmonary valve replacement	PVR_1	c0190129	0.006
+ebl	estimated blood loss	EBL_20	c1443559	1
+ebm	expressed breast milk	EBM_14|ebm_6	c0452739	1
+ebv	epstein-barr virus	EBV_23|ebv_3	c0014644	1
+sed	sedimentation	Sed_1|sed_4	c0597428	0.9935
+sed	sedated	sed_2	c0235195	0.0065
+hpv	human papilloma virus	HPV_18|hpv_3	c0021344	1
+arf	acute renal failure	..ARF_1|ARF_26|arf_1	c0022660	1
+dtrs	deep tendon reflexes	DTRS_1|DTRs_19	c0489815	1
+sem	systolic ejection murmur	SEM_20	c0694547	1
+o_n	overnight	o/n_13|O/N_7	c0439583	1
+nstemi	non-st segment myocardial infarction	NSTEMI_28|nstemi_1	c1536221	1
+c_s	caesarean section	C/S_15|c/s_4	c0007876	0.9869
+c_s	culture and sensitivity	c/s_1	c0430388	0.0131
+co2	carbon dioxide	CO2_14	c0007012	1
+meq_l	milliequivalents/liter	mEq/L_6|meq/L_2|meq/l_1|mEq/l_1	c0439375	1
+xray	energetic high-frequency electromagnetic radiation	Xray_5|xray_13|XRay_2	c0337030	1
+qday	qua que daily	qday_11|Qday_1	c0332173	1
+d50	50% dextrose	d50_9	c0308817	1
+acei	angiotensin converting enzyme inhibitor	Acei_1|ACEi_7|acei_1|ACEI_11	c0003015	1
+wob	work of breathing	WOB_11|wob_3	c0043229	1
+wf	white female	WF_18	c0015780|c0043157	1
+dlco	diffusing capacity of lung for carbon monoxide	DLCO_13	c2143174	1
+wd	word	wd_3	c1705313	0.0691
+wd	well-developed	WD_8	null	0.9309
+sedrat	sedimentation rate	SedRat_5	c0086250	1
+wk	week	wk_20	c0439230	1
+wm	woman	wm_2|WM_22	c0043210	0.9388
+wm	warm	wm_2	c0687712	0.0492
+wm	white male	WM_1	c0024554|c0043157	0.01
+wm	white matter	WM_1	c0682708	0.002
+jp	jackson pratt	JP_16|jp_1	c0204831	1
+jr	junior	jr._1|Jr_13|jr_2|JR_1	c1708595	1
+cppd	chest percussion and postural drainage	cppd_3|CPPD_24	c1285807|c0086915	0.962
+cppd	calcium pyrophosphate dihydrate disease	CPPD_5	c0553730	0.038
+wt	weight	Wt_7|WT_4|wt_2	c0043100	1
+vre	vancomycin-resistant enterococci	VRE_34|vre_1	c1265175	1
+endo	endocrine	ENDO_8|Endo_10|endo_1	c0521425	0.769
+endo	endocrinology	endo_2|ENDO_1|Endo_3	c0014137	0.203
+endo	endocervix	endo_1	c0227837	0.028
+cor	cardiac	COR_5|Cor_10	c1522601	0.968
+cor	cortisone	Cor_1	c0010137	0.0028
+cor	coronary	COR_1|Cor_1	c1522318	0.0292
+ett	endotracheal tube	ETT_23|ett_3	c0336630	0.9899
+ett	exercise treadmill test	ETT_2	c0430507	0.0101
+fnp	family nurse practitioner	FNP_10	c1552262	1
+sust	sustained	Sust_9|sust_1	c0443318	1
+tmax	temperature maximum	tmax_1|Tmax_6|TMax_4	c0806909|c0039476	1
+tlc	total lung capacity	TLC_3	c0040509	0.134
+tlc	triple lumen catheter	TLC_22|tlc_4	c1301750	0.866
+pcr	polymerase chain reaction	pcr_4|PCR_21	c0032520	1
+uc	ulcerative colitis	UC_19	c0009324	0.7772
+uc	urine culture	UC_11	c0430404	0.2228
+fna	fine-needle aspiration	FNA_21|fna_1	c1510483	1
+w_	with	w/_19|W/_1	c0332287	1
+tfts	thyroid function tests	TFTs_22	c0040130	1
+enmt	"ear, nose, mouth, and throat"	ENMT_18	c0551661	1
+ll	lower lumbar	LL_2|ll_1	c0024090|c0441994	0.0228
+ll	left lateral	LL_1	c0205091|c0205093	0.0105
+ll	left leg	LL_3	c1279606	0.1313
+ll	left lower	LL_4	c0442068	0.063
+ll	overall	ll_1	c1561607	0.0035
+ll	two	ll_1	c0205448	0.0193
+ll	lithotripsy	LL_1	c0023878	0.5517
+ll	lower lobe	LL_9	c0225758	0.1506
+ll	balloon	ll_1	c1704777	0.0333
+ll	lower leg	LL_1	c1140621	0.014
+pda	posterior descending artery	PDA_3	c0500492	0.027
+pda	patent ductus arteriosus	PDA_20|pda_2	c0013274	0.973
+ck	creatine kinase	CK_15|ck_2|Ck_2	c0010287	1
+cxr	chest x-ray	CXR_20	c0039985	1
+rpr	rapid plasma reagin	rpr_2|RPR_18	c1254816	1
+co	cardiac output	CO_5	c0007165	0.0968
+co	copay	co_1	c0680272	0.0066
+co	company	Co_2|CO_1|co_2|.co_1	c0683757	0.4763
+co	coworker	co_1	c0681088	0.0033
+co	complex	co_1	c0439855	0.0022
+co	county	Co_1	c0079170	0.0077
+co	coenzyme	Co_3	c0009235	0.2233
+co	chronic obstructive	C.O_1	c0024117	0.0055
+co	carbon monoxide	CO_3	c0007018	0.176
+co	coagulase	Co_1	c0009118	0.0022
+cn	cranial nerve	CN_12	c0010268	1
+cm	centimeter	cm_19	c0475210	0.99
+cm	case manager	CM_1	c0687694	0.01
+cl	chloride	Cl_5	c0596019	0.9676
+cl	clear	cl_1	c2963144	0.0071
+cl	call	cl_1	null	0.0081
+cl	chlorine	Cl_1	c0008209	0.0172
+cc	carbon copy	CC_1|cc_1	c0175984	0.004
+cc	cubic centimeters	cc_19	c0439242	0.91
+cc	chief complaint	CC_1	c0277786	0.002
+cc	with meals	cc_2	c0589085	0.084
+ca	calcium	Ca_5|ca_2	c0006675	0.7164
+ca	carcinoma	Ca_1|CA_1	c0007097	0.004
+ca	cancer	CA_6|Ca_2|ca_1	c0006826	0.2775
+ca	carbohydrate antigen	CA_1	c0443758	0.002
+hctwb	hematocrit whole blood	HCTWB_11	c0018935	1
+pos	positive	pos_17|Pos_3|POS_4	c1446409	0.998
+pos	per os	POs_1	c1527415	0.002
+cd	controlled-delivery	cd_2|CD_2	c0868939	0.4889
+cd	crohn's disease	CD_2	c0010346	0.006
+cd	conduct disorder	CD_1	c0149654	0.0111
+cd	cluster of differentiation	CD_2	c1955216	0.1066
+cd	clomid days	CD_2	c0591268	0.0171
+cd	compact disc	CD_6|cd_1	c0079141	0.3702
+cx	culture	Cx_5|CX_2|cx_13	c0430400	1
+cr	complete remission	CR_2	c0677874	0.005
+cr	creatinine	Cr_13|cr_1	c0010294	0.9104
+cr	capillary refill	CR_1	c0425716	0.003
+cr	controlled release	CR_4	c0868939	0.0816
+pod	postoperative day	POD_16|.pod_1|pod_3	c0032790|c0439228	1
+cp	cardiopulmonary	CP_1	c0553534	0.3765
+cp	chest pain	CP_15|cp_1	c0008031	0.6194
+cp	costophrenic	CP_1	c0230151	0.004
+ntnd	non-tender non-distended	NTND_10	c0520960|c0700124	1
+cv	cerebrovascular accident	C.V_1	c0038454	0.004
+cv	consonant-vowel	CV_1	c0564171	0.002
+cv	cardiovascular	CV_18	c0007226	0.994
+orif	open reduction and internal fixation	ORIF_19|orif_2	c1297885	1
+ct	code treatment time	CT_1	null	0.002
+ct	computerized tomography	CT_18	c0040405	0.998
+pr	partial response	pr_1|PR_2	c1521726	0.0061
+pr	per rectum	pr_9|PR_3|p.r_1	c1527425	0.9299
+pr	progesterone receptor	PR_1	c0034833	0.064
+ps	pressure support	PS_9	c0419008	0.414
+ps	peripheral (blood) stem cell transplant	PS_1	c1519005	0.002
+ps	postural stability	PS_1	c3166208	0.006
+ps	post script	P.S_1	c2347648	0.07
+ps	performance status	PS_8	c1518965	0.508
+pt	primary tumor	pT_1	c0677930	0.003
+pt	patient	Pt._1|Pt_7|pt_5	c0030705	0.913
+pt	point	pt_2	c1552961	0.052
+pt	physical therapy	PT_2	c0949766	0.022
+pt	prothrombin	PT_1	c0033706	0.002
+pt	posterior tibial	PT_1	c0040184|c0205095	0.008
+yaz	yasmin	YAZ_4|Yaz_11|yaz_5	c0939533	1
+mssa	methicillin-sensitive staphylococcus aureus	MSSA_33	c1635274	1
+fri	friday	Fri_8|fri_4	c0585029	1
+anc	ancillary	anc_1	c1549485	0.287
+anc	absolute neutrophil count	ANC_18|anc_1	c0948762	0.713
+pb	peripheral blood	PB_14|pb_3	c0229664	0.9909
+pb	pentobarbital	PB_1|Pb_2	c0030883	0.0091
+pa	physician assistant	P.A_1	c0031833	0.099
+pa	prior authorization	PA_5	c0680281|c0332152	0.5663
+pa	pulmonary artery	pa_1|PA_9	c1269026	0.1622
+pa	posterior anterior	PA_4	c2827725	0.1724
+pf	puff	pf_1	c1533107	0.7333
+pf	patellofemoral	PF_1	c1269071	0.1333
+pf	posterior fontanelle	PF_1	c0224553	0.1333
+pd	parkinson's disease	PD_5	c0030567	0.0377
+pd	peritoneal dialysis	PD_16	c0031139	0.949
+pd	progressive disease	PD_3	c1335499	0.0133
+pe	physical exam	PE_15	c0031809	0.65
+pe	phenytoin equivalent	pe_1	c0020208	0.005
+pe	pulmonary embolism	PE_3	c0034065	0.322
+pe	pneumatic equalization	PE_1	c0222650	0.023
+pcn	penicillin	PCN_16|pcn_4	c0220892	1
+ph	phone	ph_1|Ph_1	c0039457	0.0245
+ph	ph	pH_14|ph_1	c1304686	0.9755
+dcis	ductal carcinoma in situ	DCIS_24	c0007124	1
+po	post office	PO_1	c0442601	0.002
+po	per os/per oral	po_15|P.O_1|PO_3	c1527415	0.998
+pm	p metastasis	pM_1	c0027627	0.002
+pm	post meridiem	PM_6|pm_9	c1509133	0.996
+pm	pacemaker	PM_1	c0810633	0.002
+c3	complement component 3	C3_11	c0009506	0.8978
+c3	cervical 3	C3_6	c0223116	0.1022
+iddm	insulin-dependent diabetes mellitus	IDDM_29|iddm_2	c0011854	1
+aprn	advanced practice registered nurse	APRN_10	c1554708	1
+b_l	bilateral/bilaterally	B/L_6|b/l_14	c0238767	1
+mch	mean corpuscular hemoglobin	MCH_6	c1261502	1
+mcg	micrograms	mcg_23	c0439211	1
+c-pco2	pco2	C-pCO2_9	c0391839	1
+bmi	body mass index	bmi_1|BMI_11	c1305855	1
+gen	genetic	gen_1	c0314603	0.013
+gen	general	Gen_17|GEN_6	c0205246	0.987
+al	alabama	AL_8	c1551894	0.9962
+al	aluminum	AL_1	c0002367	0.0038
+bms	bare metal stent	BMS_5	c2825200	0.025
+bms	bowel movements	BMs_9|BMS_3|bms_3	c0011135	0.975
+bmp	basic metabolic panel	BMP_19|bmp_1	c2237045	1
+mca	middle cerebral artery	MCA_19	c0149566	1
+bmt	bone marrow transplant	BMT_15|bmt_5	c0005961	0.899
+bmt	bilateral myringotomy tube	BMT_6	c0844319	0.101
+b_p	blood pressure	B/P_11|b/p_6|B/P._1	c0005823	1
+mcv	mean corpuscular volume	MCV_7	c0524587	1
+pat-pt	prothrombin time	Pat-PT_5	c0033707	1
+c7	cervical 7	C7_15	c1306475	1
+otu	outpatient transplant unit	OTU_20	c0029921|c0040732	1
+mcp	metacarpal phalangeal	MCP_19|mcp_1	c0025525	1
+p2	pulmonic heart sound	P2_9	c2058291	0.976
+p2	para 2	P2_4	c0233071	0.024
+pacu	post-anesthesia care unit	PACU_19|PACU._1	c0034871	1
+hds	hemodynamically stable	HDS_12|hds_1	c0578150	1
+rvr	rapid ventricular rate	RVR_14|rvr_1	c0750191	1
+eomi	extraocular movements intact	EOMI_20	c0522327	1
+cvs	cardiovascular system	CVS_16	c0007226	0.549
+cvs	cvs	CVS_11|cvs_2	null	0.451
+bili	bilirubin	Bili_24|BILI_1	c0005437	1
+eoms	extraocular movements	EOMs_8|EOMS_2	c0015413	1
+evd	external ventricular drain	EVD_24|evd_9	c0042517	0.998
+evd	enterovirus by amp probe	EVD_1	c1736901	0.002
+cvl	central venous line	CVL_20	c1145640	1
+ar	allergic rhinitis	.AR_1|AR_15	c2607914	0.9693
+ar	aortic regurgitation	AR_2	c0003504	0.0127
+ar	acute rejection	AR_1	c3273245	0.018
+w_fe	with iron	w/fe_4	c0302583	1
+hdl	high-density lipoprotein	HDL_13	c0023821	1
+rbc	red blood cell	RBC_11	c0014792	1
+cvc	central venous catheter	CVC_21|cvc_2	c1145640	0.768
+cvc	consonant vowel consonant	CVC_6	c0564171	0.232
+cva	costovertebral angle tenderness	CVA_2	c0235634	0.378
+cva	cerebral vascular accident	CVA_17|cva_1	c0038454	0.622
+va	veterans affairs	VA_10|VA._1	c1549054	0.8156
+va	ventricular atrial	VA_2	c0018827|c0018792	0.0531
+va	visual acuity	VA_3|va_1	c0042812	0.0782
+va	vacuum assisted	VA_1|V.A_2	c1956080	0.0531
+ivf	intravenous fluids	IVF_18|ivf_2	c1289919	1
+cont	continuous	cont_1	c0549178	0.0051
+cont	continue	Cont_3|cont._2|cont_8|Cont._3	c0549178	0.9788
+cont	contrast	CONT_1	c1979874	0.0162
+ve	vaginal exam	VE_7	c0200048	0.1249
+ve	postivie	ve_1	c1446409	0.0101
+ve	minute ventilation	VE_1|Ve_5	c1301655	0.0775
+ve	negative	ve_10	c0205160	0.1782
+ve	positive	ve_13|Ve_1	c1446409	0.6093
+ivc	inferior vena cava	IVC_21|ivc_1	c1269024	1
+ip	inpatient	IP_1	c0021562	0.6531
+ip	intraperitoneal	IP_2	c0442120	0.0099
+ip	interphalangeal joint	IP_7	c1563055	0.337
+n_v	nausea/vomiting	n/v._1|n/v_15|N/V_9	c0027498	1
+ir	incomplete response	IR_1	null	0.002
+ir	instant-release	IR_2|ir_1	null	0.1329
+ir	interventional radiology	IR_20	c0034602	0.8338
+ir	internal rotation	IR_2	c0231459	0.0312
+ivh	intraventricular hemorrhage	IVH_23|ivh_1	c0240059	1
+bil	bilaterally/bilateral	bil._3|bil_34|.bil_1	c0238767	1
+avr	aortic valve replacement	AVR_19|avr_1	c0003506	0.986
+avr	augmented voltage right arm	aVR_1	c0449217	0.014
+iv	four	Iv_1|IV_3	c0205450	0.036
+iv	intravenous	iv_10|IV_8	c0348016	0.964
+ii	two	II_21|Ii_1	c0205448	1
+susp	suspension	Susp_6|susp_9	c0038960	1
+vs	versus	vs_11|vs._7	null	0.937
+vs	vital signs	VS_5	c0518766	0.063
+im	intramuscular	im_5|IM_15	c0442117	1
+il	intralipid	IL_13	c0733854	1
+h_o	history of	h/o_15|H/O_2|H/o_3	c0262926	1
+wks	weeks	wks_20	c0439230	1
+avg	average	avg._2|Avg_4|avg_16|AVG_2	c1510992	1
+id	infectious disease	ID_16|.ID_1	c0009450	0.981
+id	identification	I.D._1|ID_1|id_1	c0020792	0.019
+pap	papanicolaou	Pap_12|pap_6|PAP_1	c0200845	0.998
+pap	positive airway pressure	PAP_1	c1458048	0.002
+ecmo	extracorporeal membrane oxygenation	ecmo_6|ECMO_25|..Ecmo_1	c0015357	1
+u_a	urine analysis	U/A_19|u/a_6	c0042014	1
+cea	carotid endarterectomy	CEA_8	c0014099	0.085
+cea	carcinogenic embryonic antigen	CEA_14|.CEA_1	c0007082	0.915
+u_l	units per liter	U/L_9|u/L_1|U/l_1	c0439339	0.998
+u_l	unilateral	u/l_1	c0205092	0.002
+u_s	ultrasound	U/S_11|u/s_9	c0041618	1
+cmc	carpometacarpal	CMC_13|cmc_2	c0224620	1
+pac	pulmonary artery catheter	PAC_20	c0179790	0.4007
+pac	pediatric acute care	PAC_1|pac_1	c1689990	0.0182
+pac	premature atrial contraction	PAC_5	c0033036	0.5812
+oint	ointment	OINT_2|Oint_2|oint_26	c0028912	1
+qam	quaque die ante meridiem	qam_15|QAM_2|Qam_2|q.a.m._1	c0585329	1
+dht	dihydrotesterone	DHT_2	c0038148	0.011
+dht	dobhoff tube	DHT_17|dht_5	c3204189	0.989
+sah	subarachnoid hemorrhage	SAH_27|sah_5	c0038525	1
+cpap	continuous positive airway pressure	CPAP_20|cpap_2|Cpap_1	c0199451	1
+etd	eustachian tube dysfunction	ETD_18|etd_2	c0271468	1
+phd	post hemodialysis	pHD_1	c1264635	0.004
+phd	doctor of philosophy	phd_1|PhD_9|PHD_2	c1512022	0.996
+hipaa	health insurance portability and accountability act	HIPAA_12	c0600593	1
+nabs	normo-active bowel sounds	nabs_6|NABS_14	c0232693	1
+urica	uric acid	UricA_10	c0041980	1
+nph	neutral protamine hagedorn	nph_1|NPH_19	c0021658	1
+ddavp	desmopressin	ddavp_4|DDAVP_23|ddAVP_1	c0011701	1
+neutab	absolute neutrophils	NEUTAB_3	c0948762	1
+alkp	alkaline phosphatase	AlkP_5	c0002059	1
+an-gap	anion gap	AN-GAP_10	c0003074	1
+ab-scr	antibody screen	Ab-Scr_10	c0368676	1
+epo	erythropoietin	EPO_3|epo_13|Epo_6	c0014822	1
+pfts	pulmonary function tests	PFTs_19|pfts_1	c0024119	1
+epi	epinephrine	Epi_2|epi_15|epi._1|EPI_2	c0014563	1
+prbcs	packed red blood cells	PRBCs_10|pRBCs_4|prbcs_6	c2316467	1
+pt-inr	prothrombin time/international normalized ratio	PT-inr_8	c0033707|c0525032	1
+simv	synchronized intermittent mandatory ventilation	SIMV_20	c0278335	1
+bld	bleeding	bld_1	c0019080	0.004
+bld	blood	Bld_4|bld_13|.Bld_1|BLD_1	c0005767	0.996
+resp	respiratory	Resp_12|RESP_8|resp_1	c0521346	0.813
+resp	respirations	Resp_1	c0035203	0.187
+ldh	lactate dehydrogenase	LDH_20	c0022917	1
+tft	thyroid function test	TFT_17|.TFT_1|tft_1	c0040130	1
+ldl	low-density lipoprotein	LDL_17|ldl_1	c0023823	1
+ubact	urinary bacteria	UBact_5	c1262012	1
+mbrat	ck-mb ratio	MBRat_6	c0428616	1
+psych	psychiatric/psychiatry	PSYCH_7|Psych_6|psych_7	c0205487	1
+ng	nanogram	ng_9	c0439212	0.536
+ng	nasogastric	NG_6	c3282907	0.439
+ng	no growth	NG_5	c0445119	0.025
+gluc	glucose	Gluc_10	c0017725	1
+rpt	report	RPT_1|rpt_1	c0684224	0.883
+rpt	repeat	rpt_8|Rpt_2	c0205341	0.117
+ntauto	"neutrophil count, automatic"	NTAuto_5	c0200633	1
+ualb	urinary albumin	UAlb_4	c0042038	1
+g_dl	grams per deciliter	g/dL_18|g/dl_1	c0439267	1
+bnp	brain natriuretic peptide	bnp._1|bnp_1|BNP_18	c1095989	1
+fvc	forced vital capacity	FVC_10	c0231958	1
+mhav	my health at vanderbilt	MHAV_12|mhav_5|MHaV_1	c0018684	1
+gms	grams	gms_14	c0439208	1
+nrbc	nucleated red blood cells	NRBC_16	c0014762	1
+adl	activities of daily living	ADL_19|adl_1	c0001288	1
+nos	not otherwise specified	nos_2|NOS_23|NOS._1|Nos_1	c1518425	1
+adj	adjective	adj_1	c0870098	0.008
+adj	adjusted	adj_6	c0456081	0.949
+adj	adjustment	adj_3|ADJ_1|adj._1	c0456081	0.022
+adj	adjacent	adj_8	c0205117	0.021
+psh	past surgical history	PSH_13	c3482452	1
+gvhd	graft versus host disease	gvhd_6|GVHD_21	c0018133	1
+qwk	weekly	QWK_9|qwk_11	c0332174	1
+aml	acute myelogenous leukemia	AML_26	c0023467	1
+a_p	anterior/posterior	A/P_3	c1999039	0.0331
+a_p	abdomen/pelvis	A/P_2	c1508499	0.008
+a_p	assessment/plan	A/P_17	c1827496	0.9589
+mos	months	mos_18|MOS_2	c0439231	1
+w_a	wide awake	w/a_1	c0234422	0.1111
+w_a	with a	w/a_3	null	0.8889
+bid	bis in die	bid_16|BID_4	c0585361	1
+psa	pseudomonas aeruginosa	PSA_1	c0033809	0.007
+psa	prostate-specific antigen	psa_1|PSA_21	c0138741	0.993
+lcx	left circumflex	LCX_16|LCx_6	c1305727	1
+cf	cold formula	CF_1	c0307698	0.0031
+cf	cystic fibrosis	CF_21	c0010674	0.9969
+tid	ter in die	TID_6|tid_14	c0556984	1
+mon	monday	Mon_11	c0585024	1
+mom	milk of magnesia	mom_1	c0591789	0.036
+mom	mother	mom_13|Mom_6	c0026591	0.964
+bipap	bilevel positive airway pressure	BiPAP_8|bipap_4|BIPAP_6|BiPap_2	c1611149	1
+ams	altered mental status	AMS_23	c0278061	1
+ucx	urine culture	UCX_4|UCx_16|Ucx_3|ucx_2	c0430404	1
+nr	no refills	NR_10|nr_2	c0205160|c0807726	0.6757
+nr	normal rhythm	NR_3	c0231315	0.2061
+nr	nonreactive	NR_3	c1295728	0.1182
+trpi	troponin 1	TRPI_11|TrpI_1	c0041199	1
+bpd	bronchopulmonary dysplasia	BPD_26|bpd_2	c0006287	1
+gbs	group b streptococcus	GBS_26|gbs_1	c0579233	0.926
+gbs	grgroup b streptococcus	GBS_1	c0318154	0.054
+gbs	guillain-barre syndrome	GBS_3	c0018378	0.02
+hdl-c	high-density lipoprotein cholesterol	HDL-C_7	c0023822	1
+bpm	beats per minute	bpm_5	c0439385	0.646
+bpm	breaths per minute	bpm_6	c0439386	0.354
+bps	beats per second	bps_1	null	0.006
+bps	blood pressures	BPs_17|bps_2	c0005823	0.994
+wbc	white blood cell	WBC_19|wbc_1	c0023516	1
+bph	benign prostatic hyperplasia	BPH_27	c0005001	1
+eeg	electroencephalogram	EEG_20|eeg_1	c1527380|c1547121	1
+k-wb	potassium whole blood	K-WB_8	c2702996	1
+tah	total abdominal hysterectomy	tah_1|TAH_21	c0404079	1
+vss	visual swallow study	VSS_2	c0412102	0.0102
+vss	vital signs stable	VSS_15|vss_1	c0277803	0.9898
+mohs	mohs	Mohs_11|MOHS_1	c0079850	1
+urbc	urine red blood cells	URBC_7	c0221752	1
+fev1	forced expiratory volume in 1 second	FEV1_14|fev1_1	c0429706	1
+cabg	coronary artery bypass grafting	CABG_20	c0010055	1
+retabs	reticulocyte antibodies	RetAbs_5	c0035286|c0003241	1
+vsd	ventricular septal defect	VSD_22|vsd_1	c0018818	1
+b1	thiamine	b1_6|B1_10	c0039840	1
+diff	difficulty	diff_1	c1299586	0.002
+diff	difficile	diff_2	c0079134	0.469
+diff	differential	diff_11|Diff_1	c0443199	0.529
+phys	physician	PHYS_1	c0031831	0.003
+phys	physics	Phys_1	c0031837	0.003
+phys	physical	Phys_5|phys_7	c0205485	0.994
+hcl	hydrochloride	HCl_7|HCL_9|hcl_4	c1512523	1
+mrsa	methicillin resistant staphylococcus aureus	MRSA_26	c1265292	1
+gvh	graft versus host	gvh_21|GVH_11	c0018133	1
+tms	tympanic membranes	TMs_18|tms_2	c1268971	1
+cns	coagulase negative staphylococcus	CNS_5	c0445625	0.3363
+cns	central nervous system	CNS_16	c0927232	0.6637
+t_l	thoracic/lumbar	T/L_17|t/l_3	c0450219	1
+pet	pet	pet_1|Pet_1	c0031268	0.007
+pet	pressure equalization tubes	PET_2	c2090933	0.044
+pet	positron emission tomography	PET_16	c0032743	0.949
+ica	ionized calcium	iCa_4|ICa_1|ica_1	c0373561	0.032
+ica	internal carotid artery	ICA_22|ica_1	c0007276	0.968
+icd	international classification of diseases	ICD_2	c0870733	0.134
+icd	implantable cardioverter-defibrillator	ICD_27	c0162589	0.866
+meds	medications	Meds_8|meds_10|meds._1|MEDS_1	c0013227	1
+eoabs	absolute eosinophils	EoAbs_5	c0200638	1
+t12	thoracic twelve	T12_14	c0223371	1
+tmg	toxic multinodular goiter	TMG_1	c0154143	1
+ped	pediatric	ped_9|Ped_1	c1521725	1
+l2	lumbar 2	L2_11	c1305242	0.9726
+l2	living children (2)	L2_2	c2229975|c0205448	0.0274
+tmj	temporomandibular joint	TMJ_29	c0039493	1
+peg	polyethylene glycol	PEG_1	c0032483	0.0091
+peg	percutaneous endoscopic gastrostomy	PEG_14|Peg_2|peg_1	c0176751	0.9909
+o2	oxygen	O2_16	c0030054	1
+icu	intensive care unit	ICU_19|icu_1	c0021708	1
+bd	bronchodilator	BD_1	c0006280	0.24
+bd	bone density	BD_2|bd_1	c0005938	0.76
+plt	platelet	Plt_10|plt_9|PLT_3	c0005821	1
+pls	please	pls_15|Pls_4	null	1
+egs	emergency general surgery	EGS_20	c0184893	1
+rul	right upper lobe	RUL_31|rul_1	c1261074	0.996
+rul	right upper lid	RUL_1	c1289021	0.004
+bc	blood glucose	BC_1	c0005802	0.0073
+bc	blood culture	BC_17|bc_1	c0200949	0.818
+bc	blue cross	BC_1	c0005864	0.0073
+bc	blast crisis	BC_1	c0005699	0.0085
+bc	cimino-brescia	BC_1	c1142577	0.0024
+bc	birth control	BC_2	c0700589	0.0291
+bc	buffy coat	BC_1	c0443089	0.1274
+bl	body length	BL_1	c0005890	0.0086
+bl	blood	Bl_3|bl_3|BL_1	c0005767	0.1305
+bl	bilateral	BL_21|bL_1|bl_2	c0238767	0.8608
+bm	bone marrow	BM_12|bm_2	c0005953	0.1472
+bm	bowel movement	BM_6	c0011135	0.8528
+hsm	hepatosplenomegaly	HSM_15|hsm_1	c0019214	1
+cgy	centigray	cGy_20	c0556645	1
+bp	blood pressure	BP_17|B.P_1|bp_2	c0005823	1
+bs	bowel sounds	BS_10	c0232693	0.9013
+bs	breath sounds	BS_4|bs_1	c0035234	0.0903
+bs	b grades (plural)	Bs_1	c0441806	0.0042
+bs	blood sugar	bs_1|BS_1	c0005802	0.0042
+btl	bilateral tubal ligation	BTL_28|btl_1	c0589114	1
+nml	normal	..nml_1|NML_2|nml_21	c0205307	1
+ruq	right upper quadrant	RUQ_20	c0439734	1
+bx	biopsy	Bx_4|bx_19|BX_3	c0005558	1
+dcs	department of children's services	DCS_19	c0680063|c1704729|c0029039|c0557854|c1547116	0.997
+dcs	detachable coil system	DCS_1	c1705946	0.003
+vpec	vanderbilt preoperative evaluation center	.VPEC_1|VPEC_20	c1293091|c0205099	1
+om	obtuse marginal	OM_6	c0226040	0.157
+om	otitis media	OM_17	c0029882	0.843
+chf	congestive heart failure	CHF_24	c0018802	1
+ace	angiotensin converting enzyme	ACE_8|ace_3	c0201888	0.9638
+ace	acetate	ace_1	c0000975	0.0362
+ibd	inflammatory bowel disease	IBD_19|ibd_1	c0021390	1
+scds	sequential compression devices	SCDs_17|scds_2|Scds_1	c0180062	1
+od	oculus dexter	OD_22|od_4	c0229089	0.991
+od	optical density	OD_1	c0439164	0.009
+chol	cholesterol	Chol_8|chol_4|CHol_1	c0008377	1
+ob	obstetric/obstetrical	ob_1|Ob_1|OB_12	c0205484	1
+oa	osteoarthritis	OA_18	c0029408	1
+acl	anterior cruciate ligament	ACL_18	c0078960	0.9949
+acl	acromioclavicular ligament	ACL_1	c1267179	0.0051
+le	le bonheur	Le_1	null	0.002
+le	leukocyte esterase	LE_2	c0125619	0.008
+le	lower extremity	LE_15|LE._1	c0023216	0.99
+bgs	blood glucose	BGs_12|Bgs_1|bgs_9	c0005802	1
+bmbx	bone marrow biopsy	BMBx_11|bmbx_11|BMBX_4|BmBx_1|Bmbx_6|BMbx_1	c0005954	1
+ov	office visit	OV_13|ov_3|Ov_1	c0028900	0.984
+ov	ovarian	ov_2	c0205065	0.016
+ot	occupational therapy	OT_17	c1318464	1
+os	outputs	Os_2	c0221102	0.1174
+os	oculus sinister	OS_15|os_5	c0229090	0.8826
+obs	obstructive	obs_1	c0549186	0.002
+obs	observation	Obs_1|obs_8	c1571702	0.996
+obs	organic brain syndrome	OBS_1	c0029221	0.002
+op	operation	OP_1|op_2	c0543467	0.376
+op	oropharynx	OP_13|op_1	c1280659	0.617
+op	outpatient	OP_1	c0029921	0.003
+op	osteoporosis	OP_2	c0029456	0.004
+dexa	dual-energy x-ray absorptiometry	dexa_1|Dexa_6|DEXA_14	c1510486	1
+sob	shortness of breath	sob_4|SOB_16	c0013404	1
+ppd	pack per day	ppd_5|PPD_6	c0489469	0.921
+ppd	purified protein derivative	PPD_12	c0034131	0.079
+ppi	peripheral pulses intact	PPI_1	null	0.006
+ppi	proton pump inhibitor	PPI_21|ppi_2	c0358591	0.994
+nsr	normal sinus rhythm	NSR_21|nsr_1	c0232202	1
+ppx	prophylaxis	ppx_15|PPx_3|PPX_4	c0033107	1
+wocn	"wound, ostomy, and continence nurses"	wocn_1|WOCN_12|Wocn_1	c0043250|c0029473|c0587710	1
+eent	"eye, ear, nose, and throat"	EENT_13	c2360548	1
+hep	heparin	Hep_1|hep_2	c0019134	0.019
+hep	home exercise program	HEP_4	c0475647	0.017
+hep	hepatitis	hep_4|HEP_1|Hep_7	c0019158	0.96
+hep	hepatic	hep_1	c0205054	0.004
+cath	catheter	cath_8|CATH_1	c0085590	0.081
+cath	catheterization	cath_11	c0007430	0.919
+vac	vacuum assisted closure	VAC_7|vac_3|Vac_1	c1956080	0.883
+vac	vaccine	vac_6|VAC_2|Vac_1	c0042210	0.117
+appt	appointment	appt_16|Appt_2|appt._2	c0003629	1
+ivda	intravenous drug abuse	IVDA_11|ivda_1	c0086181	1
+abnl	abnormal	abnl._1|abnl_18	c0205161	1
+dm2	diabetes mellitus type 2	DM2_12	c0011860	1
+var	variant	var_10|var._1	c0205419	1
+ngtd	no growth to date	NGTD_17|ngtd._1|ngtd_2	c0445119	1
+ehl	extensor hallucis longus	EHL_18|ehl_2	c0224466	1
+yrs	years	yrs_19|YRS_1	c0439234	1
+rca	right coronary artery	RCA_20	c0226042	1
+q12	every 12 hours	Q12_3|q12_7	c0585327	1
+stsg	split thickness skin graft	STSG._1|STSG_21|stsg._1|stsg_2	c0439061	1
+hz	hertz	hz_2|Hz_16|HZ_2	c0439482	1
+hx	history	Hx_9|hx_8|HX_2|hx._1	c2004062	1
+hr	heart rate	HR_3|H.R_2	c0018810	0.135
+hr	hour	hr_14|Hr_1	c0439227	0.865
+hs	high school	HS_3	c0870649	0.0213
+hs	heart sounds	HS_1|hs_1	c0018820	0.0264
+hs	heel-shin	HS_2	c0575094	0.0294
+hs	hora somni	hs_6|HS_5	c0521112	0.9157
+hs	half strength	H.S_1	c1705922	0.0071
+eac	external acoustic meatus	EAC_18	c0013444	1
+dnr	do not resuscitate	DNR_23	c0582114	1
+ht	height	Ht_9|ht_1	c0489786	1
+msg	monosodium glutamate	msg_1|MSG_2	c0037511	0.006
+msg	message	msg_12|Msg_2|MSG_2|msg._1	c0470166	0.994
+cryo	cryosurgery	cryo_7	c0010408	0.0291
+cryo	cryoprecipitate	cryo_3|Cryo_4	c0443121	0.9709
+bun	blood urea nitrogen	BUN_10	c0600137	1
+pbsct	peripheral blood stem cell transplant	PBSCT_16|pbsct_4	c1519005	1
+lymph	lymphatic	Lymph_6|LYMPH_7|lymph_2	c1522604	1
+kg	kilogram	kg_16|Kg_3|KG_1	c0439209	1
+ha	headache	ha_1|HA_15|Ha_1	c0018681	1
+sdh	subdural hematoma	SDH_20|sdh_8	c0018946	1
+hg	mercury	Hg_1	c2347108	0.998
+hg	hemoglobin	Hg_1	c0019046	0.002
+hd	hospital day	HD_3	c0587438	0.6893
+hd	hemodynamically	HD_1	c0019010	0.0041
+hd	high dose	HD_3	c0444956	0.0832
+hd	hemodialysis	HD_11	c0019004	0.2234
+bue	bilateral upper extremity	BUE_22|bue_3	c1140618	1
+pulm	pulmonary	Pulm_13|PULM_6|pulm_4	c0024109	1
+mtx	methotrexate	MTX_25	c0025677	1
+fdg	fluorodeoxyglucose	FDG_6	c0872172	0.295
+fdg	feeding	fdg_6	c0204695	0.705
+supp	supplement	supp_7|Supp_1|supp._1	c2348609	0.1148
+supp	suppository	supp_11|Supp_1	c0038854	0.7888
+supp	suppositories	supp_1	c0038854	0.0085
+supp	supplements	supp_1	c2348609	0.0354
+supp	supplemental	supp_3	c2348609	0.0525
+mtp	metatarsophalangeal	MTP_18|mtp_2	c0025589	1
+uti	urinary tract infection	UTI_19|uti_1	c0042029	1
+un	units	un_19|Un_1	c0439148	1
+uwbc	urinary white blood cells	UWBC_5	c0919738	1
+ue	upper extremities	UE_20	c1140618	1
+asst	assistant	asst_1|Asst_4|ASST_5	c0334914	0.878
+asst	assistance	asst_3|Asst_1	c0018896	0.031
+asst	assisted	asst_1|asst._1	c1269765	0.091
+uf	ultra fine	UF_4	c0077801	1
+ua	urinalysis	UA_20	c0042014	1
+lvh	left ventricular hypertrophy	LVH_24	c0149721	1
+x-ray	energetic high-frequency electromagnetic radiation	X-Ray_3|X-RAY_3|X-ray_4|x-ray_10	c0337030	1
+aa	alcoholics anonymous	AA_5	c0001972	0.3741
+aa	amino acid	aa_3|AA_4	c0002520	0.1775
+aa	awake alert	AA_4	c2226610	0.1785
+aa	aortic atresia	aa_2	c0265889	0.0223
+aa	african american	AA_9	c0085756	0.2476
+cbc	complete blood count	cbc_2|CBc_1|.CBC_1|CBC_16	c0009555	1
+ac	antecubital	ac_1|AC_2	c1549091	0.013
+ac	ante cibum	ac_6|AC_2	c1550738	0.7565
+ac	anterior chamber	AC_3	c0003151	0.0165
+ac	"cyclophosphamide, doxorubicin"	AC_3	c0050385	0.0225
+ac	assist control	AC_1	c0419014	0.0189
+ac	hb ac disease	AC_1	c0248175	0.0035
+ac	acromioclavicular joint	AC_3	c0001208	0.169
+ab	antibody	AB_8|ab_3|Ab_10	c0003241	0.951
+ab	antibiotics	AB_1	c0003232	0.005
+ab	abortion	Ab_2	c0156543	0.029
+ab	abdomen	Ab_3	c1281594	0.015
+ag	anion gap	AG_1	c0003074	0.0199
+ag	antigen	Ag_12|AG_4|ag_4	c0003320	0.9801
+af	atrial fibrillation	AF_3	c0004238	0.0222
+af	afebrile	AF_11|af_1	c0277797	0.9335
+af	anterior fontanelle	AF_3	c0224549|c1305081	0.0403
+af	antifungal	AF_1	c0003308	0.004
+qid	quater in die	q.i.d._1|qid_15|QID_4	c0585291	1
+ecog	eastern cooperative oncology group	ECOG_19	c1512162	1
+inr	international normalized ratio	INR_20	c0525032	1
+ohc	occupational health clinic	OHC_15	c1551268	1
+aq	aqueous	AQ_8|aq_2	c0599956	1
+ap	anterior posterior	AP_18|ap_1	c1999039	1
+ocps	oral contraceptive pills	OCPs_18|ocps_2	c0009905	1
+sxs	symptoms	Sxs_1|sxs_19	c1457887	1
+monabs	monoclonal antibodies	MonAbs_6	c0003250	1
+inj	injection	inj_14|Inj_1	c0021485	0.998
+inj	injury	INJ_1	c0175677	0.002
+av	anteverted	AV_1	c0237062	0.0222
+av	atrioventricular	AV_18	c0225871	0.783
+av	arteriovenous	AV_6	c0450109	0.1948
+pip	peak inspiratory pressure	PIP_3|pip_1	c0232021	0.247
+pip	piperacillin	pip_1|Pip_1	c0031955	0.123
+pip	proximal interphalangeal joint	PIP_14	c0932508	0.63
+lym	lymphocytes	Lym_6	c0024264	0.978
+lym	lymph	LYM_4	c0024202	0.022
+inf	infusion	inf_7	c0574032	0.823
+inf	inferior	inf._1|inf_11	c0542339	0.175
+inf	infectious	Inf_1	c1550587	0.002
+doe	dyspnea on exertion	DOE_14|doe_2	c0231807	0.992
+doe	does	doe_2	c1272751	0.008
+piv	peripheral intravenous	PIV_24	c0595824	1
+nj	new jersey	NJ_1	c0027971	0.005
+nj	nasojejunal	nj_1|NJ_15	c0595833	0.995
+nl	normal	nl_17|Nl_3|NL_2	c0205307	1
+nad	no acute distress	NAD_17|nad_3	c2051415	1
+sicu	surgical intensive care unit	SICU_15	c1690590	1
+na	sodium	Na_6|na_3	c0037473	1
+nc	nasal cannula	NC_14|nc_1	c0179574	0.9825
+nc	non-contributory	NC_1	c0556658|c1518422	0.0021
+nc	normocephalic	NC_1	c1855201	0.0154
+nd	neodymium-doped	Nd_1	c0392276	0.002
+nd	second	nd_10	c0565930	0.1082
+nd	non-distended	ND_7|nd_1	c1518422|c0700124	0.8898
+mrn	medical record number	MRN_10	c1301894	1
+nicu	neonatal intensive care unit	.NICU_1|NICU_21	c0021709	1
+igg	immunoglobulin g	IgG_18|IGG_4	c0020852	1
+hpi	history of present illness	HPI_20	c0262512	1
+c-hco3	hco3	C-HCO3_10	c0005367	1
+b12	cobalamin	B12_20	c0042845	1
+es	extra strength	ES_8	c0444956	1
+iga	immunoglobulin a	iga_1|IGA_3|IgA_21	c0020835	1
+np	nurse practitioner	NP_9|N.P_2	c0028657	1
+igm	immunoglobulin m	IGM_5|IgM_13|igm_2	c0020861	1
+ns	normal saline	NS_3|ns_5	c0445115	0.8216
+ns	nasal spray	NS_5|ns_1	c0461725	0.1784
+nt	nontender	NT_14|nt_2	c0520960	1
+tia	transient ischemic attack	TIA_17|Tia_2	c0007787	1
+stat	statim	stat_8|Stat_1|STAT_1	c0205548	1
+otc	over the counter	otc_6|OTC_14	c0013231	1
+nsaid	nonsteroidal anti-inflammatory drug	NSAID_20|nsaid_2	c0003211	1
+uspgr	urine specific gravity	uSpGr_1|uspgr_1|USpGr_8	c0202517	1
+kvo	keep vein open	kvo_1|.KVO_1|KVO_8	c0515896	1
+utis	urinary tract infections	UTIs_20	c0042029	1
+rv	right ventricle	RV_1	c1269891	0.0279
+rv	right ventricle/right ventricular	RV_19|rv_2	c1269891	0.9721
+tbil	total bilirubin	TBil_8|Tbil_1|tbil_1	c0005437	1
+vp	vice president	VP_1	null	0.002
+vp	ventricular pacing	VP_1	c0199648	0.002
+vp	ventriculoperitoneal shunt	VP_4|vp_1	c0162702	0.992
+vp	vepesid	VP_2	c0700191	0.004
+est	established	EST_1|est_1	c0443211	0.0928
+est	estimated	EST_1|est_4	c0750572	0.5654
+est	establish	est_1	c0443211	0.0633
+est	estrogen	est_1	c0014939	0.0127
+est	esterase	est_3	c0014894	0.2658
+pfo	patent foramen ovale	PFO_22|pfo_5	c0016522	1
+hcv	hepatitis c virus	HCV_23	c0220847	1
+ky	kentucky	KY_15|Ky_5	c0022557	1
+paps	papanicolaou's	Paps_13|PAPs_1|paps_6	c0079104	1
+esr	erythrocyte sedimentation rate	ESR_16	c0086250	1
+pmhx	past medical history	PMHx_21|pmhx_2|PMHX_3	c0455458	1
+ge	gastroesophageal	GE_5|Ge_1|G.E_1	c0744316	0.963
+ge	general electric	GE_2	c0336106	0.0041
+ge	gastroenteritis	GE_2	c0017160	0.0308
+ge	general education	G.E_1	c0815241	0.0021
+cpk	creatine phosphokinase	CPK_19	c0010287	0.994
+cpk	computerized photon knife	CPK_1	c0182639	0.006
+hct	hematocrit	Hct_10|HCT_3|hct_1	c0018935	0.791
+hct	hydrochlorothiazide	HCT_5|hct_1	c0020261	0.209
+fsh	follicle stimulating hormone	FSH_20	c0016774	1
+svg	saphenous vein graft	SVG_20	c0729538	1
+svd	spontaneous vaginal delivery	SVD_26|svd_1	c0269694	1
+vanc	vancomycin	vanc_13|VANC_1|Vanc_5	c0042313	1
+eom	extraocular movement	EOM_17|Eom_2|.EOM_1	c0522327	1
+eos	eosinophils	Eos_2|eos_1	c0014467	1
+dds	doctor of dental surgery	DDS_8|Dds_1	c1512017	0.549
+dds	"4,4'-diaminodiphenylsulfone"	dds_1	c0010980	0.451
+bcx	blood culture	BCX_7|Bcx_2|bcx_1|BCx_13	c0200949	1
+cbcs	complete blood counts	CBCs_15	c0009555	1
+n0	node 0	N0_14	c0441959	1
+dvt	deep vein thrombosis	dvt_1|.DVT_1|DVT_18	c0149871	1
+svt	supraventricular tachycardia	SVT_25|.SVT_1	c0039240	1
+cpt	continuous performance test	CPT_1	c0549178|c0871060	0.0433
+cpt	current procedural terminology	CPT_17	c1138431	0.9567
+hsv	herpes simplex virus	HSV_25|hsv_2	c0206558	1
+ercp	endoscopic retrograde cholangiopancreatography	ERCP_25|..ERCP_1	c0008310	1

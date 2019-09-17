@@ -1,0 +1,25 @@
+1. Introduction
+ 
+The following Terms and Conditions apply for use of the SPECIALIST NLP Tools. Using the SPECIALIST NLP Tools indicates your acceptance of the following Terms and Conditions. These Terms and Conditions apply to all SPECIALIST NLP Tools, independent of format and method of acquisition.
+ 
+2. The SPECIALIST NLP Tools
+ 
+The Lister Hill National Center for Biomedical Communications, National Library of Medicine, National Institutes of Health, Department of Health and Human Services, has developed the SPECIALIST NLP Tools to investigate the contributions that natural language processing techniques can make to the task of mediating between the language of users and the language of online biomedical information resources. The SPECIALIST NLP Tools facilitate natural language processing by helping application developers with lexical variation and text analysis tasks in the biomedical domain.
+ 
+3. Availability
+ 
+The SPECIALIST NLP Tools are available to all requesters, both within and outside the United States, at no charge.
+ 
+4. Use of the SPECIALIST NLP Tools
+ 
+a. Redistributions of the SPECIALIST NLP Tools in source or binary form must include this list of conditions in the documentation and/or other materials provided with the distribution.
+ 
+b. In any publication or distribution of all or any portion of the SPECIALIST NLP Tools (1) you must attribute the source of the tools as the SPECIALIST NLP Tools with the release number and date; (2) you must state any modifications made to the SPECIALIST NLP Tools along with a complete description of the modifications, which may be in the form of patch files.
+ 
+c. You shall not assert any proprietary rights to any portion of the SPECIALIST NLP Tools, nor represent the SPECIALIST NLP Tools or any part thereof to anyone as other than a United States Government product.
+ 
+d. The name of the U.S. Department of Health and Human Services, National Institutes of Health, National Library of Medicine, Lister Hill National Center for Biomedical Communications may not be used to endorse or promote products derived from the SPECIALIST NLP Tools without specific prior written permission.
+ 
+e. Neither the United States Government, U.S. Department of Health and Human Services, National Institutes of Health, National Library of Medicine, Lister Hill National Center for Biomedical Communications, nor any of its agencies, contractors, subcontractors or employees of the United States Government make any warranties, expressed or implied, with respect to the SPECIALIST NLP Tools, and, furthermore, assume no liability for any party's use, or the results of such use, of any part of these tools.
+ 
+These terms and conditions are in effect as long as the user retains any part of the SPECIALIST NLP Tools.
