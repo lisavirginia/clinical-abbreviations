@@ -10,5 +10,5 @@ def normalized_short_form(sf):
     # Removes leading and trailing whitespace
     sf = sf.strip()
     # Removes punctuation
-    sf = sf.translate(maketrans('', '', string.punctuation))
+    sf = sf.translate(str.maketrans('', '', string.punctuation))
     return sf
