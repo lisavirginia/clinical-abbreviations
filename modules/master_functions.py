@@ -33,3 +33,11 @@ def normalized_short_form(sf):
   sf = sf.translate(str.maketrans('', '', string.punctuation))
   return sf
 
+# Function to standardize CUI appearance
+def standardize_cui(cui):
+  # Use comma delimited CUIs
+  cui = cui.replace('|',',')
+  # Use CUIs with a capital C
+  cui = cui.replace('c', 'C')
+  return cui
+
