@@ -1,259 +1,259 @@
- "A-HeFT","African-American Heart Failure Trial",
- "SPARCL","Stroke Prevention by Aggressive Reduction in Cholesterol Levels",
- "RE-COVER","Efficacy and Safety of Dabigatran Compared to Warfarin for 6 Month Treatment of Acute Symptomatic Venous Thromboembolism",
- "RALES","Randomized Aldactone Evaluation Study",
- "ASPIRE","Aspirin to Prevent Recurrent Venous Thromboembolism",
- "TACTICS-TIMI 18","Comparison of early invasive and conservative strategies in patients with unstable coronary syndromes treated with the glycoprotein IIb/IIIa inhibitor tirofiban",
- "TRISS","Transfusion Requirements in Septic Shock",
- "BEST","The Randomized Comparison of Coronary Artery Bypass Surgery and Everolimus-Eluting Stent Implantation",
- "ALBIOS","Albumin Italian Outcome Sepsis",
- "JUPITER","Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin",
- "ESCAPE","Evaluation Study of Congestive Heart Failure and Pulmonary Artery Catheterization Effectiveness",
- "ICAP","Evaluation of additive benefit of colchicine to conventional therapy in acute pericarditis",
- "ANNEXA","Andexanet Alfa, a Novel Antidote to the Anticoagulation Effects of FXA Inhibitors",
- "STAMPEDE","Surgical Treatment and Medications Potentially Eradicate Diabetes Efficiently",
- "WISDOM","Withdrawal of Inhaled Steroids during Optimized Bronchodilator Management",
- "PCPT","Prostate Cancer Prevention Trial",
- "HEAT","Permissive Hyperthermia through Avoidance of Acetaminophen in Known or Suspected Infection in the Intensive Care Unit",
- "COPERNICUS","Carvedilol Prospective Randomized Cumulative Survival",
- "SCD-HeFT","Sudden Cardiac Death in Heart Failure Trial",
- "Look AHEAD","Look Action for HEAlth in Diabetes",
- "HEARTMATE II","Advanced heart failure treated with continuous-flow left ventricular assist device",
- "RE-LY","Randomized Evaluation of Long-Term Anticoagulation Therapy",
- "TREAT","Trial to Reduce Cardiovascular Events With Aranesp Therapy",
- "SYNTAX","Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery",
- "PIOPED II","Prospective Investigation of Pulmonary Embolism Diagnosis II",
- "EUCLID","Examining use of ticagrelor in peripheral artery disease",
- "Oscillate","Oscillation for Acute Respiratory Distress Syndrome Treated Early",
- "ATLAS","Adjuvant Tamoxifen: Longer Against Shorter",
- "NINDS","National Institute of Neurological Disorders and Stroke rt-PA Stroke Study",
- "PARADIGM-HF","Prospective Comparison of ARNI with ACEI to Determine Impact on Global Mortality and Morbidity in Heart Failure",
- "TRITON-TIMI 38","Trial to Assess Improvement in Therapeutic Outcomes by Optimizing Platelet Inhibition with Prasugrel–Thrombolysis in Myocardial Infarction 38",
- "HYVET","Hypertension in the Very Elderly Trial",
- "PRORATA","Procalcitonin to Reduce Antibiotic Treatments in Acutely ill patients",
- "PROFESS","Prevention Regimen for Effectively Avoiding Second Strokes",
- "CANTOS","Cardiovascular Risk Reduction Study (Reduction in Recurrent Major CV Disease Events)",
- "TALC","Tiotropium Bromide as an Alternative to Increased Inhaled Glucocorticoid in Patients Inadequately Controlled on a Lower Dose of Inhaled Corticosteroid",
- "NORSTENT","Drug-Eluting or Bare-Metal Stents for Percutaneous Coronary Intervention in Stable or Unstable Coronary Artery Disease",
- "BASALT","Best Adjustment Strategy for Asthma in the Long Term",
- "CHOIR","Correction of Hemoglobin and Outcomes in Renal Insufficiency",
- "SMART","Salmeterol Multicenter Asthma Research Trial",
- "POISE-2 ASA","Perioperative ischemic evaluation 2 aspirin arm",
- "CvLPRIT","Complete Versus Lesion-Only Primary PCI Trial",
- "CATIE","Clinical Antipsychotic Trials of Intervention Effectiveness",
- "ACCORD BP","ACCORD Study Group",
- "FAME 2","FFR vs. Angiographyfor Multivessel Evaluation 2",
- "ARDSNet","Acute Respiratory Distress Syndrome Network",
- "ProCESS","Protocolized Care for Early Septic Shock",
- "ADVANCE","Action in Diabetes and Vascular Disease: Preterax and Diamicron Modified Release Controlled Evaluation",
- "ARISE","Australasian Resuscitation in Sepsis Evaluation",
- "CREST","Carotid Revascularization Endarterectomy vs. Stenting Trial",
- "DOSE","Diuretic Optimization Strategies Evaluation",
- "PROSEVA","Proning Severe ARDS Patients",
- "SAFE","Saline versus Albumin Fluid Evaluation",
- "MADIT-CRT","Multicenter Automatic Defibrillator Implantation Trial with Cardiac Resynchronization Therapy",
- "SPS3-BP","Secondary Prevention of Small Subcortical Strokes-Blood Pressure",
- "CHANCE","Clopidogrel in High-risk patients with Acute Nondisabling Cerebrovascular Events",
- "CORTICUS","Corticosteroid Therapy of Septic Shock",
- "UKPDS","United Kingdom Prospective Diabetes Study",
- "AFFIRM","Atrial Fibrillation Follow-up Investigation of Rhythm Management",
- "EINSTEIN CHOICE","Reduced-dosed Rivaroxaban in the Long-term Prevention of Recurrent Symptomatic Venous Thromboembolism",
- "COURAGE","Clinical Outcomes Utilizing Revascularization and Aggressive Drug Evaluation",
- "AVOID","Comparing Oxygen with normal air in patients with ST-Segment Elevation Myocardial Infarction who are not hypoxic.",
- "SAVE","Survival and Ventricular Enlargement Trial",
- "PIONEER AF-PCI","Open-Label, Randomized, Controlled, Multicenter Study Exploring Two Treatment Strategies of Rivaroxaban and a Dose-Adjusted Oral Vitamin K Antagonist Treatment Strategy in Subjects with AF who Undergo Percutaneous Coronary Intervention",
- "BLOCK-HF","Biventricular versus Right Ventricular Pacing in Heart Failure Patients with Atrioventricular Block",
- "NASCET","North American Symptomatic Carotid Endarterectomy Trial",
- "ESSENCE","Efficacy and Safety of Subcutaneous Enoxaparin in Non–Q-Wave Coronary Events Study Group",
- "CRASH-2","Clinical Randomisation of an Antifibrinolytic in Significant Haemorrhage 2",
- "AMPLIFY","Apixaban for the Initial Management of Pulmonary Embolism and Deep-Vein Thrombosis as First-Line Therapy",
- "PRECISION","Prospective Randomized Evaluation of Celecoxib Integrated Safety versus Ibuprofen or Naproxen",
- "AIDA","Amsterdam Investigator-Initiated Absorb Strategy All-Comers Trial",
- "V-HeFT","Vasodilator Heart Failure Trial",
- "TTM","Target Temperature Management 33°C vs. 36°C after Out-of Hospital Cardiac Arrest",
- "COGENT","Clopidogrel and the Optimization of Gastrointestinal Events Trial",
- "COMMIT/CCS-2","ClOpidogrel and Metoprolol in Myocardial Infarction Trial / Second Chinese Cardiac Study",
- "GUSTO","Global Utilization of Streptokinase and Tissue Plasminogen Activator for Occluded Coronary Arteries",
- "SOCRATES","Ticagrelor versus aspirin in stroke/TIA",
- "PROWESS-SHOCK","Prospective Recombinant Human Activated Protein C Worldwide Evaluation in Severe Sepsis and Septic Shock",
- "HOPE","Heart Outcomes Prevention Evaluation",
- "AVERROES","Apixaban Versus Acetylsalicylic Acid to Prevent Stroke in Atrial Fibrillation Patients Who Have Failed or Are Unsuitable for Vitamin K Antagonist Treatment",
- "HACA","Hypothermia After Cardiac Arrest",
- "CHARISMA","Clopidogrel for High Atherothrombotic Risk and Ischemic Stabilization, Management, and Avoidance",
- "RAVE","Rituximab in ANCA-Associated Vasculitis",
- "IDNT","Irbesartan Diabetic Nephropathy Trial",
- "SOAP II","Sepsis Occurrence in Acutely Ill Patients II",
- "MERIT-HF","Metoprolol CR/XL Randomized Intervention Trial in Congestive Heart Failure",
- "NSABP B-32","National Surgical Adjuvant Breast and Bowel Project Trial B-32",
- "CLOSURE I","Evaluation of the STARFlex Septal Closure System in Patients with a Stroke and/or Transient Ischemic Attack due to Presumed Paradoxical Embolism through a Patent Foramen Ovale",
- "RAFT","Resynchronization–Defibrillation for Ambulatory Heart Failure",
- "SPAF","Stroke Prevention in Atrial Fibrillation",
- "TRIUMPH","Transfusion Reduction Efficacy and Safety Clinical Investigation, a Randomized, Multicenter, Double-Blind, Placebo-Controlled, Using Eculizumab in Paroxysmal Nocturnal Hemoglobinuria",
- "VADT","Veterans Affairs Diabetes Trial",
- "PREPIC 2","Prevention du Risque d'Embolie Pulmonaire par Interruption Cave 2",
- "ERSPC","European Randomized Study of Screening for Prostate Cancer",
- "PREPIC","Prévention du Risque d'Embolie Pulmonaire par Interruption Cave Study Group",
- "TRICC","Transfusion Requirements in Critical Care",
- "REDUCE","Reduction in the Use of Corticosteroids in Exacerbated COPD",
- "HERA","Herceptin Adjuvant Trial",
- "BARI 2D","Bypass Angioplasty Revascularization Investigation 2 Diabetes",
- "DANISH","Danish Study to Assess the Efficacy of ICDs in Patients with Non-ischemic Systolic Heart Failure on Mortality",
- "PANTER","Minimally Invasive Step Up Approach versus Maximal Necrosectomy in Patients with Acute Necrotising Pancreatitis",
- "RED-HF","Reduction of Events by Darbepoetin Alfa in Heart Failure",
- "EDIC","Epidemiology of Diabetes Interventions and Complications",
- "RENAAL","Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan",
- "StiL","Study Group Indolent Lymphomas",
- "CLOT","Comparison of Low Molecular Weight Heparin Versus Oral Anticoagulant Therapy for Long Term Anticoagulation in Cancer Patients With Venous Thromboembolism",
- "ALLHAT","The Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial",
- "ISIS-2","Second International Study of Infarct Survival",
- "BeSt","Behandel-Strategeieën (\"treatment strategies\" in Dutch)",
- "PROVE IT-TIMI 22","Pravastatin or Atorvastatin Evaluation and Infection Therapy–Thrombolysis in Myocardial Infarction 22",
- "CULPRIT-SHOCK","Culprit Lesion Only PCI versus Multivessel PCI in Cardiogenic Shock",
- "EVEREST","Efficacy of Vasopressin Antagonism in Heart Failure Outcome Study With Tolvaptan",
- "NETT","National Emphysema Treatment Trial",
- "TOPCAT","Treatment of Preserved Cardiac Function Heart Failure with an Aldosterone Antagonist",
- "DAPT","Dual Antiplatelet Therapy",
- "SPS3-Clopidogrel+ASA","Secondary Prevention of Small Subcortical Strokes clopidogrel+ASA",
- "CARRESS-HF","Cardiorenal Rescue Study in Acute Decompensated Heart Failure",
- "DASH","Dietary Approaches to Stop Hypertension",
- "MUSTT","Multicenter Unsustained Tachycardia Trial",
- "WOSCOPS","West of Scotland Coronary Prevention Study",
- "V-HeFT II","Vasodilator Heart Failure Trial II",
- "FACTT","Fluids and Catheters Treatment Trial",
- "SOLVD","Studies of Left Ventricular Dysfunction",
- "MSH","Multicenter Study of Hydroxyurea in Sickle-Cell Anemia",
- "iPrEx","Iniciativa Profilaxis Pre Exposicion (\"Preexposure Prophylaxis Initiative\")",
- "ORBIT-AF","Outcomes Registry for Better Informed Treatment of Atrial Fibrillation",
- "EXTRA","A Study of Omalizumab/Xolair in Subjects With Moderate to Severe Persistent Asthma",
- "SPRINT","Systolic Blood Pressure Intervention Trial",
- "iFR-SWEDEHEART","Instantaneous Wave-free Ratio versus Fractional Flow Reserve in Patients with Stable Angina Pectoris or Acute Coronary Syndrome",
- "CAST I","Cardiac Arrhythmia Suppression Trial",
- "LESS","Lumbar Epidural Steroid Injections for Spinal Stenosis",
- "RESPECT","Randomized Evaluation of Recurrent Stroke Comparing PFO Closure to Established Current Standard of Care Treatment",
- "FEAST","Fluid Expansion as Supportive Therapy",
- "TNT","Treating to New Targets",
- "DAVID","Dual-chamber pacing or ventricular backup pacing in ICD patients",
- "CAPRIE","Clopidogrel versus Aspirin in Patients at Risk of Ischaemic Events",
- "IRONOUT-HF","Iron Repletion Effects on Oxygen Uptake in Heart Failure",
- "MADIT-II","Multicenter Automatic Defibrillator Implantation Trial II",
- "AATAC","Ablation versus amiodarone for treatment of persistent atrial fibrillation in patients with congestive heart failure and an implanted device",
- "DCCT","Diabetes Control and Complications Trial",
- "4S","Scandinavian Simvastatin Survival Study",
- "ONTARGET","Ongoing Telmisartan Alone and in Combination with Ramipril Global Endpoint Trial",
- "PEITHO","Pulmonary Embolism Thrombolysis trial",
- "EPHESUS","Eplerenone Post–Acute Myocardial Infarction Heart Failure Efficacy and Survival Study",
- "LEADER","Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results",
- "MAGELLAN","Multicenter, Randomized, Parallel Group Efficacy and Safety Study for the Prevention of Venous Thromboembolism in Hospitalized Acutely Ill Medical Patients Comparing Rivaroxaban with Enoxaparin",
- "EXCEL","XIENCE versus Coronary Artery Bypass Surgery for Effectiveness of Left Main Revascularization (EXCEL)",
- "STAR-D","Sequenced Treatment Alternatives to Relieve Depression",
- "FREEDOM","Future Revascularization Evaluation in Patients with Diabetes Mellitus: Optimal Management of Multivessel Disease",
- "EVOLVE","Effect of Cinacalcet on Cardiovascular Disease in Patients Undergoing Dialysis",
- "FAME","Fractional Flow Reserve versus Angiography for Multivessel Evaluation",
- "CHARM-Preserved","Candesartan in Heart failure Assessment of Reduction in Mortality and Morbidity-Preserved",
- "ACURASYS","ARDS et Curarisation Systematique",
- "ADJUST-PE","Age aDJUSTed D-Dimer to rule out PE",
- "DETO2X-AMI","Determination of the Role of Oxygen in Suspected Acute Myocardial Infarction",
- "MATCH","Management of Atherothrombosis with Clopidogrel in High-risk patients",
- "PREDIMED","Prevención con Dieta Mediterránea",
- "PLATO","Platelet Inhibition and Patient Outcomes",
- "ORIGIN n-3 Fatty Acids","Investigators in the outcome Reduction with an Initial Glargine Intervention",
- "IRIS","International Randomized Study of Interferon and STI571",
- "ASCEND","Assessment of Pirfenidone to Confirm Efficacy and Safety in Idiopathic Pulmonary Fibrosis",
- "VANISH","Ventricular Tachycardia Ablation versus Escalation of Antiarrhythmic Drugs",
- "ESPRIT","European/Australasian Stroke Prevention in Reversible Ischaemia Trial",
- "ATHOS-3","Angiotensin II for the Treatment of High-Output Shock",
- "DINAMIT","Defibrillator in Acute Myocardial Infarction Trial",
- "ARISTOTLE","Apixaban for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation",
- "PROWESS","Recombinant Human Activated Protein C Worldwide Evaluation in Severe Sepsis",
- "ENGAGE AF-TIMI 48","Effective Anticoagulation with Factor Xa Next Generation in Atrial Fibrillation - Thrombolysis in Myocardial Infarction 48",
- "COMPASS","Cardiovascular Outcomes for People Using Anticoagulation Stratgies",
- "MPACT","Metastatic Pancreatic Adenocarcinoma Clinical Trial",
- "STAR","Study of Tamoxifen and Raloxifene (NSABP P-2)",
- "PARTNER A","Placement of Aortic Transcatheter Valves, Cohort A",
- "SHIFT","Systolic Heart failure treatment with the If inhibitor ivabradine Trial",
- "SONIC","Study of Biologic and Immunomodulator Naive Patients in Crohn's Disease",
- "MIRACL","Myocardial Ischemia Reduction with Aggressive Cholesterol Lowering",
- "NCDS","The National Cooperative Dialysis Study",
- "ACTIVE W","Atrial fibrillation Clopidogrel Trial with Irbesartan for prevention of Vascular Events",
- "SEDCOM","Safety and Efficacy of Dexmedetomidine Compared with Midazolam",
- "GISSI-3","Gruppo Italiano per lo Studio della Sopravvivenza nell'infarto Miocardico",
- "PRAMI","Preventative Angioplasty in Acute Myocardial Infarction",
- "RACE II","Rate Control Efficacy in Permanent Atrial Fibrillation: a Comparison between Lenient versus Strict Rate Control II",
- "IABP-SHOCK II","Intraaortic Balloon Pump in Cardiogenic Shock II",
- "PARTNER 2","Placement of Aortic Transcatheter Valves, Cohort A",
- "LoDoCo","Low-Dose Colchicine",
- "CHAMPION PHOENIX","Cangrelor versus standard therapy to achieve optimal management of platelet inhibition",
- "NA-ACCORD","North American AIDS Cohort Collaboration on Research and Design",
- "RE-ALIGN","Randomized, Phase II Study to Evaluate the Safety and Pharmacokinetics of Oral Dabigatran Etexilate in Patients after Heart Valve Replacement",
- "CANVAS","Canagliflozin Cardiovascular Assessment Study",
- "AKIKI","Artificial Kidney Initiation in Kidney Injury",
- "SEPSISPAM","Sepsis and Mean Arterial Pressure",
- "ECST","European Carotid Surgery Trial",
- "DEFINITE","Defibrillators in Non-Ischemic Cardiomyopathy Treatment Evaluation",
- "WHI E+P","Women's Health Initiative Estrogen and Progestin Trial",
- "HPS2-THRIVE","Heart Protection Study 2-Treatment of HDL to Reduce the Incidence of Vascular Events",
- "COMET","Carvedilol Or Metoprolol European Trial",
- "NSABP P-1","National Surgical Adjuvant Breast and Bowel Project, Prevention-1",
- "VASST","Vasopressin and Septic Shock Trial",
- "EMILIA","Emtansine vs. Capecitabine+Lapatinib in Patients with HER2-Positive Locally Advanced or Metastatic Breast Cancer",
- "ATLAS ACS 2-TIMI 51","Anti-Xa Therapy to Lower Cardiovascular Events in Addition to Standard Therapy in Subjects with Acute Coronary Syndrome-Thrombolysis in Myocardial Infarction 51",
- "WOEST","What is the Optimal antiplatElet and anticoagulant therapy in patients with oral anticoagulation and coronary StenTing",
- "RELAX","Phosphodiesterase-5 Inhibition to Improve Clinical Status and Exercise Capacity in Heart Failure with Preserved Ejection Fraction",
- "ACCORD","Action to Control Cardiovascular Risk in Diabetes",
- "VA NEPHRON-D","Veterans Affairs Nephropathy in Diabetes",
- "CRISTAL","Colloids Versus Crystalloids for the Resuscitation of the Critically Ill",
- "Val-HeFT","Valsartan Heart Failure Trial",
- "CATT","Comparison of Age-Related Macular Degeneration Treatment Trails",
- "PRODIGE 4 ACCORD 11","PRODIGE 4 Actions concertées dans les Cancers COloRectaux et Digestifs",
- "EDS","European Dexamethasone Study",
- "ROCKET AF","Rivaroxaban Once Daily Oral Direct Factor Xa Inhibition Compared with Vitamin K Antagonism for Prevention of Stroke and Embolism Trial in Atrial Fibrillation",
- "ECASS III","European Cooperative Acute Stroke Study III",
- "NLST","National Lung Screening Trial",
- "ISAR-TRIPLE","Triple therapy in Patients who Require Oral Anticoagulation After Drug-Eluting Stent Implantation",
- "MASS","Multicentre Aneurysm Screening Study",
- "IMPROVE-IT","IMProved Reduction of Outcomes: Vytorin Efficacy International Trial",
- "POP-UP","Pantoprazole or Placebo for Stress Ulcer Prophylaxis",
- "BRIDGE","Bridging Anticoagulation in Patients who Require Temporary Interruption of Warfarin Therapy for Elective Invasive Procedure or Surgery",
- "PESIT","Pulmonary Embolism in Syncope Italian Trial",
- "CURE","Clopidogrel in Unstable Angina to Prevent Recurrent Events",
- "ATN","Acute Renal Failure Trial Network Study",
- "TORCH","Towards a Revolution in COPD Health",
- "STOPAH","Steroids or Pentoxifylline for Alcoholic Hepatitis",
- "MIDA","Mitral Regurgitation International Database",
- "VALIANT","Valsartan in Acute Myocardial Infarction Trial",
- "BRIM-3","BRAF Inhibitor in Melanoma 3",
- "UKPDS 34","UK Prospective Diabetes Study 34",
- "PARTNER B","Placement of Aortic Transcatheter Valves, Cohort B",
- "CYTO-PV","Cytoreductive Therapy in Polycythemia Vera",
- "AMPLIFY-EXT","Apixaban after the Initial Management of Pulmonary Embolism and Deep Vein Thrombosis with First-Line Therapy-Extended Treatment",
- "FLAME COPD","Effect of Indacaterol Glycopyronium Vs. Fluticasone Salmeterol on COPD Exacerbations",
- "CONSENSUS","Cooperative North Scandinavian Enalapril Survival Study",
- "STICH","Surgical Treatment for Ischemic Heart Failure",
- "ACT","Acetylcysteine for Contrast-Induced Nephropathy Trial",
- "ASTRAL","Angioplasty and Stenting for Renal Artery Lesions",
- "DIG","Digitalis Investigation Group",
- "FLAME","Fluoxetine for Motor Recovery after Acute Ischaemic Stroke",
- "METEOR","Meniscal Tear in Osteoarthritis Research",
- "CORONA","Controlled Rosuvastatin Multinational Trial in Heart Failure",
- "NOTT","Nocturnal Oxygen Therapy Trial",
- "IDEAL","Initiating Dialysis Early and Late",
- "WARFASA","Warfarin and Aspirin",
- "SADHAT","Sertraline Antidepressant Heart Attack Randomized Trial",
- "CATIE-AD","Clinical Antipsychotic Trials of Intervention Effectiveness–Alzheimer's Disease",
- "MOPETT","Moderate Pulmonary Embolism Treated with Thrombolysis",
- "NICE-SUGAR","Normoglycemia in Intensive Care Evaluation and Surviving Using Glucose Algorithm Regulation",
- "ACTIVE A","Atrial Fibrillation Clopidogrel Trial with Irbesartan for Prevention of Vascular Events",
- "NEAT-HFpEF","Nitrate’s Effect on Activity Tolerance in Heart Failure with Preserved Ejection Fraction",
- "IST","International Stroke Trial",
- "ELITE-Symphony","Efficacy Limiting Toxicity Elimination-Symphony",
- "FOURIER","Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elevated Risk",
- "ACCOMPLISH","Avoiding Cardiovascular Events through Combination Therapy in Patients Living with Systolic Hypertension",
- "HPTN 052","HIV Prevention Trials Network 052 Study",
- "OAT","Occluded Artery Trial",
- "SURTAVI","Safety and Efficacy Study of the Medtronic CoreValve System in the Treatment of Severe, Symptomatic Aortic Stenosis in Intermediate Risk Subjects Who Need Aortic Valve Replacement",
- "EMPHASIS-HF","Eplerenone in Mild Patients Hospitalization and Survival Study in Heart Failure",
- "POISE","PeriOperative ISchemic Evaluation",
- "CSG Captopril Trial","Collaborative Study Group Captopril Trial",
- "UPLIFT","Understanding Potential Long-Term Impacts on Function with Tiotropium",
- "ODYSSEY LONG TERM","Long-term Safety and Tolerability of Alirocumab in High Cardiovascular Risk Patients with Hypercholesterolemia Not\nAdequately Controlled with Their Lipid Modifying Therapy",
- "SHOCK","SHould we emergently revascularize Occluded Coronaries for Cardiogenic shocK"
+ "A-HeFT":"African-American Heart Failure Trial"
+ "SPARCL":"Stroke Prevention by Aggressive Reduction in Cholesterol Levels"
+ "RE-COVER":"Efficacy and Safety of Dabigatran Compared to Warfarin for 6 Month Treatment of Acute Symptomatic Venous Thromboembolism"
+ "RALES":"Randomized Aldactone Evaluation Study"
+ "ASPIRE":"Aspirin to Prevent Recurrent Venous Thromboembolism"
+ "TACTICS-TIMI 18":"Comparison of early invasive and conservative strategies in patients with unstable coronary syndromes treated with the glycoprotein IIb/IIIa inhibitor tirofiban"
+ "TRISS":"Transfusion Requirements in Septic Shock"
+ "BEST":"The Randomized Comparison of Coronary Artery Bypass Surgery and Everolimus-Eluting Stent Implantation"
+ "ALBIOS":"Albumin Italian Outcome Sepsis"
+ "JUPITER":"Justification for the Use of Statins in Prevention: an Intervention Trial Evaluating Rosuvastatin"
+ "ESCAPE":"Evaluation Study of Congestive Heart Failure and Pulmonary Artery Catheterization Effectiveness"
+ "ICAP":"Evaluation of additive benefit of colchicine to conventional therapy in acute pericarditis"
+ "ANNEXA":"Andexanet Alfa, a Novel Antidote to the Anticoagulation Effects of FXA Inhibitors"
+ "STAMPEDE":"Surgical Treatment and Medications Potentially Eradicate Diabetes Efficiently"
+ "WISDOM":"Withdrawal of Inhaled Steroids during Optimized Bronchodilator Management"
+ "PCPT":"Prostate Cancer Prevention Trial"
+ "HEAT":"Permissive Hyperthermia through Avoidance of Acetaminophen in Known or Suspected Infection in the Intensive Care Unit"
+ "COPERNICUS":"Carvedilol Prospective Randomized Cumulative Survival"
+ "SCD-HeFT":"Sudden Cardiac Death in Heart Failure Trial"
+ "Look AHEAD":"Look Action for HEAlth in Diabetes"
+ "HEARTMATE II":"Advanced heart failure treated with continuous-flow left ventricular assist device"
+ "RE-LY":"Randomized Evaluation of Long-Term Anticoagulation Therapy"
+ "TREAT":"Trial to Reduce Cardiovascular Events With Aranesp Therapy"
+ "SYNTAX":"Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery"
+ "PIOPED II":"Prospective Investigation of Pulmonary Embolism Diagnosis II"
+ "EUCLID":"Examining use of ticagrelor in peripheral artery disease"
+ "Oscillate":"Oscillation for Acute Respiratory Distress Syndrome Treated Early"
+ "ATLAS":"Adjuvant Tamoxifen: Longer Against Shorter"
+ "NINDS":"National Institute of Neurological Disorders and Stroke rt-PA Stroke Study"
+ "PARADIGM-HF":"Prospective Comparison of ARNI with ACEI to Determine Impact on Global Mortality and Morbidity in Heart Failure"
+ "TRITON-TIMI 38":"Trial to Assess Improvement in Therapeutic Outcomes by Optimizing Platelet Inhibition with Prasugrel–Thrombolysis in Myocardial Infarction 38"
+ "HYVET":"Hypertension in the Very Elderly Trial"
+ "PRORATA":"Procalcitonin to Reduce Antibiotic Treatments in Acutely ill patients"
+ "PROFESS":"Prevention Regimen for Effectively Avoiding Second Strokes"
+ "CANTOS":"Cardiovascular Risk Reduction Study (Reduction in Recurrent Major CV Disease Events)"
+ "TALC":"Tiotropium Bromide as an Alternative to Increased Inhaled Glucocorticoid in Patients Inadequately Controlled on a Lower Dose of Inhaled Corticosteroid"
+ "NORSTENT":"Drug-Eluting or Bare-Metal Stents for Percutaneous Coronary Intervention in Stable or Unstable Coronary Artery Disease"
+ "BASALT":"Best Adjustment Strategy for Asthma in the Long Term"
+ "CHOIR":"Correction of Hemoglobin and Outcomes in Renal Insufficiency"
+ "SMART":"Salmeterol Multicenter Asthma Research Trial"
+ "POISE-2 ASA":"Perioperative ischemic evaluation 2 aspirin arm"
+ "CvLPRIT":"Complete Versus Lesion-Only Primary PCI Trial"
+ "CATIE":"Clinical Antipsychotic Trials of Intervention Effectiveness"
+ "ACCORD BP":"ACCORD Study Group"
+ "FAME 2":"FFR vs. Angiographyfor Multivessel Evaluation 2"
+ "ARDSNet":"Acute Respiratory Distress Syndrome Network"
+ "ProCESS":"Protocolized Care for Early Septic Shock"
+ "ADVANCE":"Action in Diabetes and Vascular Disease: Preterax and Diamicron Modified Release Controlled Evaluation"
+ "ARISE":"Australasian Resuscitation in Sepsis Evaluation"
+ "CREST":"Carotid Revascularization Endarterectomy vs. Stenting Trial"
+ "DOSE":"Diuretic Optimization Strategies Evaluation"
+ "PROSEVA":"Proning Severe ARDS Patients"
+ "SAFE":"Saline versus Albumin Fluid Evaluation"
+ "MADIT-CRT":"Multicenter Automatic Defibrillator Implantation Trial with Cardiac Resynchronization Therapy"
+ "SPS3-BP":"Secondary Prevention of Small Subcortical Strokes-Blood Pressure"
+ "CHANCE":"Clopidogrel in High-risk patients with Acute Nondisabling Cerebrovascular Events"
+ "CORTICUS":"Corticosteroid Therapy of Septic Shock"
+ "UKPDS":"United Kingdom Prospective Diabetes Study"
+ "AFFIRM":"Atrial Fibrillation Follow-up Investigation of Rhythm Management"
+ "EINSTEIN CHOICE":"Reduced-dosed Rivaroxaban in the Long-term Prevention of Recurrent Symptomatic Venous Thromboembolism"
+ "COURAGE":"Clinical Outcomes Utilizing Revascularization and Aggressive Drug Evaluation"
+ "AVOID":"Comparing Oxygen with normal air in patients with ST-Segment Elevation Myocardial Infarction who are not hypoxic."
+ "SAVE":"Survival and Ventricular Enlargement Trial"
+ "PIONEER AF-PCI":"Open-Label, Randomized, Controlled, Multicenter Study Exploring Two Treatment Strategies of Rivaroxaban and a Dose-Adjusted Oral Vitamin K Antagonist Treatment Strategy in Subjects with AF who Undergo Percutaneous Coronary Intervention"
+ "BLOCK-HF":"Biventricular versus Right Ventricular Pacing in Heart Failure Patients with Atrioventricular Block"
+ "NASCET":"North American Symptomatic Carotid Endarterectomy Trial"
+ "ESSENCE":"Efficacy and Safety of Subcutaneous Enoxaparin in Non–Q-Wave Coronary Events Study Group"
+ "CRASH-2":"Clinical Randomisation of an Antifibrinolytic in Significant Haemorrhage 2"
+ "AMPLIFY":"Apixaban for the Initial Management of Pulmonary Embolism and Deep-Vein Thrombosis as First-Line Therapy"
+ "PRECISION":"Prospective Randomized Evaluation of Celecoxib Integrated Safety versus Ibuprofen or Naproxen"
+ "AIDA":"Amsterdam Investigator-Initiated Absorb Strategy All-Comers Trial"
+ "V-HeFT":"Vasodilator Heart Failure Trial"
+ "TTM":"Target Temperature Management 33°C vs. 36°C after Out-of Hospital Cardiac Arrest"
+ "COGENT":"Clopidogrel and the Optimization of Gastrointestinal Events Trial"
+ "COMMIT/CCS-2":"ClOpidogrel and Metoprolol in Myocardial Infarction Trial / Second Chinese Cardiac Study"
+ "GUSTO":"Global Utilization of Streptokinase and Tissue Plasminogen Activator for Occluded Coronary Arteries"
+ "SOCRATES":"Ticagrelor versus aspirin in stroke/TIA"
+ "PROWESS-SHOCK":"Prospective Recombinant Human Activated Protein C Worldwide Evaluation in Severe Sepsis and Septic Shock"
+ "HOPE":"Heart Outcomes Prevention Evaluation"
+ "AVERROES":"Apixaban Versus Acetylsalicylic Acid to Prevent Stroke in Atrial Fibrillation Patients Who Have Failed or Are Unsuitable for Vitamin K Antagonist Treatment"
+ "HACA":"Hypothermia After Cardiac Arrest"
+ "CHARISMA":"Clopidogrel for High Atherothrombotic Risk and Ischemic Stabilization, Management, and Avoidance"
+ "RAVE":"Rituximab in ANCA-Associated Vasculitis"
+ "IDNT":"Irbesartan Diabetic Nephropathy Trial"
+ "SOAP II":"Sepsis Occurrence in Acutely Ill Patients II"
+ "MERIT-HF":"Metoprolol CR/XL Randomized Intervention Trial in Congestive Heart Failure"
+ "NSABP B-32":"National Surgical Adjuvant Breast and Bowel Project Trial B-32"
+ "CLOSURE I":"Evaluation of the STARFlex Septal Closure System in Patients with a Stroke and/or Transient Ischemic Attack due to Presumed Paradoxical Embolism through a Patent Foramen Ovale"
+ "RAFT":"Resynchronization–Defibrillation for Ambulatory Heart Failure"
+ "SPAF":"Stroke Prevention in Atrial Fibrillation"
+ "TRIUMPH":"Transfusion Reduction Efficacy and Safety Clinical Investigation, a Randomized, Multicenter, Double-Blind, Placebo-Controlled, Using Eculizumab in Paroxysmal Nocturnal Hemoglobinuria"
+ "VADT":"Veterans Affairs Diabetes Trial"
+ "PREPIC 2":"Prevention du Risque d'Embolie Pulmonaire par Interruption Cave 2"
+ "ERSPC":"European Randomized Study of Screening for Prostate Cancer"
+ "PREPIC":"Prévention du Risque d'Embolie Pulmonaire par Interruption Cave Study Group"
+ "TRICC":"Transfusion Requirements in Critical Care"
+ "REDUCE":"Reduction in the Use of Corticosteroids in Exacerbated COPD"
+ "HERA":"Herceptin Adjuvant Trial"
+ "BARI 2D":"Bypass Angioplasty Revascularization Investigation 2 Diabetes"
+ "DANISH":"Danish Study to Assess the Efficacy of ICDs in Patients with Non-ischemic Systolic Heart Failure on Mortality"
+ "PANTER":"Minimally Invasive Step Up Approach versus Maximal Necrosectomy in Patients with Acute Necrotising Pancreatitis"
+ "RED-HF":"Reduction of Events by Darbepoetin Alfa in Heart Failure"
+ "EDIC":"Epidemiology of Diabetes Interventions and Complications"
+ "RENAAL":"Reduction of Endpoints in NIDDM with the Angiotensin II Antagonist Losartan"
+ "StiL":"Study Group Indolent Lymphomas"
+ "CLOT":"Comparison of Low Molecular Weight Heparin Versus Oral Anticoagulant Therapy for Long Term Anticoagulation in Cancer Patients With Venous Thromboembolism"
+ "ALLHAT":"The Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial"
+ "ISIS-2":"Second International Study of Infarct Survival"
+ "BeSt":"Behandel-Strategeieën (\"treatment strategies\" in Dutch)"
+ "PROVE IT-TIMI 22":"Pravastatin or Atorvastatin Evaluation and Infection Therapy–Thrombolysis in Myocardial Infarction 22"
+ "CULPRIT-SHOCK":"Culprit Lesion Only PCI versus Multivessel PCI in Cardiogenic Shock"
+ "EVEREST":"Efficacy of Vasopressin Antagonism in Heart Failure Outcome Study With Tolvaptan"
+ "NETT":"National Emphysema Treatment Trial"
+ "TOPCAT":"Treatment of Preserved Cardiac Function Heart Failure with an Aldosterone Antagonist"
+ "DAPT":"Dual Antiplatelet Therapy"
+ "SPS3-Clopidogrel+ASA":"Secondary Prevention of Small Subcortical Strokes clopidogrel+ASA"
+ "CARRESS-HF":"Cardiorenal Rescue Study in Acute Decompensated Heart Failure"
+ "DASH":"Dietary Approaches to Stop Hypertension"
+ "MUSTT":"Multicenter Unsustained Tachycardia Trial"
+ "WOSCOPS":"West of Scotland Coronary Prevention Study"
+ "V-HeFT II":"Vasodilator Heart Failure Trial II"
+ "FACTT":"Fluids and Catheters Treatment Trial"
+ "SOLVD":"Studies of Left Ventricular Dysfunction"
+ "MSH":"Multicenter Study of Hydroxyurea in Sickle-Cell Anemia"
+ "iPrEx":"Iniciativa Profilaxis Pre Exposicion (\"Preexposure Prophylaxis Initiative\")"
+ "ORBIT-AF":"Outcomes Registry for Better Informed Treatment of Atrial Fibrillation"
+ "EXTRA":"A Study of Omalizumab/Xolair in Subjects With Moderate to Severe Persistent Asthma"
+ "SPRINT":"Systolic Blood Pressure Intervention Trial"
+ "iFR-SWEDEHEART":"Instantaneous Wave-free Ratio versus Fractional Flow Reserve in Patients with Stable Angina Pectoris or Acute Coronary Syndrome"
+ "CAST I":"Cardiac Arrhythmia Suppression Trial"
+ "LESS":"Lumbar Epidural Steroid Injections for Spinal Stenosis"
+ "RESPECT":"Randomized Evaluation of Recurrent Stroke Comparing PFO Closure to Established Current Standard of Care Treatment"
+ "FEAST":"Fluid Expansion as Supportive Therapy"
+ "TNT":"Treating to New Targets"
+ "DAVID":"Dual-chamber pacing or ventricular backup pacing in ICD patients"
+ "CAPRIE":"Clopidogrel versus Aspirin in Patients at Risk of Ischaemic Events"
+ "IRONOUT-HF":"Iron Repletion Effects on Oxygen Uptake in Heart Failure"
+ "MADIT-II":"Multicenter Automatic Defibrillator Implantation Trial II"
+ "AATAC":"Ablation versus amiodarone for treatment of persistent atrial fibrillation in patients with congestive heart failure and an implanted device"
+ "DCCT":"Diabetes Control and Complications Trial"
+ "4S":"Scandinavian Simvastatin Survival Study"
+ "ONTARGET":"Ongoing Telmisartan Alone and in Combination with Ramipril Global Endpoint Trial"
+ "PEITHO":"Pulmonary Embolism Thrombolysis trial"
+ "EPHESUS":"Eplerenone Post–Acute Myocardial Infarction Heart Failure Efficacy and Survival Study"
+ "LEADER":"Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results"
+ "MAGELLAN":"Multicenter, Randomized, Parallel Group Efficacy and Safety Study for the Prevention of Venous Thromboembolism in Hospitalized Acutely Ill Medical Patients Comparing Rivaroxaban with Enoxaparin"
+ "EXCEL":"XIENCE versus Coronary Artery Bypass Surgery for Effectiveness of Left Main Revascularization (EXCEL)"
+ "STAR-D":"Sequenced Treatment Alternatives to Relieve Depression"
+ "FREEDOM":"Future Revascularization Evaluation in Patients with Diabetes Mellitus: Optimal Management of Multivessel Disease"
+ "EVOLVE":"Effect of Cinacalcet on Cardiovascular Disease in Patients Undergoing Dialysis"
+ "FAME":"Fractional Flow Reserve versus Angiography for Multivessel Evaluation"
+ "CHARM-Preserved":"Candesartan in Heart failure Assessment of Reduction in Mortality and Morbidity-Preserved"
+ "ACURASYS":"ARDS et Curarisation Systematique"
+ "ADJUST-PE":"Age aDJUSTed D-Dimer to rule out PE"
+ "DETO2X-AMI":"Determination of the Role of Oxygen in Suspected Acute Myocardial Infarction"
+ "MATCH":"Management of Atherothrombosis with Clopidogrel in High-risk patients"
+ "PREDIMED":"Prevención con Dieta Mediterránea"
+ "PLATO":"Platelet Inhibition and Patient Outcomes"
+ "ORIGIN n-3 Fatty Acids":"Investigators in the outcome Reduction with an Initial Glargine Intervention"
+ "IRIS":"International Randomized Study of Interferon and STI571"
+ "ASCEND":"Assessment of Pirfenidone to Confirm Efficacy and Safety in Idiopathic Pulmonary Fibrosis"
+ "VANISH":"Ventricular Tachycardia Ablation versus Escalation of Antiarrhythmic Drugs"
+ "ESPRIT":"European/Australasian Stroke Prevention in Reversible Ischaemia Trial"
+ "ATHOS-3":"Angiotensin II for the Treatment of High-Output Shock"
+ "DINAMIT":"Defibrillator in Acute Myocardial Infarction Trial"
+ "ARISTOTLE":"Apixaban for Reduction in Stroke and Other Thromboembolic Events in Atrial Fibrillation"
+ "PROWESS":"Recombinant Human Activated Protein C Worldwide Evaluation in Severe Sepsis"
+ "ENGAGE AF-TIMI 48":"Effective Anticoagulation with Factor Xa Next Generation in Atrial Fibrillation - Thrombolysis in Myocardial Infarction 48"
+ "COMPASS":"Cardiovascular Outcomes for People Using Anticoagulation Stratgies"
+ "MPACT":"Metastatic Pancreatic Adenocarcinoma Clinical Trial"
+ "STAR":"Study of Tamoxifen and Raloxifene (NSABP P-2)"
+ "PARTNER A":"Placement of Aortic Transcatheter Valves, Cohort A"
+ "SHIFT":"Systolic Heart failure treatment with the If inhibitor ivabradine Trial"
+ "SONIC":"Study of Biologic and Immunomodulator Naive Patients in Crohn's Disease"
+ "MIRACL":"Myocardial Ischemia Reduction with Aggressive Cholesterol Lowering"
+ "NCDS":"The National Cooperative Dialysis Study"
+ "ACTIVE W":"Atrial fibrillation Clopidogrel Trial with Irbesartan for prevention of Vascular Events"
+ "SEDCOM":"Safety and Efficacy of Dexmedetomidine Compared with Midazolam"
+ "GISSI-3":"Gruppo Italiano per lo Studio della Sopravvivenza nell'infarto Miocardico"
+ "PRAMI":"Preventative Angioplasty in Acute Myocardial Infarction"
+ "RACE II":"Rate Control Efficacy in Permanent Atrial Fibrillation: a Comparison between Lenient versus Strict Rate Control II"
+ "IABP-SHOCK II":"Intraaortic Balloon Pump in Cardiogenic Shock II"
+ "PARTNER 2":"Placement of Aortic Transcatheter Valves, Cohort A"
+ "LoDoCo":"Low-Dose Colchicine"
+ "CHAMPION PHOENIX":"Cangrelor versus standard therapy to achieve optimal management of platelet inhibition"
+ "NA-ACCORD":"North American AIDS Cohort Collaboration on Research and Design"
+ "RE-ALIGN":"Randomized, Phase II Study to Evaluate the Safety and Pharmacokinetics of Oral Dabigatran Etexilate in Patients after Heart Valve Replacement"
+ "CANVAS":"Canagliflozin Cardiovascular Assessment Study"
+ "AKIKI":"Artificial Kidney Initiation in Kidney Injury"
+ "SEPSISPAM":"Sepsis and Mean Arterial Pressure"
+ "ECST":"European Carotid Surgery Trial"
+ "DEFINITE":"Defibrillators in Non-Ischemic Cardiomyopathy Treatment Evaluation"
+ "WHI E+P":"Women's Health Initiative Estrogen and Progestin Trial"
+ "HPS2-THRIVE":"Heart Protection Study 2-Treatment of HDL to Reduce the Incidence of Vascular Events"
+ "COMET":"Carvedilol Or Metoprolol European Trial"
+ "NSABP P-1":"National Surgical Adjuvant Breast and Bowel Project, Prevention-1"
+ "VASST":"Vasopressin and Septic Shock Trial"
+ "EMILIA":"Emtansine vs. Capecitabine+Lapatinib in Patients with HER2-Positive Locally Advanced or Metastatic Breast Cancer"
+ "ATLAS ACS 2-TIMI 51":"Anti-Xa Therapy to Lower Cardiovascular Events in Addition to Standard Therapy in Subjects with Acute Coronary Syndrome-Thrombolysis in Myocardial Infarction 51"
+ "WOEST":"What is the Optimal antiplatElet and anticoagulant therapy in patients with oral anticoagulation and coronary StenTing"
+ "RELAX":"Phosphodiesterase-5 Inhibition to Improve Clinical Status and Exercise Capacity in Heart Failure with Preserved Ejection Fraction"
+ "ACCORD":"Action to Control Cardiovascular Risk in Diabetes"
+ "VA NEPHRON-D":"Veterans Affairs Nephropathy in Diabetes"
+ "CRISTAL":"Colloids Versus Crystalloids for the Resuscitation of the Critically Ill"
+ "Val-HeFT":"Valsartan Heart Failure Trial"
+ "CATT":"Comparison of Age-Related Macular Degeneration Treatment Trails"
+ "PRODIGE 4 ACCORD 11":"PRODIGE 4 Actions concertées dans les Cancers COloRectaux et Digestifs"
+ "EDS":"European Dexamethasone Study"
+ "ROCKET AF":"Rivaroxaban Once Daily Oral Direct Factor Xa Inhibition Compared with Vitamin K Antagonism for Prevention of Stroke and Embolism Trial in Atrial Fibrillation"
+ "ECASS III":"European Cooperative Acute Stroke Study III"
+ "NLST":"National Lung Screening Trial"
+ "ISAR-TRIPLE":"Triple therapy in Patients who Require Oral Anticoagulation After Drug-Eluting Stent Implantation"
+ "MASS":"Multicentre Aneurysm Screening Study"
+ "IMPROVE-IT":"IMProved Reduction of Outcomes: Vytorin Efficacy International Trial"
+ "POP-UP":"Pantoprazole or Placebo for Stress Ulcer Prophylaxis"
+ "BRIDGE":"Bridging Anticoagulation in Patients who Require Temporary Interruption of Warfarin Therapy for Elective Invasive Procedure or Surgery"
+ "PESIT":"Pulmonary Embolism in Syncope Italian Trial"
+ "CURE":"Clopidogrel in Unstable Angina to Prevent Recurrent Events"
+ "ATN":"Acute Renal Failure Trial Network Study"
+ "TORCH":"Towards a Revolution in COPD Health"
+ "STOPAH":"Steroids or Pentoxifylline for Alcoholic Hepatitis"
+ "MIDA":"Mitral Regurgitation International Database"
+ "VALIANT":"Valsartan in Acute Myocardial Infarction Trial"
+ "BRIM-3":"BRAF Inhibitor in Melanoma 3"
+ "UKPDS 34":"UK Prospective Diabetes Study 34"
+ "PARTNER B":"Placement of Aortic Transcatheter Valves, Cohort B"
+ "CYTO-PV":"Cytoreductive Therapy in Polycythemia Vera"
+ "AMPLIFY-EXT":"Apixaban after the Initial Management of Pulmonary Embolism and Deep Vein Thrombosis with First-Line Therapy-Extended Treatment"
+ "FLAME COPD":"Effect of Indacaterol Glycopyronium Vs. Fluticasone Salmeterol on COPD Exacerbations"
+ "CONSENSUS":"Cooperative North Scandinavian Enalapril Survival Study"
+ "STICH":"Surgical Treatment for Ischemic Heart Failure"
+ "ACT":"Acetylcysteine for Contrast-Induced Nephropathy Trial"
+ "ASTRAL":"Angioplasty and Stenting for Renal Artery Lesions"
+ "DIG":"Digitalis Investigation Group"
+ "FLAME":"Fluoxetine for Motor Recovery after Acute Ischaemic Stroke"
+ "METEOR":"Meniscal Tear in Osteoarthritis Research"
+ "CORONA":"Controlled Rosuvastatin Multinational Trial in Heart Failure"
+ "NOTT":"Nocturnal Oxygen Therapy Trial"
+ "IDEAL":"Initiating Dialysis Early and Late"
+ "WARFASA":"Warfarin and Aspirin"
+ "SADHAT":"Sertraline Antidepressant Heart Attack Randomized Trial"
+ "CATIE-AD":"Clinical Antipsychotic Trials of Intervention Effectiveness–Alzheimer's Disease"
+ "MOPETT":"Moderate Pulmonary Embolism Treated with Thrombolysis"
+ "NICE-SUGAR":"Normoglycemia in Intensive Care Evaluation and Surviving Using Glucose Algorithm Regulation"
+ "ACTIVE A":"Atrial Fibrillation Clopidogrel Trial with Irbesartan for Prevention of Vascular Events"
+ "NEAT-HFpEF":"Nitrate’s Effect on Activity Tolerance in Heart Failure with Preserved Ejection Fraction"
+ "IST":"International Stroke Trial"
+ "ELITE-Symphony":"Efficacy Limiting Toxicity Elimination-Symphony"
+ "FOURIER":"Further Cardiovascular Outcomes Research with PCSK9 Inhibition in Subjects with Elevated Risk"
+ "ACCOMPLISH":"Avoiding Cardiovascular Events through Combination Therapy in Patients Living with Systolic Hypertension"
+ "HPTN 052":"HIV Prevention Trials Network 052 Study"
+ "OAT":"Occluded Artery Trial"
+ "SURTAVI":"Safety and Efficacy Study of the Medtronic CoreValve System in the Treatment of Severe, Symptomatic Aortic Stenosis in Intermediate Risk Subjects Who Need Aortic Valve Replacement"
+ "EMPHASIS-HF":"Eplerenone in Mild Patients Hospitalization and Survival Study in Heart Failure"
+ "POISE":"PeriOperative ISchemic Evaluation"
+ "CSG Captopril Trial":"Collaborative Study Group Captopril Trial"
+ "UPLIFT":"Understanding Potential Long-Term Impacts on Function with Tiotropium"
+ "ODYSSEY LONG TERM":"Long-term Safety and Tolerability of Alirocumab in High Cardiovascular Risk Patients with Hypercholesterolemia Not\nAdequately Controlled with Their Lipid Modifying Therapy"
+ "SHOCK":"SHould we emergently revascularize Occluded Coronaries for Cardiogenic shocK"
