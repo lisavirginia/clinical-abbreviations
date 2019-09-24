@@ -25,10 +25,6 @@ def expand_col(df, col, d='|'):
   df = df.join(s)
   return df
 
-
-
-### TODO ###
-
 # Function to normalize short form abbreviations
 def normalized_short_form(sf):
   # Converts text to uppercase
