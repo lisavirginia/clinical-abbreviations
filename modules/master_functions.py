@@ -27,12 +27,12 @@ def expand_col(df, col, d='|'):
 
 # Function to normalize short form abbreviations
 def normalized_short_form(sf):
-  # Converts text to uppercase
-  sf = sf.upper()
+  # Converts text to lowercase
+  sf = sf.lower()
   # Removes leading and trailing whitespace
   sf = sf.strip()
   # Removes punctuation
-  sf = sf.translate(str.maketrans('', '', string.punctuation))
+  sf = sf.translate(str.maketrans(string.punctuation, '_'*len(string.punctuation)))
   return sf
 
 # Function to standardize CUI appearance
