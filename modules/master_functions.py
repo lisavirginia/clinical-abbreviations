@@ -13,7 +13,7 @@ def clean(df):
 
 # Function to unnest columns in data frame
 def expand_col(df, col, d='|'):
-  # Split and stack individual entries
+  # Split and stack indivcommitidual entries
   s = df[col].str.split(d).apply(pd.Series, 1).stack()
   # Match up with df indices
   s.index = s.index.droplevel(-1)
@@ -24,16 +24,6 @@ def expand_col(df, col, d='|'):
   # Merge new column with df
   df = df.join(s)
   return df
-
-# Function to normalize short form abbreviations
-def normalized_short_form(sf):
-  # Converts text to lowercase
-  sf = sf.lower()
-  # Removes leading and trailing whitespace
-  sf = sf.strip()
-  # Removes punctuation
-  sf = sf.translate(str.maketrans(string.punctuation, '_'*len(string.punctuation)))
-  return sf
 
 # Function to standardize CUI appearance
 def standardize_cui(cui):
