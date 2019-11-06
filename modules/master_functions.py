@@ -3,8 +3,8 @@ master_functions.py
 '''
 
 import pandas as pd
-import subprocess
 import string
+import subprocess
 
 
 # Function to clean data frame
@@ -49,21 +49,17 @@ def normalized_short_form(sf):
   return sf
 
 
-'''
-Python Wrapper for UMLS Lexical Variant Generation program
-'''
-
-
 # Function to execute command line LVG program
-def lvg(file_name, flow = '', output_file = '', restrict = False, print_no_output = False, lvg_path = ''):
-    command = [lvg_path + '/bin/lvg',
-                '-i:' + file_name,
-                '-f:' + flow]
-    if output_file != '':
-        command.append('-o:' + output_file)
-    if restrict:
-        command.append('-R:1')
-    if print_no_output:
-        command.append('-n')
+def lvg(input_file, flow, output_file, lvg_path):
+    # Specify command
+    command = [lvg_path, # Specify path
+               '-i:' + input_file, # Input
+               '-f:' + flow, # Normalization flow
+               '-o:' + output_file, # Output
+               '-R:1', # Restrict
+               '-n'] # Suppress output
+    # Execute command
     lvg_process = subprocess.check_output(command)
     return lvg_process
+
+    
