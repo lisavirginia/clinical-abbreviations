@@ -1,0 +1,4 @@
+'diffuse noxious inhibitory controls'	L000003			ADAM		
+'do not resuscitate'	L000004			ADAM
+-acetoxy-2,7,12,17-tetrakis-(beta-methoxyethyl...	L000102			UMLS
+** degree	L000101			Vanderbilt Clinic Notes
