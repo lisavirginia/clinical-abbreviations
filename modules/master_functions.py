@@ -29,15 +29,6 @@ def expand_col(df, col, d='|'):
   return df
 
 
-# Function to standardize CUI appearance
-def standardize_cui(cui):
-  # Use comma delimited CUIs
-  cui = cui.replace('|',',')
-  # Use CUIs with a capital C
-  cui = cui.replace('c', 'C')
-  return cui
-
-
 # Function to define normalized short form
 def normalized_short_form(sf):
   # Convert to lowercase
@@ -51,15 +42,22 @@ def normalized_short_form(sf):
 
 # Function to execute command line LVG program
 def lvg(input_file, flow, output_file, lvg_path):
-    # Specify command
-    command = [lvg_path, # Specify path
-               '-i:' + input_file, # Input
-               '-f:' + flow, # Normalization flow
-               '-o:' + output_file, # Output
-               '-R:1', # Restrict
-               '-n'] # Suppress output
-    # Execute command
-    lvg_process = subprocess.check_output(command)
-    return lvg_process
+  # Specify command
+  command = [lvg_path, # Specify path
+             '-i:' + input_file, # Input
+             '-f:' + flow, # Normalization flow
+             '-o:' + output_file, # Output
+             '-R:1', # Restrict
+             '-n'] # Suppress output
+  # Execute command
+  lvg_process = subprocess.check_output(command)
+  return lvg_process
 
-    
+
+# Function to standardize CUI appearance
+def standardize_cui(cui):
+  # Use comma delimited CUIs
+  cui = cui.replace('|',',')
+  # Use CUIs with a capital C
+  cui = cui.replace('c', 'C')
+  return cui    
