@@ -35,6 +35,8 @@ def normalized_short_form(sf):
   sf = sf.lower()
   # Strip leading and trailing whitespace
   sf = sf.strip()
+  # Remove all periods
+  sf = sf.replace(".", "")
   # Convert all punctuation to underscore
   sf = sf.translate(str.maketrans(string.punctuation, '_'*len(string.punctuation)))
   return sf
