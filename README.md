@@ -28,3 +28,8 @@ This folder contains starter code for incorporating new databases into the cross
 
 Please refer to the README.md file internal to the folder for more information.
 
+## Folder: training
+
+This folder contains labeled training data for the Siamese Recurrent Neural Net.
+
+Please refer to the README.md file internal to the folder for more information.
