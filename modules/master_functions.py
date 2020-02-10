@@ -5,6 +5,7 @@ master_functions.py
 import pandas as pd
 import string
 import subprocess
+from configupdater import ConfigUpdater
 
 
 # Function to clean data frame
@@ -62,4 +63,109 @@ def standardize_cui(cui):
   cui = cui.replace('|',',')
   # Use CUIs with a capital C
   cui = cui.replace('c', 'C')
-  return cui    
+  return cui
+
+
+# Function to add new SFUI
+def add_new_SFUI(df_final):
+  updater = ConfigUpdater()
+  updater.read('setup.cfg')
+  # Subset into assigned and unassigned
+  df = df_final[df_final['SFUI']=='']
+  df_final = df_final[df_final['SFUI']!='']
+  if df.empty:
+    return df_final
+  else:
+    # Sort by SF
+    df = df.sort_values(by=['SF'])
+    df = df.reset_index(drop=True)
+    # Assign SFUI
+    assignment = int(updater['metadata']['sfui_last_assignment'].value) + 1
+    for index, row in df.iterrows():
+      if index == 0:
+        df['SFUI'].iat[index] = assignment
+      elif df['SF'].at[index] == df['SF'].at[index-1]:
+        df['SFUI'].iat[index] = assignment
+      else:
+        assignment += 1
+        df['SFUI'].iat[index] = assignment
+    # Format SFUI
+    df['SFUI'] = 'S' + (df.SFUI.map('{:06}'.format))
+    # Add back newly assigned
+    df_final = pd.concat([df_final, df])
+    df_final = df_final.reset_index(drop=True)
+    # Update config file
+    updater['metadata']['sfui_last_assignment'].value = assignment
+    updater.update_file()
+    # Return dataframe
+    return df_final
+
+
+# Function to add new LFUI
+def add_new_LFUI(df_final):
+  updater = ConfigUpdater()
+  updater.read('setup.cfg')
+  # Subset into assigned and unassigned
+  df = df_final[df_final['LFUI']=='']
+  df_final = df_final[df_final['LFUI']!='']
+  if df.empty:
+    return df_final
+  else:
+    # Sort by LF
+    df = df.sort_values(by=['LF'])
+    df = df.reset_index(drop=True)
+    # Assign SFUI
+    assignment = int(updater['metadata']['lfui_last_assignment'].value) + 1
+    for index, row in df.iterrows():
+      if index == 0:
+          df['LFUI'].iat[index] = assignment
+      elif df['LF'].at[index] == df['LF'].at[index-1]:
+          df['LFUI'].iat[index] = assignment
+      else:
+          assignment += 1
+          df['LFUI'].iat[index] = assignment
+    # Format SFUI
+    df['LFUI'] = 'L' + (df.LFUI.map('{:06}'.format))
+    # Add back newly assigned
+    df_final = pd.concat([df_final, df])
+    df_final = df_final.reset_index(drop=True)
+    # Update config file
+    updater['metadata']['lfui_last_assignment'].value = assignment
+    updater.update_file()
+    # Return dataframe
+    return df_final
+
+
+# Function to add new NSFUI
+def add_new_NSFUI(df_final):
+  updater = ConfigUpdater()
+  updater.read('setup.cfg')
+  # Subset into assigned and unassigned
+  df = df_final[df_final['NSFUI']=='']
+  df_final = df_final[df_final['NSFUI']!='']
+  if df.empty:
+    return df_final
+  else:
+    # Sort by NormSF
+    df = df.sort_values(by=['NormSF'])
+    df = df.reset_index(drop=True)
+    # Assign SFUI
+    assignment = int(updater['metadata']['nsfui_last_assignment'].value) + 1
+    for index, row in df.iterrows():
+      if index == 0:
+          df['NSFUI'].iat[index] = assignment
+      elif df['NormSF'].at[index] == df['NormSF'].at[index-1]:
+          df['NSFUI'].iat[index] = assignment
+      else:
+          assignment += 1
+          df['NSFUI'].iat[index] = assignment
+    # Format SFUI
+    df['NSFUI'] = 'N' + (df.NSFUI.map('{:06}'.format))
+    # Add back newly assigned
+    df_final = pd.concat([df_final, df])
+    df_final = df_final.reset_index(drop=True)
+    # Update config file
+    updater['metadata']['nsfui_last_assignment'].value = assignment
+    updater.update_file()
+    # Return dataframe
+    return df_final
