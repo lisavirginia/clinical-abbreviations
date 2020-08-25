@@ -1,39 +1,74 @@
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
+import numpy as np
+import pandas as pd
 from pytorch_transformers import RobertaConfig, RobertaTokenizer, RobertaModel
+
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
 from torch.optim import Adam
 from torch.utils.data import DataLoader
 
 from model import MatchArchitecture
-from data_utils import Matching_dataset
+from data_utils import MatchingDataset
+
 
 SEQ_LEN = 10
 RNN_DIM = 64
-LINEAR_DIM=32
+LINEAR_DIM=64
 CLASSES = 1
 ROBERTA_FEAT_SIZE = 768
-F1_POS_THRESHHOLD = .1
+ADDITIONAL_FEAT_SIZE = 0
+F1_POS_THRESHHOLD = .3
 epsilon = 1e-8
 
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
 VERSION = '1.1'
-SAVE_DIR = 'C:\\Users\\Raymond\\Documents\\Github\\clinical-abbreviations\\models\\checkpoints\\{}.pt'.format(VERSION)
-train_data_path = 'C:\\Users\\Raymond\\Documents\\Github\\clinical-abbreviations\\training\\Train1_training.csv'
-val_data_path = 'C:\\Users\\Raymond\\Documents\\Github\\clinical-abbreviations\\training\\Train1_val.csv'
+SAVE_DIR = '/ssd-1/clinical/clinical-abbreviations/checkpoints/{}.pt'.format(VERSION)
+train_data_path = '/ssd-1/clinical/clinical-abbreviations/training/Train1_train.csv'
+val_data_path = '/ssd-1/clinical/clinical-abbreviations/training/Train1_val.csv'
+features_path = '/ssd-1/clinical/clinical-abbreviations/data/full_train.csv'
 
-train_dataset = Matching_dataset(train_data_path, tokenizer)
-val_dataset = Matching_dataset(val_data_path, tokenizer)
+load_data = True
+if load_data:
+    path = '/ssd-1/clinical/clinical-abbreviations/training/'
+    positives = pd.read_csv(path + 'Train1.csv', sep='|')
+    negatives = pd.read_csv(path + 'Train2.csv', sep='|')
+
+    train_strings = pd.concat((positives, negatives), axis=0)
+    additional_feats = pd.read_csv(features_path)
+    if "target" in additional_feats.columns:
+        additional_feats.drop("target", axis=1, inplace=True)
+    ADDITIONAL_FEAT_SIZE = additional_feats.shape[1]
+    train_inx, val_inx = train_test_split(range(len(train_strings)), test_size=.2)
+
+    X_train = train_strings.iloc[train_inx, :].reset_index(drop=True, inplace=False)
+    X_feats = additional_feats.iloc[train_inx, :].reset_index(drop=True, inplace=False)
+    X_test = train_strings.iloc[val_inx, :].reset_index(drop=True, inplace=False)
+    X_feats_test = additional_feats.iloc[val_inx, :].reset_index(drop=True, inplace=False)
+
+    X_feats = np.array(X_feats)
+    X_feats_test = np.array(X_feats_test)
+    scaler = MinMaxScaler()
+    X_feats = scaler.fit_transform(X_feats)
+    X_feats_test = scaler.fit_transform(X_feats_test)
+
+    X_train.to_csv(train_data_path, index=False)
+    X_test.to_csv(val_data_path, index=False)
+
+train_dataset = MatchingDataset(train_data_path, X_feats, tokenizer)
+val_dataset = MatchingDataset(val_data_path, X_feats_test, tokenizer)
 
 model = MatchArchitecture(
     None,
     'roberta-base',
     False,
-    None,
     ROBERTA_FEAT_SIZE,
+    ADDITIONAL_FEAT_SIZE,
     CLASSES,
     RNN_DIM,
     LINEAR_DIM,
@@ -41,18 +76,17 @@ model = MatchArchitecture(
 
 def lr_scheduler(epoch):
     if epoch < 7:
-        return 3e-5
+        return 3e-3
     if epoch < 10:
-        return 3e-6
+        return 3e-4
     else:
-        return 3e-7
+        return 3e-5
 
 train_config = {
     "batch_size": 16,
     "base_lr": .0001,
     "lr_shceduler": lr_scheduler,
     "n_epochs": 20
-
 }
 
 
@@ -61,13 +95,15 @@ def _run_training_loop(model, train_config):
     # set up params for training loop
 
     criterion = nn.BCELoss(reduce=False)
+    #criterion = torch.nn.MSELoss()
+
     opt = Adam(model.parameters(), lr=train_config["base_lr"])
 
     epoch_learn_rates = []
     epoch_train_losses = []
     epoch_train_f1s = []
     epoch_validation_losses = []
-    epoch_validation_f1s= []
+    epoch_validation_f1s = []
     train_steps_per_epoch = int(len(train_dataset) / train_config["batch_size"])
     validation_steps_per_epoch = int(len(val_dataset) / train_config["batch_size"])
 
@@ -100,11 +136,11 @@ def _run_training_loop(model, train_config):
             X_batch_1 = sample['text_1'].cuda()
             X_batch_2 = sample['text_2'].cuda()
             y_batch = sample['labels'].cuda()
+            additional_feats = sample['additional_feats'].cuda()
             
             y_sum += torch.sum(y_batch).item() / train_config["batch_size"]
             model.zero_grad()
-            sigmoid_output = model(X_batch_1, X_batch_2)
-            sigmoid_output = torch.squeeze(sigmoid_output, dim=-1)
+            sigmoid_output = model(X_batch_1, X_batch_2, additional_feats)
 
             loss = criterion(sigmoid_output, y_batch)
             loss = torch.mean(loss)
@@ -127,7 +163,7 @@ def _run_training_loop(model, train_config):
 
             if step % 50 == 0:
                 print("train step: ", step, "loss: ", running_train_loss/(step + 1))
-                print("mask sum: ", mask_sum/(step + 1), "y_sum: ", y_sum/(step + 1))
+                print("y_sum: ", y_sum/(step + 1))
 
             del loss, X_batch_1, X_batch_2, y_batch, sample, sigmoid_output, threshold_output
 
@@ -151,11 +187,11 @@ def _run_training_loop(model, train_config):
             X_batch_1 = sample['text_1'].cuda()
             X_batch_2 = sample['text_2'].cuda()
             y_batch = sample['labels'].cuda()
-            
+            additional_feats = sample['additional_feats'].cuda()
+
             y_sum += torch.sum(y_batch).item() / train_config["batch_size"]
             model.zero_grad()
-            sigmoid_output = model(X_batch_1, X_batch_2)
-            sigmoid_output = torch.squeeze(sigmoid_output, dim=-1)
+            sigmoid_output = model(X_batch_1, X_batch_2, additional_feats)
 
             loss = criterion(sigmoid_output, y_batch)
             loss = torch.mean(loss)

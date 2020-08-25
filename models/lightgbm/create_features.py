@@ -5,8 +5,8 @@ from fuzzywuzzy import fuzz
 import pandas as pd
 
 
-DATA_PATH = './training/'
-OUTPUT_DIR = './data/'
+DATA_PATH = '/ssd-1/clinical/clinical-abbreviations/training/'
+OUTPUT_DIR = '/ssd-1/clinical/clinical-abbreviations/data/'
 col_1 = 'LF1'
 col_2 = 'LF2'
 

@@ -8,13 +8,13 @@ Created on Sat Jul 22 10:01:36 2017
 import pandas as pd
 import sklearn.metrics as mt
 
-from models.faron_validator import CrossValidatorMT
-from models.model_helpers import LgbValidator
-import models.parameter_dicts as params
+from faron_validator import CrossValidatorMT
+from model_helpers import LgbValidator
+import parameter_dicts as params
 
 
 CURRENT_PARAMS = params.parameters_v1
-TRAIN_PATH = './data/full_train.csv'
+TRAIN_PATH = '/ssd-1/clinical/clinical-abbreviations/data/full_train.csv'
 
 
 def load_data(filename):
@@ -54,8 +54,8 @@ if __name__ == "__main__":
     clf = run_lgb_models(train_df, target)
 
     print('F1: ', mt.f1_score(target, clf.oof_predictions[0] > .5))
-    RAW_PATH = './data/raw_train.csv'
+    RAW_PATH = '/ssd-1/clinical/clinical-abbreviations/data/raw_train.csv'
     raw_data = pd.read_csv(RAW_PATH)
     raw_data['target'] = target
     raw_data['predictions'] = clf.oof_predictions[0].reshape(-1,)
-    raw_data.to_csv('./data/prediction_check.csv')
+    raw_data.to_csv('/ssd-1/clinical/clinical-abbreviations/data/prediction_check.csv')
