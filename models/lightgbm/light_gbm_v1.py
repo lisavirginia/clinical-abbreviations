@@ -15,19 +15,19 @@ import parameter_dicts as params
 
 CURRENT_PARAMS = params.parameters_v1
 TRAIN_PATH = '/ssd-1/clinical/clinical-abbreviations/data/full_train.csv'
-
+TEST_PATH = '/ssd-1/clinical/clinical-abbreviations/data/full_test.csv'
 
 def load_data(filename):
     """Load train from file and parse out target"""
 
-    train_dataframe = pd.read_csv(filename)
+    train_dataframe = pd.read_csv(filename).drop("Unnamed: 0", axis=1)
     target = train_dataframe['target']
     train_dataframe.drop('target', axis=1, inplace=True)
 
     return train_dataframe, target
 
 
-def run_lgb_models(train_df, target):
+def run_lgb_models(train_df, target, test_df=None):
     """Run K-folded light GBM model"""
 
     clf = CrossValidatorMT(
@@ -44,14 +44,16 @@ def run_lgb_models(train_df, target):
         verbose=True
     )
 
-    clf.run_cv(train_df, target)
+    clf.run_cv(train_df, target, x_test=test_df)
     return clf
 
 
 if __name__ == "__main__":
 
     train_df, target = load_data(TRAIN_PATH)
-    clf = run_lgb_models(train_df, target)
+    test_df = pd.read_csv(TEST_PATH).drop("Unnamed: 0", axis=1)
+    print(train_df.columns, test_df.columns)
+    clf = run_lgb_models(train_df, target, test_df)
 
     print('F1: ', mt.f1_score(target, clf.oof_predictions[0] > .5))
     RAW_PATH = '/ssd-1/clinical/clinical-abbreviations/data/raw_train.csv'
@@ -59,3 +61,8 @@ if __name__ == "__main__":
     raw_data['target'] = target
     raw_data['predictions'] = clf.oof_predictions[0].reshape(-1,)
     raw_data.to_csv('/ssd-1/clinical/clinical-abbreviations/data/prediction_check.csv')
+
+    test_preds = clf.oof_test
+    print('Test shape: ', test_preds.shape)
+    test_preds = pd.DataFrame(test_preds, columns=["test_preds"])
+    test_preds.to_csv('/ssd-1/clinical/clinical-abbreviations/data/oof_test.csv', index=False)
