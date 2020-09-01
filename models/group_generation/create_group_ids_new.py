@@ -3,8 +3,8 @@ from fuzzywuzzy import fuzz
 from tqdm import tqdm
 
 
-MATCH_PATH = "/ssd-1/clinical/clinical-abbreviations/data/full_prediction_check.csv"
-RECORD_PATH = "/ssd-1/clinical/clinical-abbreviations/code/Step3Output.csv"
+MATCH_PATH = "/data/full_prediction_check.csv"
+RECORD_PATH = "/code/Step3Output.csv"
 THRESHOLD = .78
 eliminate_list = ['ribo', 'non', 'gene', 'acid']
 
