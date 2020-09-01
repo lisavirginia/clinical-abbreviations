@@ -184,7 +184,6 @@ if __name__ == "__main__":
 
     # Create training feats
     train_strings, additional_1, additional_2 = read_training_data(DATA_PATH)
-    train_strings = pd.concat([train_strings, additional_2, additional_1], ignore_index=True, axis=0)
 
     train_strings['LF1'] = train_strings["LF1"].astype(str)
     train_strings['LF2'] = train_strings["LF2"].astype(str)
@@ -206,7 +205,7 @@ if __name__ == "__main__":
     train_dataframe.to_csv(OUTPUT_DIR + 'full_train.csv')
     train_strings.to_csv(OUTPUT_DIR + 'raw_train.csv')
 
-    '''
+
     # create testing feats
     test_path = "/ssd-1/clinical/clinical-abbreviations/data/full_groups.csv"
     raw_test_dataframe = pd.read_csv(test_path)
@@ -223,4 +222,4 @@ if __name__ == "__main__":
     test_dataframe = string_similarity_metrics(raw_test_dataframe, test_dataframe)
 
     test_dataframe.to_csv(OUTPUT_DIR + 'full_test.csv')
-    '''
+    raw_test_dataframe.to_csv(OUTPUT_DIR + 'raw_test.csv')

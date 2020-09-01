@@ -1,5 +1,5 @@
 parameters_v1 = {
-    'learning_rate': 0.001,
+    'learning_rate': 0.003,
     'boosting_type': 'gbdt',
     'objective': 'cross_entropy',
     'metric': 'binary_logloss',
@@ -11,5 +11,6 @@ parameters_v1 = {
     'bagging_fraction': 0.85,
     'lambda_l1': 0,
     'lambda_l2': 0,
-    'bagging_freq': 5
+    'bagging_freq': 5,
+    'num_iterations': 5000
 }
