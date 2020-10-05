@@ -2,13 +2,13 @@
 
 This repository contains the live version of the Medical Abbreviation and Acronym Meta-Inventory, a large-scale American English database of medical abbreviations, acronyms, and their possible senses.
 
-**Last Updated: 6th May 2020**
+**Last Updated: 2th September 2020**
 
 ## Folder: metainventory
 
 This folder contains the most recent version of the Medical Abbreviation and Acronym Meta-Inventory.
 
-An auxiliary version containing additional data fields is also available. 
+An auxiliary version containing additional data fields is also available. Modified and retired records can be found here.
 
 Please refer to the internal README file for the data dictionary.
 
@@ -20,15 +20,9 @@ Please adhere to the stated terms and conditions associated with each source.
 
 ## Folder: code
 
-This folder contains all code used to create the Meta-Inventory. Retired records can be found here.
+This folder contains all code and additional data sources used to create the Meta-Inventory.
 
 Please refer to the README.md file internal to the folder for more information.
-
-## Folder: training
-
-This folder contains labeled training datasets for cross-mapping.
-
-Please refer to the internal README file for more information on each training dataset.
 
 ## Acknowledgements
 

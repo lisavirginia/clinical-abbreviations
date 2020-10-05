@@ -1,4 +1,0 @@
-LF1|LF2|Synonym
-injection|infection|N
-inter|intra|N
-hypo|hyper|N
