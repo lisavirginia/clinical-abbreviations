@@ -3,8 +3,8 @@ from fuzzywuzzy import fuzz
 from tqdm import tqdm
 
 
-MATCH_PATH = "/data/full_prediction_check.csv"
-RECORD_PATH = "/code/Step3Output.csv"
+MATCH_PATH = "/ssd-1/clinical/clinical-abbreviations/data/full_prediction_check.csv"
+RECORD_PATH = "/ssd-1/clinical/clinical-abbreviations//code/Step3Output.csv"
 THRESHOLD = .78
 eliminate_list = ['ribo', 'non', 'gene', 'acid']
 
@@ -27,7 +27,7 @@ full_df = full_df.reset_index(inplace=False, drop=True)
 
 
 # Match already matched LFEUI entries
-lfeui_match_df = record_df.dropna(axis=0, how='any', subset= ['SF', 'LFEUI'], inplace=False)
+lfeui_match_df = record_df.dropna(axis=0, how='any', subset= ['LFEUI'], inplace=False)
 current_groups = lfeui_match_df[['SF', 'LFEUI']].groupby(['SF', 'LFEUI'], axis=0)['SF'].size().reset_index(name='Size')
 current_groups = current_groups[current_groups["Size"] > 1]
 cur_group_id = current_groups.shape[0]
@@ -37,12 +37,13 @@ merged_record_df['group'].fillna(0, inplace=True)
 
 #Match identical long forms
 lf_match_df = merged_record_df[merged_record_df['LFEUI'].isnull()]
-current_groups = lf_match_df[['LF', 'group']].groupby(['LF'], axis=0)['LF'].size().reset_index(name='Size')
+current_groups = lf_match_df[['SF', 'LF', 'group']].groupby(['SF', 'LF'], axis=0)['LF'].size().reset_index(name='Size')
 current_groups = current_groups[current_groups["Size"] > 1]
 current_groups['group2'] = range(cur_group_id, cur_group_id + len(current_groups))
 cur_group_id = cur_group_id + len(current_groups)
 
-merged_record_df_2 = merged_record_df.merge(current_groups[['LF', 'group2']], how='left', on=['LF'])
+grouped_lf_match_df = lf_match_df.merge(current_groups[['SF', 'LF', 'group2']], how='left', on=['SF', 'LF'])
+merged_record_df_2 = merged_record_df.merge(grouped_lf_match_df[['RecordID', 'group2']], how='left', on=['RecordID'])
 merged_record_df_2['group2'].fillna(0, inplace=True)
 merged_record_df_2['group'] = merged_record_df_2['group'] + merged_record_df_2['group2']
 
@@ -79,10 +80,35 @@ for inx, row in full_df.iterrows():
 
 group_equivalencies_set = [(min(sample), max(sample)) for sample in group_equivalencies]
 group_equivalencies_set = set(group_equivalencies_set)
+group_equivalencies_set = sorted(group_equivalencies_set, key=lambda x: x[1])
 equivalencies_dict = dict(group_equivalencies_set)
 
-group_ids['group'].replace(equivalencies_dict, inplace=True)
+for i in range(5):
+    group_ids['group'].replace(equivalencies_dict, inplace=True)
+
 group_ids.reset_index(inplace=True, drop=False)
 
 grouped_df = record_df.merge(group_ids, how='left', on="RecordID")
 grouped_df.to_csv("/ssd-1/clinical/clinical-abbreviations/data/Step3Output_with_group.csv", index=False)
+
+fail_count = 0
+record_fails = []
+for ix, row in match_df.iterrows():
+    id_1 = row["RecordID1"]
+    id_2 = row["RecordID2"]
+    a = grouped_df[grouped_df['RecordID']==id_1][['group']].iloc[0, 0]
+    b = grouped_df[grouped_df['RecordID']==id_2][['group']].iloc[0, 0]
+    if a != b:
+        fail_count += 1
+        record_fails.append([(id_1, id_2)])
+        print('failure')
+
+for pair in record_fails:
+    id_1, id_2 = pair[0]
+    a = grouped_df[grouped_df['RecordID']==id_1][['group', 'SF','LF','LFEUI']]
+    b = grouped_df[grouped_df['RecordID']==id_2][['group', 'SF', 'LF', 'LFEUI']]
+    print(a, b)
+
+b=grouped_df.groupby(['SF', 'LFEUI'])['group'].nunique().to_frame('size')
+b.max()
+b=grouped_df.groupby(['group'])['SF'].nunique().to_frame('size')

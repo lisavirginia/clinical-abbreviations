@@ -23,10 +23,10 @@ def read_training_data(path: str) -> Tuple:
     Returns:
         Tuple of dataframes containing training info
     """
-    positives = pd.read_csv(path + 'Train1.csv', sep='|')
-    negatives = pd.read_csv(path + 'Train2.csv', sep='|')
-    additional_1 = pd.read_csv(path + 'Train3.csv', sep='|')
-    additional_2 = pd.read_csv(path + 'Train4.csv', sep='|')
+    positives = pd.read_csv(path + 'Train1.csv', sep='|', na_filter=False)
+    negatives = pd.read_csv(path + 'Train2.csv', sep='|', na_filter=False)
+    additional_1 = pd.read_csv(path + 'Train3.csv', sep='|', na_filter=False)
+    additional_2 = pd.read_csv(path + 'Train4.csv', sep='|', na_filter=False)
 
     train_strings = pd.concat((positives, negatives), axis=0)
 
@@ -91,7 +91,7 @@ def _replace_from_dataframe(raw_dataframe: pd.DataFrame, filename: str, space_pa
 
     _replace_characters(raw_dataframe, punct_chars, create_cleaned=False)
 
-    replacement_df = pd.read_csv(DATA_PATH + filename)
+    replacement_df = pd.read_csv(DATA_PATH + filename, na_filter=False)
     for inx, row in replacement_df.iterrows():
         replace_1 = str(row['LF1'])
         replace_2 = str(row['LF2'])
@@ -190,15 +190,16 @@ if __name__ == "__main__":
 
     train_dataframe = create_training_dataframe(train_strings)
 
+    # Replace the unusual text items
+    # Punctuation characters, greek letters, molecules, and roman numerals
     train_strings = _replace_characters(train_strings, punct_chars)
-    train_strings.to_csv(OUTPUT_DIR + 'raw_train_1.csv')
     train_strings = _replace_from_dataframe(train_strings, 'greek_and_molecule_replacements.csv')
-    train_strings.to_csv(OUTPUT_DIR + 'raw_train_2.csv')
     train_strings = _replace_from_dataframe(train_strings, 'roman_numeral_replacements.csv', space_pad=True)
-    train_strings.to_csv(OUTPUT_DIR + 'raw_train_3.csv')
+
+    # Calculate the similarity of numeric values and then replace numeric values
+    # and calculate string similarities
     train_dataframe['numeric_similarity'] = train_strings.apply(
         lambda row: compare_numeric_values(row[cleaned_col_1], row[cleaned_col_2]), axis=1)
-
     train_strings = _replace_numbers(train_strings)
     train_dataframe = string_similarity_metrics(train_strings, train_dataframe)
 
@@ -206,14 +207,16 @@ if __name__ == "__main__":
     train_strings.to_csv(OUTPUT_DIR + 'raw_train.csv')
 
 
-    # create testing feats
+    # Create testing feats
     test_path = "/ssd-1/clinical/clinical-abbreviations/data/full_groups.csv"
-    raw_test_dataframe = pd.read_csv(test_path)
+    raw_test_dataframe = pd.read_csv(test_path, na_filter=False)
 
+    # Replacements (same as above)
     raw_test_dataframe = _replace_characters(raw_test_dataframe, punct_chars)
     raw_test_dataframe = _replace_from_dataframe(raw_test_dataframe, 'greek_and_molecule_replacements.csv')
     raw_test_dataframe = _replace_from_dataframe(raw_test_dataframe, 'roman_numeral_replacements.csv', space_pad=True)
 
+    # Similarities (same as above)
     raw_test_dataframe['numeric_similarity'] = raw_test_dataframe.apply(
         lambda row: compare_numeric_values(row[col_1], row[col_2]), axis=1)
     test_dataframe = raw_test_dataframe[['numeric_similarity']]
