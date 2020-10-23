@@ -2,14 +2,14 @@
 
 Source | Description | Underlying Corpus | Medical Specialty | Last Updated | Number of Records
 --- | --- | --- | --- | --- | ---		
-UMLS-LRABR | Unified Medical Language System Lexical Resource for Abbreviations and Acronyms | Biomedical research | Multiple | 2019 | 294484
-ADAM | Another Database of Abbreviations in Medline | Biomedical research | Multiple | 2007 | 94657
-Berman | Manually-curated general pathology abbreviations | Clinical notes | Pathology | 2004 | 12087
-Wikipedia | Publicly-curated list of medical and clinical trial abbreviations | Clinical notes | Multiple | 2018 | 2952
-Vanderbilt1 | Semi-automatically derived from the medical record | Sign-out notes | Medicine | 2013 | 2414
-Vanderbilt2 | Semi-automatically derived from the medical record | Discharge notes | Medicine | 2013 | 2090
-Stetson | Manually-curated from the general medical record | Sign-out notes | Medicine | 2002 | 765
-Columbia | Manually-curated from the obstetric medical record | Clinical notes | Obstetrics | 2018 | 219
+`UMLS-LRABR` | Unified Medical Language System Lexical Resource for Abbreviations and Acronyms | Biomedical research | Multiple | 2019 | 294484
+`ADAM` | Another Database of Abbreviations in Medline | Biomedical research | Multiple | 2007 | 94657
+`Berman` | Manually-curated general pathology abbreviations | Clinical notes | Pathology | 2004 | 12087
+`Wikipedia` | Publicly-curated list of medical and clinical trial abbreviations | Clinical notes | Multiple | 2018 | 2952
+`Vanderbilt1` | Semi-automatically derived from the medical record | Sign-out notes | Medicine | 2013 | 2414
+`Vanderbilt2` | Semi-automatically derived from the medical record | Discharge notes | Medicine | 2013 | 2090
+`Stetson` | Manually-curated from the general medical record | Sign-out notes | Medicine | 2002 | 765
+`Columbia` | Manually-curated from the obstetric medical record | Clinical notes | Obstetrics | 2018 | 219
 
 ## Citations
 

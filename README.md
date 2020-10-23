@@ -18,7 +18,7 @@ This folder contains the current source inventories.
 
 Please adhere to the stated terms and conditions associated with each source.
 
-Please refer to the README.md file internal to the folder for source metadata.
+Please refer to the README.md file internal to the folder for the source metadata.
 
 ## Folder: code
 
