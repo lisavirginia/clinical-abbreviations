@@ -2,7 +2,7 @@
 
 This repository contains the live version of the Medical Abbreviation and Acronym Meta-Inventory, a large-scale American English database of medical abbreviations and their possible senses.
 
-**Last Updated: 23rd October 2020**
+**Last Updated: 11th November 2020**
 
 ## Folder: metainventory
 

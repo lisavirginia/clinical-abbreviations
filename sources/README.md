@@ -24,4 +24,3 @@ Wikipedia: List of Medical Abbreviations. Available at: https://en.wikipedia.org
 Recognition and Disambiguation of Clinical Abbreviations at Vanderbilt. Available at: https://sbmi.uth.edu/ccb/resources/abbreviation.htm.
 
 Stetson, P. D., Johnson, S. B., Scotch, M. & Hripcsak, G. The sublanguage of cross-coverage. AMIA Annu. Symp. Proc. 2002, 742–6 (2002).
-
