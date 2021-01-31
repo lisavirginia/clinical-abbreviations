@@ -1,0 +1,186 @@
+GroupID|RecordID|SF|SFUI|NormSF|LF|LFUI|NormLF|Source|SFEUI|LFEUI|Type|PrefSF|Score|Count|Frequency|UMLS.CUI
+|R064881|ATMPn|S006170|atmpn|-acetoxy-2,7,12,17-tetrakis-(beta-methoxyethyl)-porphycene|L000100||UMLS|E0553450||acronym|||||
+|R080114|AFLP|S004196|aflp|amplified-fragment-length polymorphis-|L042274||UMLS|E0592064|E0750252|acronym|||||
+|R250363|Zfpn1a2|S077498|zfpn1a2|zinc finger protein, subfamily 1A, 2,|L169532||UMLS|E0743298||acronym|||||
+|R315532|DNIC|S019528|dnic|'diffuse noxious inhibitory controls'|L000001|diffuse noxious inhibitory control|ADAM||||DNIC|0.7571|95||
+|R315587|DNR|S019572|dnr|'do not resuscitate'|L000002|do not resuscitate|ADAM||||DNR|0.5856|196||
+|R317407|EBV|S021426|ebv|Epstein Barr virus-|L013123|Epstein Barr virus|ADAM||||EBV|0.4422|6747||
+|R325544|GP|S028156|gp|general practitioners'|L081203|general practitioner|ADAM||||GP|0.8449|915||
+|R332868|IL-|S035691|il_|interleukin-|L096429|interleukin|ADAM||||IL-|0.2812|25||
+|R333219|Il|S037587|il|interleukin-|L096429|interleukin|ADAM||||IL|0.0136|3||
+|R348212|NPs|S049258|nps|nurse practitioners'|L120426|nurse practitioner|ADAM||||NPs|0.7103|250||
+|R358436|PWM|S057340|pwm|pokeweed mitogen-|L129932|pokeweed mitogen|ADAM||||PWM|0.7658|28||
+|R389260|ad lib|S078206|ad lib|ad libitim|L039199||Berman||||||||
+|R389328|aidh|S078366|aidh|atypical intraductal hyperlasia|L047428||Berman||||||||
+|R389332|ail|S078372|ail|angioimmunoproliferative lesions|L042663|angioimmunoproliferative lesion|Berman||||||||
+|R389420|apb|S080643|apb|abductor pollicus brevis|L037417||Berman||||||||
+|R389560|aventyl|S081157|aventyl|nortriptylineavf|L119647||Berman||||||||
+|R389626|bawo|S081478|bawo|bilateral antrl washout|L049887||Berman||||||||
+|R389964|casrn|S083024|casrn|chemical abstract service registery number|L056257||Berman||||||||
+|R390018|ccv-av|S083138|ccv_av|ccnu, cyclophosphamide, vincristine/adriamycin, vincristine|L055097||Berman||||||||
+|R390198|cmy|S083601|cmy|cariomyopathy|L054483||Berman||||||||
+|R390564|dnrcc|S085141|dnrcc|do not recussitate comfort care|L068935||Berman||||||||
+|R390620|dse|S085308|dse|debutamine stress echocardiogram|L064867||Berman||||||||
+|R390692|e-lap|S085440|e_lap|exploratory laparatomy|L075261||Berman||||||||
+|R390742|ectr|S085699|ectr|endocscopic carpal tunnel release|L072151||Berman||||||||
+|R390765|ees|S085737|ees|erythromycin ethinylsuccinate|L073840||Berman||||||||
+|R391108|fpf|S086730|fpf|familial pulmolary fibrosis|L076281||Berman||||||||
+|R391143|ftds|S086821|ftds|familila testicular dysgenesis syndrome|L076290||Berman||||||||
+|R391147|fticr|S086826|fticr|fourier transform ioncyclotron resonance|L079297||Berman||||||||
+|R391164|fvea|S086873|fvea|fundacion valenciana de estudios avanzados|L080056||Berman||||||||
+|R391364|gugals|S087524|gugals|"combined term for ""guys and gals"""|L059609||Berman||||||||
+|R391662|hyperal|S089030|hyperal|hyperalimenation|L091754||Berman||||||||
+|R391723|idh|S089328|idh|intraductal hyperlasia|L098101||Berman||||||||
+|R391807|ine|S089512|ine|infantile necrotizing encephalomylopathy|L094253||Berman||||||||
+|R391866|issd|S089811|issd|infantile sialic acid storage disorde|L094266||Berman||||||||
+|R392280|mabs|S091512|mabs|monocloncal antibodies|L112636||Berman||||||||
+|R392428|mgldg|S092102|mgldg|monogalactosyldiglyceride|L112715|monogalactosyldiglyceride|Berman||||||||
+|R392469|mion|S092264|mion|monocrystalline iron oxide nonaparticle|L112640|monocrystalline iron oxide nonaparticle|Berman||||||||
+|R392491|mmct|S092346|mmct|method of microcell mediated chromosome transfer|L109899||Berman||||||||
+|R392540|mob-iii|S092424|mob_iii|mitomycinc, oncovin, bleomycin, cisplatin|L112022||Berman||||||||
+|R392801|nkma|S093395|nkma|no known medcation allergies|L117871||Berman||||||||
+|R392956|ohcs|S093981|ohcs|17 hydroxcorticosteroids|L000737||Berman||||||||
+|R393185|pds|S095477|pds|polydiaxanone sutures|L130578||Berman||||||||
+|R393506|puppp|S097194|puppp|prurutic urticarial papules and plaques of pregnancy|L136087||Berman||||||||
+|R393587|rads|S098215|rads|reactive airays dysfunction syndrome|L138693||Berman||||||||
+|R393622|rdpa|S098343|rdpa|refsum disease with increased pipecolicacidemia|L140273||Berman||||||||
+|R394012|snip|S100420|snip|wedi's new strategic national implementation process|L168303||Berman||||||||
+|R394016|snrnp|S100430|snrnp|snrnp small nuclear ribonucleo protein particle|L148302||Berman||||||||
+|R394149|sux|S101022|sux|succhinylcholine|L152574||Berman||||||||
+|R394308|therap|S101761|therap|therapy,therapeutic|L156026||Berman||||||||
+|R394390|torch|S102018|torch|toxoplamosis others rubella, cytomegalovirus , herpes simplex|L158823||Berman||||||||
+|R394581|usda|S102737|usda|united states dept of agiculture|L164285||Berman||||||||
+|R394582|usi|S102738|usi|urinary stress incontinene|L164930||Berman||||||||
+|R394583|usmle|S102739|usmle|united states medical lcensing examination|L164286||Berman||||||||
+|R394670|veb|S103053|veb|vetricular ectopic beat|L166785||Berman||||||||
+|R394758|vtach|S103303|vtach|venricular tachycardia|L166085||Berman||||||||
+|R394782|wais-r|S103360|wais_r|weschler adult intelligence scale revised|L168422||Berman||||||||
+|R394852|xli|S103536|xli|x linked ichythyosis|L169030||Berman||||||||
+|R395046|bckd|S081530|bckd|branched chain alphaketoacid dehydrogenase deficiency|L051898||Berman||||||||
+|R395287|diag|S084919|diag|diagnonal|L066455||Berman||||||||
+|R395756|idk|S089331|idk|intern derangem knee jnt|L097066||Berman||||||||
+|R395952|mbt|S091719|mbt|modifd blalock tauss sht|L112285||Berman||||||||
+|R395988|mect|S091844|mect|multi elect/conv therpy|L113431||Berman||||||||
+|R396564|spet|S100559|spet|single phot emis tomogr|L147102||Berman||||||||
+|R396566|spg|S100564|spg|specific gravlty|L149565||Berman||||||||
+|R396634|tcpc|S101582|tcpc|tot cavopul conn opns|L158177||Berman||||||||
+|R396636|tcre|S101588|tcre|transcerv resec endom|L159232||Berman||||||||
+|R396713|ttnb|S102253|ttnb|transthorcic needle biopsy|L160363||Berman||||||||
+|R396758|uwsd|S102779|uwsd|ins underwat seal drain|L095082||Berman||||||||
+|R397020|cdh|S083170|cdh|congenital displasia of hip|L060707||Berman||||||||
+|R397751|as|S080964|as|auris sinestra|L047627||Berman||||||||
+|R397806|cpdd|S083826|cpdd|cis platinum diamminedichloride|L057930||Berman||||||||
+|R397832|cvi|S084092|cvi|carboplatin, vepesid, ifosfamide, mesnex uroprotection|L053966||Berman||||||||
+|R397864|dle|S085063|dle|diath loop excis, cervix|L066682||Berman||||||||
+|R397881|eba|S085606|eba|epidermolysis bullosa acquisata|L073290||Berman||||||||
+|R397893|eph|S085964|eph|edema/prot/hyper, preg|L070657||Berman||||||||
+|R397895|eph|S085964|eph|oedema/prot/hyper, preg|L121015||Berman||||||||
+|R397898|era|S086020|era|estroadiol receptor assay|L074036||Berman||||||||
+|R398324|alt|S078746|alt|alaniinitransaminaas|L040615||Berman||||||||
+|R398353|bht|S082009|bht|butylhyroxytoluene|L052633||Berman||||||||
+|R398362|bl|S082083|bl|bucolingual|L052468||Berman||||||||
+|R398584|hvs|S088944|hvs|gardnerella vaginialis|L080702||Berman||||||||
+|R398860|tpa|S102058|tpa|12 o tetradecanophorbol 13 acetatetpa|L000604||Berman||||||||
+|R399121|lms|S090624|lms|multi symmet lipomatosis|L113441||Berman||||||||
+|R399185|ntp|S093733|ntp|nitropatch|L117773||Berman||||||||
+|R399280|sb|S099816|sb|sceral buckle|L143974||Berman||||||||
+|R399462|est|S086089|est|electoconvulsive shock therapy|L070912||Berman||||||||
+|R400131|ph|S095709|ph|prostatic hyertrophy|L135264||Berman||||||||
+|R401143|pc|S095391|pc|correctn pectus carinatum|L061945||Berman||||||||
+|R401255|TIBC|S070449|tibc|total iron binding capacit|L158451||Vanderbilt Clinic Notes||||||9|1.0|"c0439810|c1148613"
+|R401256|tibc|S101822|tibc|total iron binding capacit|L158451||Vanderbilt Clinic Notes||||||1|1.0|"c0439810|c1148613"
+|R401370|heme|S088333|heme|hematology/hematological|L085879||Vanderbilt Clinic Notes||||||4|1.0|c0018943
+|R401371|Heme|S033652|heme|hematology/hematological|L085879||Vanderbilt Clinic Notes||||||11|1.0|c0018943
+|R401372|HEME|S030947|heme|hematology/hematological|L085879||Vanderbilt Clinic Notes||||||5|1.0|c0018943
+|R401497|ggt|S087188|ggt|drops|L069770|drop|Vanderbilt Clinic Notes||||||4|0.004|c1321095
+|R401498|ggt|S087188|ggt|drip|L069749|drip|Vanderbilt Clinic Notes||||||6|0.015|c1321095
+|R401502|eGFRAA|S085507|egfraa|estimated glomular filtration rate african american|L074006||Vanderbilt Clinic Notes||||||4|1.0|"c2733005|c0085756"
+|R401528|CTS|S015670|cts|computed tomography|L060269||Vanderbilt Clinic Notes||||||1|0.0222|c0040405
+|R401630|C/o|S011877|c_o|complaining of/complaints of|L059874||Vanderbilt Clinic Notes||||||1|1.0|c0277786
+|R401631|c/o|S082549|c_o|complaining of/complaints of|L059874||Vanderbilt Clinic Notes||||||19|1.0|c0277786
+|R401662|mo|S092408|mo|month/months|L112830||Vanderbilt Clinic Notes||||||19|1.0|c0439231
+|R401663|Mo|S046560|mo|month/months|L112830||Vanderbilt Clinic Notes||||||1|1.0|c0439231
+|R401911|Pcp|S057600|pcp|primary care provider/physician|L133867||Vanderbilt Clinic Notes||||||1|0.932|c0033131
+|R401912|PCP|S053906|pcp|primary care provider/physician|L133867||Vanderbilt Clinic Notes||||||17|0.932|c0033131
+|R401996|.Ed|S000217|ed|** degree|L000099|degree|Vanderbilt Clinic Notes||||||1|0.004|c0449286
+|R402115|ASA.|S005808|asa|acetysalicylic acid|L037903||Vanderbilt Clinic Notes||||||1|0.823|c0004057
+|R402116|asa|S080975|asa|acetysalicylic acid|L037903||Vanderbilt Clinic Notes||||||2|0.823|c0004057
+|R402117|ASA|S005730|asa|acetysalicylic acid|L037903||Vanderbilt Clinic Notes||||||14|0.823|c0004057
+|R402140|h1n1.|S087646|h1n1|hemoagglutinine-1 and neuroaminidase-1|L085984||Vanderbilt Clinic Notes||||||1|1.0|c0580264
+|R402141|H1N1|S029987|h1n1|hemoagglutinine-1 and neuroaminidase-1|L085984||Vanderbilt Clinic Notes||||||18|1.0|c0580264
+|R402142|h1n1|S087645|h1n1|hemoagglutinine-1 and neuroaminidase-1|L085984||Vanderbilt Clinic Notes||||||1|1.0|c0580264
+|R402233|.x5|S000255|x5|five|L077883||Vanderbilt Clinic Notes||||||1|1.0|c0205451
+|R402270|p.r.n.|S094573|prn|pro re nata/as needed|L134158||Vanderbilt Clinic Notes||||||1|1.0|c1883728
+|R402271|prn.|S096886|prn|pro re nata/as needed|L134158||Vanderbilt Clinic Notes||||||1|1.0|c1883728
+|R402272|PRN|S056578|prn|pro re nata/as needed|L134158||Vanderbilt Clinic Notes||||||4|1.0|c1883728
+|R402273|prn|S096885|prn|pro re nata/as needed|L134158||Vanderbilt Clinic Notes||||||14|1.0|c1883728
+|R402301|nebs|S093228|nebs|nebulizer|L115801|nebuliser|Vanderbilt Clinic Notes||||||19|1.0|c0027524
+|R402302|Nebs|S050103|nebs|nebulizer|L115801|nebuliser|Vanderbilt Clinic Notes||||||2|1.0|c0027524
+|R402484|MGR|S044226|mgr|mumurs, gallops, or rubs|L114234||Vanderbilt Clinic Notes||||||6|0.941|"c0018808|c0232200|c0232267"
+|R402485|mgr|S092108|mgr|mumurs, gallops, or rubs|L114234||Vanderbilt Clinic Notes||||||3|0.941|"c0018808|c0232200|c0232267"
+|R402565|mEq/L|S091248|meq_l|milliequivalents/liter|L111344||Vanderbilt Clinic Notes||||||6|1.0|c0439375
+|R402566|meq/L|S091897|meq_l|milliequivalents/liter|L111344||Vanderbilt Clinic Notes||||||2|1.0|c0439375
+|R402567|meq/l|S091898|meq_l|milliequivalents/liter|L111344||Vanderbilt Clinic Notes||||||1|1.0|c0439375
+|R402568|mEq/l|S091249|meq_l|milliequivalents/liter|L111344||Vanderbilt Clinic Notes||||||1|1.0|c0439375
+|R402784|po|S096146|po|per os/per oral|L125868||Vanderbilt Clinic Notes||||||15|0.998|c1527415
+|R402785|P.O|S052990|po|per os/per oral|L125868||Vanderbilt Clinic Notes||||||1|0.998|c1527415
+|R402786|PO|S056025|po|per os/per oral|L125868||Vanderbilt Clinic Notes||||||3|0.998|c1527415
+|R402796|B/L|S008396|b_l|bilateral/bilaterally|L049957||Vanderbilt Clinic Notes||||||6|1.0|c0238767
+|R402797|b/l|S081303|b_l|bilateral/bilaterally|L049957||Vanderbilt Clinic Notes||||||14|1.0|c0238767
+|R402822|Pat-PT|S057520|pat_pt|prothrombin time|L135896|prothrombin time|Vanderbilt Clinic Notes||||||5|1.0|c0033707
+|R402851|w/fe|S103343|w_fe|with iron|L168876|iron|Vanderbilt Clinic Notes||||||4|1.0|c0302583
+|R402897|bil.|S082035|bil|bilaterally/bilateral|L049960||Vanderbilt Clinic Notes||||||3|1.0|c0238767
+|R402898|bil|S082033|bil|bilaterally/bilateral|L049960||Vanderbilt Clinic Notes||||||34|1.0|c0238767
+|R402899|.bil|S000245|bil|bilaterally/bilateral|L049960||Vanderbilt Clinic Notes||||||1|1.0|c0238767
+|R402936|..Ecmo|S000193|ecmo|extracorporeal membrane oxygenation|L075771|extracorporeal membrane oxygenation|Vanderbilt Clinic Notes||||||1|1.0|c0015357
+|R403019|PSYCH|S056886|psych|psychiatric/psychiatry|L136237||Vanderbilt Clinic Notes||||||7|1.0|c0205487
+|R403020|Psych|S058537|psych|psychiatric/psychiatry|L136237||Vanderbilt Clinic Notes||||||6|1.0|c0205487
+|R403021|psych|S097118|psych|psychiatric/psychiatry|L136237||Vanderbilt Clinic Notes||||||7|1.0|c0205487
+|R403254|ob|S093904|ob|obstetric/obstetrical|L120603||Vanderbilt Clinic Notes||||||1|1.0|c0205484
+|R403255|Ob|S051781|ob|obstetric/obstetrical|L120603||Vanderbilt Clinic Notes||||||1|1.0|c0205484
+|R403256|OB|S050871|ob|obstetric/obstetrical|L120603||Vanderbilt Clinic Notes||||||12|1.0|c0205484
+|R403895|.c2|S000246|c2|2nd cervical vertebra|L001461|2nd cervical vertebra|Vanderbilt Discharge Sums||||||1|1.0|c0004457
+|R404048|..cpk|S000201|cpk|creatine phosphokinase|L062536|creatine phosphokinase|Vanderbilt Discharge Sums||||||1|1.0|c0010287
+|R404171|dm|S085076|dm|dextromethoraphan|L066279||Vanderbilt Discharge Sums||||||2|0.0111|c0011816
+|R404537|ITP|S037070|itp|idiopathic thrombocytopenic purprua|L092710||Vanderbilt Discharge Sums||||||19|0.9773|c0043117
+|R404687|MDs|S043889|mds|medical doctor|L108529|Medical Doctor|Vanderbilt Discharge Sums||||||2|0.9620000000000001|c0031831
+|R404846|NPO|S049174|npo|nothing by moouth|L119680||Vanderbilt Discharge Sums||||||17|1.0|c0419179
+|R404847|n.p.o.|S092943|npo|nothing by moouth|L119680||Vanderbilt Discharge Sums||||||1|1.0|c0419179
+|R404848|n.p.o|S092942|npo|nothing by moouth|L119680||Vanderbilt Discharge Sums||||||1|1.0|c0419179
+|R404849|npo|S093654|npo|nothing by moouth|L119680||Vanderbilt Discharge Sums||||||1|1.0|c0419179
+|R404880|.o|S000248|o|old|L121258|OLD|Vanderbilt Discharge Sums||||||1|0.0112|c0580836
+|R405116|PT-inr|S056904|pt_inr|international normalized ratio|L097220||Vanderbilt Discharge Sums||||||3|1.0|c0525032
+|R405499|TC|S069304|tc|tenncare|L155224|TennCare|Vanderbilt Discharge Sums||||||3|0.4253|null
+|R405520|TLSO|S070698|tlso|thoracolumbarsacral orthosis|L156534||Vanderbilt Discharge Sums||||||10|1.0|c2092417
+|R405647|VCUG|S074826|vcug|voiding cystourethogram|L167619||Vanderbilt Discharge Sums||||||25|1.0|c0203123
+|R405775|ABO|S003387|abo|Landsteiner's blood grouping system|L019922||Wikipedia||||||||
+|R406370|CREST|S015129|crest|calcinosis, Raynaud esophagus, sclerosis, teleangiectasiae|L052902||Wikipedia||||||||
+|R406430|CTPE|S015661|ctpe|CT scan for pulmonary embolii|L008283||Wikipedia||||||||
+|R406506|Di-Di|S020393|di_di|dichromatic diamnionic twins|L066837||Wikipedia||||||||
+|R406527|DMD|S019303|dmd|Dentariae Medicinae Doctor|L011480||Wikipedia||||||||
+|R406722|FDG|S024483|fdg|fluordeoxyglucose|L078282||Wikipedia||||||||
+|R406941|HHT|S031217|hht|hereditary hemorrhagic telangiectisia|L087014||Wikipedia||||||||
+|R406946|HIDS|S031254|hids|hyper-IgDsyndrome|L091693||Wikipedia||||||||
+|R407218|LES|S040400|les|lupus erythematosus systemicus|L105475||Wikipedia||||||||
+|R407678|PEP|S054459|pep|postexposure prophylaxis|L132316|postexposure prophylaxis|Wikipedia||||||||
+|R407696|PID|S055176|pid|prolapsed intervertibral disc|L134685||Wikipedia||||||||
+|R408206|TKA|S070614|tka|total knee arthoplasty|L158459||Wikipedia||||||||
+|R408311|VAI|S074694|vai|cincristine, actinomycin D, and ifosfamide|L057815||Wikipedia||||||||
+|R408470|FAME 2|S024244|fame 2|FFR vs. Angiographyfor Multivessel Evaluation 2|L013846||Wikipedia||||||||
+|R408534|BeSt|S010414|best|"Behandel-Strategeieën (\treatment strategies\"" in Dutch)"""|L006881||Wikipedia||||||||
+|R408550|iPrEx|S089215|iprex|"Iniciativa Profilaxis Pre Exposicion (\Preexposure Prophylaxis Initiative\"")"""|L018218||Wikipedia||||||||
+|R408594|COMPASS|S014698|compass|Cardiovascular Outcomes for People Using Anticoagulation Stratgies|L008800||Wikipedia||||||||
+|R408654|FLAME COPD|S024952|flame copd|Effect of Indacaterol Glycopyronium Vs. Fluticasone Salmeterol on COPD Exacerbations|L012621||Wikipedia||||||||
+|R408683|ODYSSEY LONG TERM|S051007|odyssey long term|Long-term Safety and Tolerability of Alirocumab in High Cardiovascular Risk Patients with Hypercholesterolemia Not\nAdequately Controlled with Their Lipid Modifying Therapy|L020640||Wikipedia||||||||
+|R408787|mmm|S092360|mmm|moist mucous membanes|L112393||Stetson|||||||1.0|
+|R408810|nc|S093182|nc|nasal canula|L115425||Stetson|||||||0.242|
+|R408836|ctab|S084003|ctab|clear to auscultation bilaterlly|L058177||Stetson|||||||1.0|
+|R408846|cri|S083885|cri|chornic renal insufficiency|L057219||Stetson|||||||1.0|
+|R408861|cl|S083498|cl|consult liason|L061050||Stetson|||||||0.0101214574898785|
+|R408862|dr|S085245|dr|Domican Republic|L012025||Stetson|||||||0.0752032520325203|
+|R408867|alt|S078746|alt|alternalte|L041635||Stetson|||||||0.002|
+|R409041|mrg|S092529|mrg|murmumrs, rubs, gallops|L114370||Stetson|||||||1.0|
+|R409080|n/v/d|S092952|n_v_d|nause, vomiting, diarrhea|L115702||Stetson|||||||1.0|
+|R409135|e|S085416|e|exempli gratia (for example)|L075053||Stetson|||||||0.017|
+|R409172|lee|S090443|lee|lower extremitiy edema|L105200||Stetson|||||||0.708|
+|R409626|RA-TLH|S059552|ra_tlh|Robotic assister total laparoscopic hysterectomy|L029248||Columbia||||||||

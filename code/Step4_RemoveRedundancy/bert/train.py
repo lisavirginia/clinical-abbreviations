@@ -99,7 +99,7 @@ train_config = {
 
 
 def _run_training_loop(model, train_config):
-    """Runs the training loop to train the NER."""
+    """Runs the training loop to train the matcher."""
     # set up params for training loop
 
     criterion = nn.BCELoss(reduce=False)
