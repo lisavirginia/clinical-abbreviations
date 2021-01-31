@@ -7,7 +7,8 @@ from num2words import num2words
 import pandas as pd
 
 
-DATA_PATH = '/ssd-1/clinical/clinical-abbreviations/training/'
+DATA_PATH = '/ssd-1/clinical/clinical-abbreviations/code/data/'
+test_path = "/ssd-1/clinical/clinical-abbreviations/data/full_groups.csv"
 OUTPUT_DIR = '/ssd-1/clinical/clinical-abbreviations/data/'
 col_1 = 'LF1'
 col_2 = 'LF2'
@@ -208,7 +209,7 @@ if __name__ == "__main__":
 
 
     # Create testing feats
-    test_path = "/ssd-1/clinical/clinical-abbreviations/data/full_groups.csv"
+
     raw_test_dataframe = pd.read_csv(test_path, na_filter=False)
 
     # Replacements (same as above)

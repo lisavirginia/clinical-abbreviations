@@ -1,10 +1,13 @@
 import pandas as pd
+import numpy as np
+
 from fuzzywuzzy import fuzz
 from tqdm import tqdm
 
+# @TODO(RAY): switch this from notebook format to functional
 
-MATCH_PATH = "/ssd-1/clinical/clinical-abbreviations/data/full_prediction_check.csv"
-RECORD_PATH = "/ssd-1/clinical/clinical-abbreviations//code/Step3Output.csv"
+MATCH_PATH = "/ssd-1/clinical/clinical-abbreviations/data/full_prediction.csv"
+RECORD_PATH = "/ssd-1/clinical/clinical-abbreviations/code/Step3Output.csv"
 MATCH_THRESHOLD = .78
 eliminate_list = ['ribo', 'non', 'gene', 'acid'] # Terms that result in suspicious matches; to be manually unmatched
 
@@ -18,15 +21,18 @@ def _remove_suspicious_matches(df_row):
 
 
 # Read data
-full_df = pd.read_csv(MATCH_PATH)
-record_df = pd.read_csv(RECORD_PATH, sep='|')
+full_df = pd.read_csv(MATCH_PATH, na_filter=False)
+record_df = pd.read_csv(RECORD_PATH, sep='|', na_filter=False)
 
+record_df.replace(r'^\s*$', np.nan, regex=True, inplace=True)
+full_df.replace(r'^\s*$', np.nan, regex=True, inplace=True)
 full_df.columns = ['LF1', 'LF2', 'RecordID1', 'RecordID2', 'match_score']
 full_df.sort_values(by=['LF1'], axis=0, ascending=True)
 full_df = full_df.reset_index(inplace=False, drop=True)
 
 
 # Match entries by LFEUI in 'group' column
+
 lfeui_match_df = record_df.dropna(axis=0, how='any', subset= ['LFEUI'], inplace=False)
 current_groups = lfeui_match_df[['SF', 'LFEUI']].groupby(['SF', 'LFEUI'], axis=0)['SF'].size().reset_index(name='Size')
 current_groups = current_groups[current_groups["Size"] > 1]
@@ -98,7 +104,7 @@ for i in range(5):
 # Write the group ids
 group_ids.reset_index(inplace=True, drop=False)
 grouped_df = record_df.merge(group_ids, how='left', on="RecordID")
-grouped_df.to_csv("/ssd-1/clinical/clinical-abbreviations/data/Step3Output_with_group.csv", index=False)
+grouped_df.to_csv("/ssd-1/clinical/clinical-abbreviations/data/Step3Output_with_group_fixed.csv", index=False)
 
 
 # Do some testing for possible mistakes, not  necesary to recieve the group ID
@@ -117,8 +123,8 @@ def check_for_failure(grouped_df):
 
     for pair in record_fails:
         id_1, id_2 = pair[0]
-        a = grouped_df[grouped_df['RecordID']==id_1][['group', 'SF','LF','LFEUI']]
-        b = grouped_df[grouped_df['RecordID']==id_2][['group', 'SF', 'LF', 'LFEUI']]
+        a = grouped_df[grouped_df['RecordID'] == id_1][['group', 'SF','LF','LFEUI']]
+        b = grouped_df[grouped_df['RecordID'] == id_2][['group', 'SF', 'LF', 'LFEUI']]
         print(a, b)
 
     b = grouped_df.groupby(['SF', 'LFEUI'])['group'].nunique().to_frame('size')
@@ -127,4 +133,4 @@ def check_for_failure(grouped_df):
     print(b)
     return 1
 
-check_for_failure(grouped_df)
+#check_for_failure(grouped_df)

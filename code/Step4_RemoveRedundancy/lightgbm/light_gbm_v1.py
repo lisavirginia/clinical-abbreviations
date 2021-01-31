@@ -36,7 +36,7 @@ def run_lgb_models(train_df, target, test_df=None):
         nfolds=5,
         stratified=False,
         shuffle=True,
-        seed=117,
+        seed=2020,
         regression=False,
         nbags=1,
         metric=mt.log_loss,
@@ -55,7 +55,12 @@ if __name__ == "__main__":
     print(train_df.columns, test_df.columns)
     clf = run_lgb_models(train_df, target, test_df)
 
-    print('F1: ', mt.f1_score(target, clf.oof_predictions[0] > .5))
+    thresholds = [.3, .4, .5, .6, .7]
+    for threshold in thresholds:
+        print('F1 at {}: '.format(threshold), mt.f1_score(target, clf.oof_predictions[0] > threshold))
+        print('Recall at {}: '.format(threshold), mt.recall_score(target, clf.oof_predictions[0] > threshold))
+        print('Precision at {}: '.format(threshold), mt.precision_score(target, clf.oof_predictions[0] > threshold))
+
     RAW_PATH = '/ssd-1/clinical/clinical-abbreviations/data/raw_train.csv'
     raw_data = pd.read_csv(RAW_PATH, na_filter=False)
     raw_data['target'] = target

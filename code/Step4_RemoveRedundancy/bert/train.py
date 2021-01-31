@@ -6,8 +6,7 @@ import pandas as pd
 from pytorch_transformers import RobertaConfig, RobertaTokenizer, RobertaModel
 
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import train_test_split
-import torch
+from sklearn.model_selection import KFold
 import torch.nn as nn
 from torch.optim import Adam
 from torch.utils.data import DataLoader
@@ -27,7 +26,8 @@ epsilon = 1e-8
 
 tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
-VERSION = '1.1'
+fold = 0
+VERSION = '1.1_fold_{}'.format(fold)
 SAVE_DIR = '/ssd-1/clinical/clinical-abbreviations/checkpoints/{}.pt'.format(VERSION)
 train_data_path = '/ssd-1/clinical/clinical-abbreviations/training/Train1_train.csv'
 val_data_path = '/ssd-1/clinical/clinical-abbreviations/training/Train1_val.csv'
@@ -44,7 +44,15 @@ if load_data:
     if "target" in additional_feats.columns:
         additional_feats.drop("target", axis=1, inplace=True)
     ADDITIONAL_FEAT_SIZE = additional_feats.shape[1]
-    train_inx, val_inx = train_test_split(range(len(train_strings)), test_size=.2)
+    kf = KFold(n_splits = 5, random_state = 117, shuffle = True)
+
+
+    # TODO:@Ray improve the fold selection
+    cur_fold = 0
+    for train_inx, val_inx in kf.split(train_strings):
+        if cur_fold == fold:
+            break
+        cur_fold += 1
 
     X_train = train_strings.iloc[train_inx, :].reset_index(drop=True, inplace=False)
     X_feats = additional_feats.iloc[train_inx, :].reset_index(drop=True, inplace=False)
