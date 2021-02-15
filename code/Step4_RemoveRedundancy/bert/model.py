@@ -17,7 +17,6 @@ class MatchHead(nn.Module):
         super(MatchHead, self).__init__()
         self.GRU_1 = nn.GRU(base_model_feature_size, rnn_dimension, bidirectional=False)
         self.GRU_2 = nn.GRU(base_model_feature_size, rnn_dimension, bidirectional=False)
-        self.linear_1 = nn.Linear(additional_feature_size, linear_1_dimension)
         self.linear_1 = nn.Linear(rnn_dimension * 2 + additional_feature_size, linear_1_dimension)
         self.linear_2 = nn.Linear(linear_1_dimension, num_classes)
 
@@ -46,6 +45,7 @@ class MatchHead(nn.Module):
         sigmoid_output = F.sigmoid(pre_sigmoid_output)
 
         return sigmoid_output
+
 
 class MatchArchitecture(nn.Module):
     "Transformer base model for matching."
@@ -108,8 +108,54 @@ class MatchArchitecture(nn.Module):
         sequence_output_2 = outputs_2[0]
 
         match_classification = self.match_head(sequence_output_1, sequence_output_2, additional_feats)
-        #match_classification = self.match_head(None, None, additional_feats)
 
         return match_classification
+
+
+class FFMatchHead(nn.Module):
+    """Roberta Head for Matching."""
+    def __init__(
+        self,
+        additional_feature_size,
+        num_classes,
+        linear_1_dimension,
+    ):
+        """Model architecture definition for the capitalization model in torch."""
+        super(MatchHead, self).__init__()
+        self.linear_1 = nn.Linear(additional_feature_size, linear_1_dimension)
+        self.linear_2 = nn.Linear(linear_1_dimension, num_classes)
+
+    def forward(self, additional_feats):
+        """Forward pass"""
+
+        # batch second is faster
+        linear_input = additional_feats
+        linear_output = self.linear_1(linear_input)
+        activated_linear_output = F.relu(linear_output)
+        pre_sigmoid_output = self.linear_2(activated_linear_output)
+        sigmoid_output = F.sigmoid(pre_sigmoid_output)
+
+        return sigmoid_output
+
+
+class FFMatchArchitecture(nn.Module):
+    "Transformer base model for matching."
+    def __init__(
+        self,
+        additional_feature_size,
+        num_classes,
+        linear_1_dimension,
+    ):
+        super(FFMatchArchitecture, self).__init__()
+        self.match_head = FFMatchHead(
+            additional_feature_size, num_classes, linear_1_dimension
+        )
+
+    def forward(self, additional_feats):
+        """Forward pass"""
+
+        match_classification = self.match_head(additional_feats)
+        return match_classification
+
 
 

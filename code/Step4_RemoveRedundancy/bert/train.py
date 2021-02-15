@@ -17,10 +17,10 @@ from torch.utils.data import DataLoader
 from model import MatchArchitecture
 from data_utils import MatchingDataset
 
-
+RANDOM_SEED = 117
 SEQ_LEN = 10
 RNN_DIM = 64
-LINEAR_DIM=64
+LINEAR_DIM = 64
 CLASSES = 1
 ROBERTA_FEAT_SIZE = 768
 ADDITIONAL_FEAT_SIZE = 0
@@ -53,7 +53,7 @@ for fold in range(5):
         if "target" in additional_feats.columns:
             additional_feats.drop("target", axis=1, inplace=True)
         ADDITIONAL_FEAT_SIZE = additional_feats.shape[1]
-        kf = KFold(n_splits=5, random_state = 117, shuffle = True)
+        kf = KFold(n_splits=5, random_state = RANDOM_SEED, shuffle = True)
 
 
         # TODO:@Ray improve the fold selection
@@ -271,13 +271,8 @@ for fold in range(5):
         else:
             temp_preds = sigmoid_output.cpu().detach().numpy()
             preds = np.concatenate([preds, temp_preds], axis=0)
-            temp_labels = y_batch.cpu().detach().numpy()
-            labels = np.concatenate([labels, temp_labels], axis =0)
 
-    assert(len(preds)==len(labels))
     oof_preds[val_inx, 0] = preds[:len(val_inx), 0]
-    oof_preds2[cur_oof_inx:cur_oof_inx + len(labels), 0] = preds[:len(val_inx), 0]
-    oof_labels[cur_oof_inx:cur_oof_inx + len(labels), 0] = labels[:len(val_inx), 0]
     cur_oof_inx += len(labels)
     del model
 
@@ -289,11 +284,5 @@ for threshold in thresholds:
     print('F1 at {}: '.format(threshold), mt.f1_score(target, oof_preds > threshold))
     print('Recall at {}: '.format(threshold), mt.recall_score(target, oof_preds > threshold))
     print('Precision at {}: '.format(threshold), mt.precision_score(target, oof_preds > threshold))
-
-
-for threshold in thresholds:
-    print('F1 at {}: '.format(threshold), mt.f1_score(oof_labels, oof_preds2 > threshold))
-    print('Recall at {}: '.format(threshold), mt.recall_score(oof_labels, oof_preds2 > threshold))
-    print('Precision at {}: '.format(threshold), mt.precision_score(oof_labels, oof_preds2 > threshold))
 
 
