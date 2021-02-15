@@ -17,6 +17,7 @@ class MatchHead(nn.Module):
         super(MatchHead, self).__init__()
         self.GRU_1 = nn.GRU(base_model_feature_size, rnn_dimension, bidirectional=False)
         self.GRU_2 = nn.GRU(base_model_feature_size, rnn_dimension, bidirectional=False)
+        self.linear_1 = nn.Linear(additional_feature_size, linear_1_dimension)
         self.linear_1 = nn.Linear(rnn_dimension * 2 + additional_feature_size, linear_1_dimension)
         self.linear_2 = nn.Linear(linear_1_dimension, num_classes)
 
@@ -24,6 +25,7 @@ class MatchHead(nn.Module):
         """Forward pass"""
 
         # batch second is faster
+
         features_1 = data_1.permute(1, 0, 2)
         features_2 = data_2.permute(1, 0, 2)
 
@@ -59,13 +61,14 @@ class MatchArchitecture(nn.Module):
         linear_1_dimension,
     ):
         super(MatchArchitecture, self).__init__()
+
         if not is_custom_pretrained:
             self.base_model = RobertaModel.from_pretrained(base_model_name)
         else:
             self.base_model = RobertaModel.from_pretrained(base_model_path)
 
-        for param in self.base_model:
-            param.required_grad = False
+        for param in self.base_model.parameters():
+            param.requires_grad = False
 
         self.match_head = MatchHead(
             base_model_feature_size, additional_feature_size, num_classes, rnn_dimension, linear_1_dimension
@@ -83,6 +86,8 @@ class MatchArchitecture(nn.Module):
             labels=None,
     ):
         """Forward pass"""
+
+
         outputs_1 = self.base_model(
             input_ids_1,
             attention_mask=attention_mask,
@@ -101,8 +106,9 @@ class MatchArchitecture(nn.Module):
         # Outputs[0] is seq output, outputs[1] is pooled if you want to do a seq level task
         sequence_output_1 = outputs_1[0]
         sequence_output_2 = outputs_2[0]
-        
+
         match_classification = self.match_head(sequence_output_1, sequence_output_2, additional_feats)
+        #match_classification = self.match_head(None, None, additional_feats)
 
         return match_classification
 
